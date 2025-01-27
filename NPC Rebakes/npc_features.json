@@ -458,7 +458,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, the Ace can fly spaces equal to their Speed in any direction, automatically dealing 3/4/5 kinetic damage to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have Lock On.",
+    "effect": "1/round, the Ace can fly spaces equal to their Speed in any direction, automatically dealing {3/4/5} kinetic damage to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have Lock On.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2626,7 +2626,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Reaction",
     "effect": "The Operator teleports to a space within Range 2. They may choose to teleport further taking 1d6 heat and adding that many additonal spaces to the movement.",
     "tags": [
       {
@@ -3890,8 +3890,8 @@
     ]
   },
   {
-    "id": "npc-rebake_npcf_ghostride_specter",
-    "name": "GHOSTRIDE",
+    "id": "npc-rebake_npcf_ghostwalk_specter",
+    "name": "GHOSTWALK",
     "origin": {
       "type": "Class",
       "name": "SPECTER",

@@ -298,7 +298,7 @@
     },
     {
         "id": "grunt-rebake_gruntc_striker",
-        "name": "Striker",
+        "name": "Striker-Type",
         "role": "striker",
         "info": {
             "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
@@ -398,7 +398,7 @@
     },
     {
         "id": "grunt-rebake_gruntc_support",
-        "name": "Support",
+        "name": "Support-Type",
         "role": "support",
         "info": {
             "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",

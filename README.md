@@ -36,7 +36,7 @@ Hive | ✓
 Hornet | ✓
 Mirage | n/a
 Operator | ✓
-Priest | n/a
+Priest | ✓
 Pyro | ✓
 Rainmaker | n/a
 Ronin | ✓

@@ -1722,6 +1722,107 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_priest",
+        "name": "Priest [K]",
+        "role": "support",
+        "info": {
+            "flavor": "Priest-archetype mechs are found among the ranks of technozealot cults, transhumanist movements, and states or corporations that prioritize technological supremacy. These frames are configured to network their sensitive core systems with sympathetic mechs, creating digital super-constructs in order to establish and maintain total theater control. The use of Priest-archetype chassis and strategies were pioneered by a small, esoteric group known as the Messengers of MAIA. Ostensibly a courier group, the Messengers push all systems – synthetic and organic – to their theoretical limits. They even go so far as to share sensory input between linked pilots – an experience known to produce hyper-perception fugues and other ascendant mental states.",
+            "tactics": "Priests are powerful support mechs that harshly punish attackers while protecting selected allies. Investiture enables them to empower a single chosen ally such as a powerful striker or defender, while Dispersal Shield allows them to protect others as needed. Investiture demands that they remain close to their chosen ally, which puts both of them at risk if they become separated."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                10,
+                13,
+                16
+            ],
+            "evade": [
+                10,
+                12,
+                14
+            ],
+            "edef": [
+                12,
+                15,
+                18
+            ],
+            "heatcap": [
+                10,
+                10,
+                10
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                11,
+                13,
+                15
+            ],
+            "hull": [
+                -1,
+                -1,
+                -1
+            ],
+            "agility": [
+                -1,
+                -1,
+                -1
+            ],
+            "systems": [
+                2,
+                4,
+                6
+            ],
+            "engineering": [
+                2,
+                3,
+                4
+            ],
+            "size": [
+                [
+                    0.5
+                ],
+                [
+                    0.5
+                ],
+                [
+                    0.5
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_abjure_priest",
+            "npc-rebake_npcf_hardened_target_priest",
+            "npc-rebake_npcf_investiture_priest",
+            "npc-rebake_npcf_dispersal_shield_priest"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_fortress_priest",
+            "npc-rebake_npcf_empowered_investiture_priest",
+            "npc-rebake_npcf_sanctuary_priest",
+            "npc-rebake_npcf_fractal_assault_priest",
+            "npc-rebake_npcf_feedback_priest"
+        ],
+        "power": 100
+    },
+    {
         "id": "npc-rebake_npcc_pyro",
         "name": "Pyro [K]",
         "role": "defender",

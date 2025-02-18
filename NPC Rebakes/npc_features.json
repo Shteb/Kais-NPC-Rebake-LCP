@@ -3250,6 +3250,167 @@
     "tags": []
   },
   {
+    "id": "npc-rebake_npcf_abjure_priest",
+    "name": "Abjure",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Priest makes a tech attack against a target within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} heat</strong> each time they make any attack roll until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_hardened_target_priest",
+    "name": "Hardened Target",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Priest gains <strong>+1 Accuracy</strong> on <strong>Systems</strong> saves, and <strong>tech attacks</strong> against them receive <strong>+1 Difficulty</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_investiture_priest",
+    "name": "Investiture",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Priest links systems with an allied mech or vehicle within <strong>Range 5</strong>. As long as they remain linked and within <strong>Range 5</strong>, the target gets <strong>+1 Accuracy</strong> on all attacks and gains the benefits of <strong>Hardened Target</strong>. If either character becomes <strong>Jammed</strong> or <strong>Stunned</strong>, however, the other character also receives the condition for the same duration or until the link is disabled. The link is disabled if either character is destroyed or moves more than <strong>5 spaces</strong> from the other. The Priest can only link with one character at a time.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_dispersal_shield_priest",
+    "name": "Dispersal Shield",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Priest releases a cloud of miniature drones that cluster around a nearby mech, providing protection. The Priest or an allied character within <strong>Sensors</strong> gains <strong>{5/6/7} Overshield</strong> and <strong>Resistance</strong> to damage and heat from the next attack that hits. This effect does not stack.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_fortress_priest",
+    "name": "Fortress",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "<strong>Hardened Target</strong> gives <strong>+3 Accuracy</strong> on <strong>Systems</strong> saves and deals <strong>+3 Difficulty</strong> on <strong>tech attacks</strong>, instead of <strong>+1</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_empowered_investiture_priest",
+    "name": "Empowered Investiture",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Priest pushes their <strong>Investiture</strong> link to its limit, becoming <strong>Immobilized</strong> while linked this way. The linked character gains <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong> (and clears them if they already have those conditions), <strong>Resistance</strong> to all damage and heat, and no longer needs to remain within <strong>Range 5</strong> of the Priest. This effect lasts until the end of the linked character's next turn. When this effect ends, the link ends as well, and the Priest becomes <strong>Stunned</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_sanctuary_priest",
+    "name": "Sanctuary",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Priest chooses an allied character within <strong>Sensors</strong>. Before attempting to attack that character, characters must first pass a <strong>Systems</strong> save. On a failure, they don't lose the action, but can't target the protected character again until the start of their next turn. This effect lasts until the Priest is destroyed or until the end of the Priest's next turn.",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full"
+  },
+  {
+    "id": "npc-rebake_npcf_fractal_assault_priest",
+    "name": "Fractal Assault",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The triggering character must choose one; the damage from the triggering effect is reduced to <strong>0</strong> and this reaction automatically <strong>recharges</strong>, or the triggering character becomes <strong>Stunned</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A character linked by <strong>Investiture</strong> takes damage."
+  },
+  {
+    "id": "npc-rebake_npcf_feedback_priest",
+    "name": "Feedback",
+    "origin": {
+      "type": "Class",
+      "name": "Priest [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever a <strong>tech attack</strong> misses the Priest or a character linked by <strong>Investiture</strong>, the attacker takes <strong>{2/3/4} heat</strong>.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_flamethrower_pyro",
     "name": "Flamethrower",
     "origin": {

@@ -36,7 +36,12 @@
         "locked": false,
         "type": "Trait",
         "effect": "Grunts can’t take the Veteran, Squad, Elite, or Ultra templates.",
-        "tags": []
+        "tags": [],
+        "exclusive": [
+            "npct_veteran",
+            "npct_elite",
+            "npct_ultra"
+        ]
     },
     {
         "id": "grunt-rebake_gruntf_mass_produced",
@@ -118,10 +123,10 @@
         "effect": "Targets with Lock On hit by this weapon take +2 bonus damage.",
         "tags": [
             {
-                "id": "tg_ordnance"
+                "id": "tg_arcing"
             },
             {
-                "id": "tg_arcing"
+                "id": "tg_ordnance"
             }
         ],
         "weapon_type": "Main Cannon",

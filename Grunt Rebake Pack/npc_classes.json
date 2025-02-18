@@ -29,9 +29,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -39,9 +39,9 @@
                 4
             ],
             "sensor": [
-                10,
-                10,
-                10
+                15,
+                15,
+                15
             ],
             "save": [
                 10,
@@ -49,24 +49,24 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
@@ -94,7 +94,7 @@
             "grunt-rebake_gruntf_dmr_artillery",
             "grunt-rebake_gruntf_shoulder_mortar_artillery"
         ],
-        "power": 100
+        "power": 25
     },
     {
         "id": "grunt-rebake_gruntc_controller",
@@ -126,9 +126,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -146,24 +146,24 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
@@ -188,7 +188,7 @@
         "optional_features": [
             "npcf_unshielded_reactor_pyro"
         ],
-        "power": 100
+        "power": 25
     },
     {
         "id": "grunt-rebake_gruntc_defender",
@@ -220,9 +220,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -240,34 +240,34 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
-                    1
+                    2
                 ],
                 [
-                    1
+                    2
                 ],
                 [
-                    1
+                    2
                 ]
             ],
             "activations": [
@@ -282,7 +282,7 @@
         "optional_features": [
             "npcf_unshielded_reactor_pyro"
         ],
-        "power": 100
+        "power": 25
     },
     {
         "id": "grunt-rebake_gruntc_striker",
@@ -314,9 +314,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -334,24 +334,24 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
@@ -376,7 +376,7 @@
         "optional_features": [
             "npcf_unshielded_reactor_pyro"
         ],
-        "power": 100
+        "power": 25
     },
     {
         "id": "grunt-rebake_gruntc_support",
@@ -408,9 +408,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -428,24 +428,24 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
@@ -470,6 +470,6 @@
         "optional_features": [
             "npcf_unshielded_reactor_pyro"
         ],
-        "power": 100
+        "power": 25
     }
 ]

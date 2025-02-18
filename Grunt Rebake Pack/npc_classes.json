@@ -190,11 +190,12 @@
             "grunt-rebake_gruntf_chaff",
             "grunt-rebake_gruntf_weak",
             "grunt-rebake_gruntf_rank_and_file",
-            "grunt-rebake_gruntf_mass_produced"
+            "grunt-rebake_gruntf_mass_produced",
+            "grunt-rebake_gruntf_hostile_sync_controller",
+            "grunt-rebake_gruntf_destabilize_controller",
+            "grunt-rebake_gruntf_electro_chaff_controller"
         ],
-        "optional_features": [
-            "npcf_unshielded_reactor_pyro"
-        ],
+        "optional_features": [],
         "power": 25
     },
     {
@@ -287,11 +288,12 @@
             "grunt-rebake_gruntf_chaff",
             "grunt-rebake_gruntf_weak",
             "grunt-rebake_gruntf_rank_and_file",
-            "grunt-rebake_gruntf_mass_produced"
+            "grunt-rebake_gruntf_mass_produced",
+            "grunt-rebake_gruntf_combat_shotgun_defender",
+            "grunt-rebake_gruntf_ablative_armor_defender",
+            "grunt-rebake_gruntf_guardian_defender"
         ],
-        "optional_features": [
-            "npcf_unshielded_reactor_pyro"
-        ],
+        "optional_features": [],
         "power": 25
     },
     {
@@ -384,10 +386,13 @@
             "grunt-rebake_gruntf_chaff",
             "grunt-rebake_gruntf_weak",
             "grunt-rebake_gruntf_rank_and_file",
-            "grunt-rebake_gruntf_mass_produced"
+            "grunt-rebake_gruntf_mass_produced",
+            "grunt-rebake_gruntf_striker_type_striker",
+            "grunt-rebake_gruntf_double_time_striker"
         ],
         "optional_features": [
-            "npcf_unshielded_reactor_pyro"
+            "grunt-rebake_gruntf_assault_rifle_striker",
+            "grunt-rebake_gruntf_heavy_blade_striker"
         ],
         "power": 25
     },
@@ -481,11 +486,12 @@
             "grunt-rebake_gruntf_chaff",
             "grunt-rebake_gruntf_weak",
             "grunt-rebake_gruntf_rank_and_file",
-            "grunt-rebake_gruntf_mass_produced"
+            "grunt-rebake_gruntf_mass_produced",
+            "grunt-rebake_gruntf_power_transmission_support",
+            "grunt-rebake_gruntf_recon_drones_support",
+            "grunt-rebake_gruntf_stabilizer_drones_support"
         ],
-        "optional_features": [
-            "npcf_unshielded_reactor_pyro"
-        ],
+        "optional_features": [],
         "power": 25
     }
 ]

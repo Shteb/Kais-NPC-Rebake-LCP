@@ -1,7 +1,7 @@
 [
     {
         "id": "grunt-rebake_gruntc_artillery",
-        "name": "Artillery Grunt",
+        "name": "Artillery-Type Grunt",
         "role": "artillery",
         "info": {
             "flavor": "",
@@ -98,7 +98,7 @@
     },
     {
         "id": "grunt-rebake_gruntc_controller",
-        "name": "Controller Grunt",
+        "name": "Controller-Type Grunt",
         "role": "controller",
         "info": {
             "flavor": "",
@@ -192,7 +192,7 @@
     },
     {
         "id": "grunt-rebake_gruntc_defender",
-        "name": "Defender Grunt",
+        "name": "Defender-Type Grunt",
         "role": "defender",
         "info": {
             "flavor": "",
@@ -286,7 +286,7 @@
     },
     {
         "id": "grunt-rebake_gruntc_striker",
-        "name": "Striker Grunt",
+        "name": "Striker-Type Grunt",
         "role": "striker",
         "info": {
             "flavor": "",
@@ -380,7 +380,7 @@
     },
     {
         "id": "grunt-rebake_gruntc_support",
-        "name": "Support Grunt",
+        "name": "Support-Type Grunt",
         "role": "support",
         "info": {
             "flavor": "",

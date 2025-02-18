@@ -3069,6 +3069,184 @@
     ]
   },
   {
+    "id": "npc-rebake_npcf_warp_sensors_mirage",
+    "name": "Warp Sensors",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Mirage makes a tech attack against a target within <strong>Sensors</strong>. On a success, they take <strong>{2/3/4} heat</strong> and all attacks they make until the end of their next turn treat their targets as having <strong>soft cover</strong>.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_dataveil_mirage",
+    "name": "Dataveil",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "By default, the Mirage is <strong>Invisible</strong>. They can transfer this status to another character within line of sight as a quick action. When they do so, the Mirage ceases to be <strong>Invisible</strong>, and as a <strong>quick action</strong> they may transfer it back to themselves or to another character; otherwise, this effect lasts until the Mirage is destroyed.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_glitch_scanners_mirage",
+    "name": "Glitch Scanners",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Mirage’s advanced electronic countermeasures play havoc with enemy systems, causing them to register false positives on the battlefield. They may <strong>teleport</strong> up to two allied characters within <strong>Sensors</strong>, moving them <strong>5 spaces</strong> in any direction – revealing their “true” locations.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_blip_mirage",
+    "name": "Blip",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Mirage may <strong>teleport</strong> one allied character within <strong>Sensors 5 spaces</strong> in any direction.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A hostile character takes action in line of sight."
+  },
+  {
+    "id": "npc-rebake_npcf_illusory_subroutines_mirage",
+    "name": "Illusory Subroutines",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Mirage makes a tech attack against a target within Sensors. On a success, the target treats all characters allied to the Mirage as Invisible until the start of the Mirage's next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_warp_targeting_mirage",
+    "name": "Warp Targeting",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "All allied characters within Sensors benefit from special <strong>digital soft cover</strong>; this stacks with other sources of soft cover, giving <strong>+2 Difficulty</strong> on ranged attacks against characters benefiting from both instead of <strong>+1</strong> (<strong>digital soft</strong> cover does not stack). If the Mirage takes damage, this effect ends until the start of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_metafold_shove_mirage",
+    "name": "Metafold Shove",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Mirage makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, the target swaps places with an allied character within the Mirage's line of sight and within <strong>Range 5</strong> of the target, both characters <strong>teleporting</strong>. Flying characters can’t be swapped with characters that aren’t flying, and vice versa.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_manifest_false_idols_mirage",
+    "name": "Manifest False Idols",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Mirage creates three <strong>Size 1</strong> data constructs in free spaces within line of sight and <strong>Range 5</strong>. These constructs provide <strong>soft cover</strong>, but don't block line of sight and can be passed through. When hostile characters pass through a construct, it disappears and they must pass a <strong>Systems</strong> save or take <strong>{2/3/4} heat</strong> and become <strong>Jammed</strong> until the end of their next turn. During the Mirage’s turn, they can <strong>teleport</strong> an allied character within line of sight to the location of a data construct as a <strong>quick action</strong>, causing the construct to disappear, as long as there is sufficient free space for them to end this movement in.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full"
+  },
+  {
+    "id": "npc-rebake_npcf_multiplicity_mirage",
+    "name": "Multiplicity",
+    "origin": {
+      "type": "Class",
+      "name": "Mirage [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The attacker must pass a <strong>Systems</strong> save, or the target gains <strong>Resistance</strong> to all damage from the attack. On a success, the attack does damage as normal, but the Mirage may then <strong>teleport</strong> the target up to <strong>5 spaces</strong> in any direction and that character gains <strong>soft cover</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A allied character in line of sight and <strong>Sensors</strong> is hit by an attack."
+  },
+  {
     "id": "npc-rebake_npcf_raptor_plasma_rifle_operator",
     "name": "Raptor Plasma Rifle",
     "origin": {

@@ -87,9 +87,13 @@
         ],
         "weapon_type": "Main Rifle",
         "attack_bonus": [
+            0,
+            0,
             0
         ],
         "accuracy": [
+            1,
+            1,
             1
         ],
         "damage": [
@@ -136,6 +140,8 @@
             3
         ],
         "accuracy": [
+            -1,
+            -1,
             -1
         ],
         "damage": [
@@ -222,7 +228,7 @@
             "base": true
         },
         "locked": false,
-        "type": "System",
+        "type": "Tech",
         "effect": "Choose a hostile character within Sensors. While this ability is active, the Controller-Type is Immobilized but that character becomes Impaired. This effect lasts until the Controller-Type ends it as a protocol or until they are destroyed.",
         "tags": [
             {
@@ -240,7 +246,7 @@
             "base": true
         },
         "locked": false,
-        "type": "System",
+        "type": "Tech",
         "effect": "The Controller-Type makes a tech attack against a character within Sensors. On a success, the target is pushed 2 spaces in any direction and must pass a Systems save or be knocked Prone.",
         "tags": [
             {

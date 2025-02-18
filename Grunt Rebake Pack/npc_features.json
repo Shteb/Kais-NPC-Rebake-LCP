@@ -1,5 +1,57 @@
 [
     {
+        "id": "grunt-rebake_gruntf_chaff",
+        "name": "Chaff",
+        "origin": {
+            "type": "Class",
+            "name": "Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Grunts have 1 HP and can’t gain more. Unlike other characters, they never take damage when they succeed on a save – regardless of the weapon or system used – but otherwise take damage normally.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_weak",
+        "name": "Weak",
+        "origin": {
+            "type": "Class",
+            "name": "Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Grunts can never have more than 1 structure and 1 stress, and they are immediately destroyed when they take heat from any source other than their own systems and weapons.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_rank_and_file",
+        "name": "Rank and File",
+        "origin": {
+            "type": "Class",
+            "name": "Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Grunts can’t take the Veteran, Squad, Elite, or Ultra templates.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_mass_produced",
+        "name": "Mass Produced",
+        "origin": {
+            "type": "Class",
+            "name": "Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Grunts all have the same Mech Skills and Core Stats. When creating Grunts, choose which type they will be; Artillery-Type, Controller-Type, Defender-Type, Striker-Type, or Support-Type.",
+        "tags": []
+    },
+    {
         "id": "grunt-rebake_gruntf_artillery_type_artillery",
         "name": "Artillery-Type",
         "origin": {

@@ -3117,7 +3117,7 @@
     "effect": "The Mirage’s advanced electronic countermeasures play havoc with enemy systems, causing them to register false positives on the battlefield. They may <strong>teleport</strong> up to two allied characters within <strong>Sensors</strong>, moving them <strong>5 spaces</strong> in any direction – revealing their “true” locations.",
     "tags": [
       {
-        "id": "tg_quick_action"
+        "id": "tg_quick_tech"
       }
     ]
   },

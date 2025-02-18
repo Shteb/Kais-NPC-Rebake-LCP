@@ -48,7 +48,7 @@ Sniper | ✓
 Specter | ✓
 Support | ✓
 Witch | ✓
-## Grunt Progress: 20%
+## Grunt Progress: 100%
 | Class | Status |
 | ------ | :------: |
 Artillery | ✓

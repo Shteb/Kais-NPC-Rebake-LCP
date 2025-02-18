@@ -86,6 +86,10 @@
             ]
         },
         "base_features": [
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced",
             "grunt-rebake_gruntf_artillery_type_artillery",
             "grunt-rebake_gruntf_survival_pistol_artillery",
             "grunt-rebake_gruntf_reflex_targeting_artillery"
@@ -183,7 +187,10 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro"
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced"
         ],
         "optional_features": [
             "npcf_unshielded_reactor_pyro"
@@ -277,7 +284,10 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro"
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced"
         ],
         "optional_features": [
             "npcf_unshielded_reactor_pyro"
@@ -371,7 +381,10 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro"
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced"
         ],
         "optional_features": [
             "npcf_unshielded_reactor_pyro"
@@ -465,7 +478,10 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro"
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced"
         ],
         "optional_features": [
             "npcf_unshielded_reactor_pyro"

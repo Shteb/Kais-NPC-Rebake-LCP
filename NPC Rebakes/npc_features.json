@@ -2651,7 +2651,8 @@
       {
         "id": "tg_quick_tech"
       }
-    ]
+    ],
+    "tech_type": "Quick"
   },
   {
     "id": "npc-rebake_npcf_coercive_force_goliath",
@@ -3119,7 +3120,8 @@
       {
         "id": "tg_quick_tech"
       }
-    ]
+    ],
+    "tech_type": "Quick"
   },
   {
     "id": "npc-rebake_npcf_blip_mirage",

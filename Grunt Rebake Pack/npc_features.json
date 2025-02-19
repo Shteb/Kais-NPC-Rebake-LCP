@@ -9,7 +9,7 @@
         },
         "locked": false,
         "type": "Trait",
-        "effect": "Grunts have 1 HP and can’t gain more. Unlike other characters, they never take damage when they succeed on a save – regardless of the weapon or system used – but otherwise take damage normally.",
+        "effect": "Grunts have <strong>1 HP</strong> and can’t gain more. Unlike other characters, they never take damage when they succeed on a save – regardless of the weapon or system used – but otherwise take damage normally.",
         "tags": []
     },
     {
@@ -22,7 +22,7 @@
         },
         "locked": false,
         "type": "Trait",
-        "effect": "Grunts can never have more than 1 structure and 1 stress, and they are immediately destroyed when they take heat from any source other than their own systems and weapons.",
+        "effect": "Grunts can never have more than <strong>1 structure</strong> and <strong>1 stress</strong>, and they are immediately destroyed when they take heat from any source other than their own systems and weapons.",
         "tags": []
     },
     {
@@ -35,7 +35,7 @@
         },
         "locked": false,
         "type": "Trait",
-        "effect": "Grunts can’t take the Veteran, Squad, Elite, or Ultra templates.",
+        "effect": "Grunts can’t take the <strong>Veteran</strong>, <strong>Squad</strong>, <strong>Elite</strong>, or <strong>Ultra</strong> templates.",
         "tags": [],
         "exclusive": [
             "npct_veteran",
@@ -53,7 +53,7 @@
         },
         "locked": false,
         "type": "Trait",
-        "effect": "Grunts all have the same Mech Skills and Core Stats. When creating Grunts, choose which type they will be; Artillery-Type, Controller-Type, Defender-Type, Striker-Type, or Support-Type.",
+        "effect": "Grunts all have the same Mech Skills and Core Stats. When creating Grunts, choose which type they will be; <strong>Artillery-Type</strong>, <strong>Controller-Type</strong>, <strong>Defender-Type</strong>, <strong>Striker-Type</strong>, or <strong>Support-Type</strong>.",
         "tags": []
     },
     {
@@ -79,7 +79,7 @@
         },
         "locked": false,
         "type": "Weapon",
-        "effect": "This weapon gains AP against targets with Lock On.",
+        "effect": "This weapon gains <strong>AP</strong> against targets with <strong>Lock On</strong>.",
         "tags": [
             {
                 "id": "tg_ordnance"
@@ -124,7 +124,7 @@
         },
         "locked": false,
         "type": "Weapon",
-        "effect": "Targets with Lock On hit by this weapon take +2 bonus damage.",
+        "effect": "Targets with <strong>Lock On</strong> hit by this weapon take <strong>+2 bonus damage</strong>.",
         "tags": [
             {
                 "id": "tg_arcing"
@@ -176,7 +176,7 @@
         },
         "locked": false,
         "type": "Weapon",
-        "effect": "Before or after attacking with this weapon (including as a reaction), the Artillery-Type may move 2 spaces. This movement ignores engagement and doesn't provoke reactions.",
+        "effect": "Before or after attacking with this weapon (including as a <strong>reaction</strong>), the Artillery-Type may move <strong>2 spaces</strong>. This movement ignores engagement and doesn't provoke reactions.",
         "tags": [],
         "weapon_type": "Auxiliary CQB",
         "attack_bonus": [
@@ -216,7 +216,7 @@
         },
         "locked": false,
         "type": "Trait",
-        "effect": "The Artillery-Type has +5 Sensors, and may take the Lock On and Search actions before attacking with Ordnance weapons.",
+        "effect": "The Artillery-Type has <strong>+5 Sensors</strong>, and may take the <strong>Lock On</strong> and <strong>Search </strong>actions before attacking with <strong>Ordnance</strong> weapons.",
         "tags": []
     },
     {
@@ -229,7 +229,7 @@
         },
         "locked": false,
         "type": "Tech",
-        "effect": "Choose a hostile character within Sensors. While this ability is active, the Controller-Type is Immobilized but that character becomes Impaired. This effect lasts until the Controller-Type ends it as a protocol or until they are destroyed.",
+        "effect": "Choose a hostile character within <strong>Sensors</strong>. While this ability is active, the Controller-Type is <strong>Immobilized</strong> but that character becomes <strong>Impaired</strong>. This effect lasts until the Controller-Type ends it as a protocol or until they are destroyed.",
         "tags": [
             {
                 "id": "tg_full_tech"
@@ -247,7 +247,7 @@
         },
         "locked": false,
         "type": "Tech",
-        "effect": "The Controller-Type makes a tech attack against a character within Sensors. On a success, the target is pushed 2 spaces in any direction and must pass a Systems save or be knocked Prone.",
+        "effect": "The Controller-Type makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target is <strong>pushed 2 spaces</strong> in any direction and must pass a <strong>Systems</strong> save or be knocked <strong>Prone</strong>.",
         "tags": [
             {
                 "id": "tg_quick_tech"
@@ -270,7 +270,7 @@
         },
         "locked": false,
         "type": "System",
-        "effect": "The Controller-Type creates a Blast 1 area within Range 5 that lasts until the end of the scene. Hostile characters that start their turn in the area or move into it for the first time on their turn take {2/3/4} heat and must pass a Systems save or become Slowed until the end of their next turn. A character can disperse this area by passing a Systems check as a quick action while adjacent to it.",
+        "effect": "The Controller-Type creates a <strong>Blast 1</strong> area within <strong>Range 5</strong> that lasts until the end of the scene. Hostile characters that start their turn in the area or move into it for the first time on their turn take <strong>{2/3/4} heat</strong> and must pass a <strong>Systems</strong> save or become <strong>Slowed</strong> until the end of their next turn. A character can disperse this area by passing a <strong>Systems</strong> check as a quick action while adjacent to it.",
         "tags": [
             {
                 "id": "tg_quick_action"
@@ -336,7 +336,7 @@
         },
         "locked": false,
         "type": "Trait",
-        "effect": "The Defender-Type is Size 2, and begins each combat with {3/4/5} Overshield.",
+        "effect": "The Defender-Type is <strong>Size 2</strong>, and begins each combat with <strong>{3/4/5} Overshield</strong>.",
         "tags": []
     },
     {
@@ -349,7 +349,7 @@
         },
         "locked": false,
         "type": "Trait",
-        "effect": "Adjacent allied characters can use the Defender-Type for hard cover.",
+        "effect": "Adjacent allied characters can use the Defender-Type for <strong>hard cover</strong>.",
         "tags": []
     },
     {
@@ -362,7 +362,7 @@
         },
         "locked": false,
         "type": "Trait",
-        "effect": "Choose either the Assault Rifle or Heavy Blade weapon. If you choose Heavy Blade, the Striker-Type has +2 Speed.",
+        "effect": "Choose either the Assault Rifle or Heavy Blade weapon. If you choose Heavy Blade, the Striker-Type has <strong>+2 Speed</strong>.",
         "tags": []
     },
     {
@@ -375,7 +375,7 @@
         },
         "locked": false,
         "type": "Weapon",
-        "effect": "On Critical Hit: If the target does not have cover, the Striker-Type deals +{2/3/4} bonus damage.",
+        "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+{2/3/4} bonus damage</strong>.",
         "tags": [],
         "weapon_type": "Main Rifle",
         "attack_bonus": [
@@ -411,7 +411,7 @@
         },
         "locked": false,
         "type": "Weapon",
-        "effect": "On Critical Hit: The target must pass a Hull save or be knocked Prone.",
+        "effect": "<strong>On Critical Hit</strong>: The target must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>.",
         "tags": [
             {
                 "id": "tg_knockback",
@@ -473,7 +473,7 @@
         },
         "locked": false,
         "type": "System",
-        "effect": "An allied character within Range 5 gains +1 Accuracy to all attacks, checks, and saves until the end of the Support-Type's next turn. This effect does not stack, and it immediately ends if the Support-Type is destroyed.",
+        "effect": "An allied character within <strong>Range 5</strong> gains <strong>+1 Accuracy</strong> to all attacks, checks, and saves until the end of the Support-Type's next turn. This effect does not stack, and it immediately ends if the Support-Type is destroyed.",
         "tags": [
             {
                 "id": "tg_quick_action"
@@ -490,7 +490,7 @@
         },
         "locked": false,
         "type": "System",
-        "effect": "Two hostile characters within Sensors gain Lock On.",
+        "effect": "Two hostile characters within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
         "tags": [
             {
                 "id": "tg_quick_action"
@@ -507,7 +507,7 @@
         },
         "locked": false,
         "type": "System",
-        "effect": "An allied character within Sensors gains {3/4/5} Overshield and clears Impaired and Slowed.",
+        "effect": "An allied character within <strong>Sensors</strong> gains <strong>{3/4/5} Overshield</strong> and clears <strong>Impaired</strong> and <strong>Slowed</strong>.",
         "tags": [
             {
                 "id": "tg_quick_action"

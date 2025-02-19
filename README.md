@@ -34,7 +34,7 @@ Engineer | ✓
 Goliath | ✓
 Hive | ✓
 Hornet | ✓
-Mirage | n/a
+Mirage | ✓
 Operator | ✓
 Priest | ✓
 Pyro | ✓

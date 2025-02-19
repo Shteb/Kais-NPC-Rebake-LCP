@@ -1621,6 +1621,107 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_mirage",
+        "name": "Mirage [K]",
+        "role": "support",
+        "info": {
+            "flavor": "Mirage-class mechs are often found in the employ of HORIZON-aligned militant groups. With no originating manufacturer, they are one of the few open-source non-HORUS pattern groups available to cells that know where to look. Mirages deploy advanced liturgicode to wrap themselves and their allies in veils of illusion and misdirection. While it’s clear that the warping effects that surround these mechs are caused by sensor distortion, they are powerful enough to affect even organic systems – exercise caution when engaging.",
+            "tactics": "Mirages are potent support mechs, able to teleport their allies around at will and hinder ranged attackers with abilities like <strong>Warp Sensors</strong>. They can also make allied characters <strong>Invisible</strong> with Dataveil, but become vulnerable themselves while doing so. These strengths come at a price: attacks that ignore cover (such as <strong>Seeking</strong> attacks, melee, or tech attacks) bypass many of these defenses, and Mirages are incapable of dealing damage on their own."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                10,
+                12,
+                14
+            ],
+            "evade": [
+                10,
+                12,
+                14
+            ],
+            "edef": [
+                12,
+                15,
+                18
+            ],
+            "heatcap": [
+                6,
+                6,
+                6
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                12,
+                14,
+                16
+            ],
+            "hull": [
+                -2,
+                -2,
+                -2
+            ],
+            "agility": [
+                1,
+                2,
+                2
+            ],
+            "systems": [
+                2,
+                3,
+                4
+            ],
+            "engineering": [
+                1,
+                1,
+                1
+            ],
+            "size": [
+                [
+                    0.5
+                ],
+                [
+                    0.5
+                ],
+                [
+                    0.5
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_warp_sensors_mirage",
+            "npc-rebake_npcf_dataveil_mirage",
+            "npc-rebake_npcf_glitch_scanners_mirage",
+            "npc-rebake_npcf_blip_mirage"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_illusory_subroutines_mirage",
+            "npc-rebake_npcf_warp_targeting_mirage",
+            "npc-rebake_npcf_metafold_shove_mirage",
+            "npc-rebake_npcf_manifest_false_idols_mirage",
+            "npc-rebake_npcf_multiplicity_mirage"
+        ],
+        "power": 100
+    },
+    {
         "id": "npc-rebake_npcc_operator",
         "name": "Operator [K]",
         "role": "artillery",

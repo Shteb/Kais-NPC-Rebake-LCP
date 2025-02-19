@@ -1,11 +1,11 @@
 [
     {
         "id": "grunt-rebake_gruntc_artillery",
-        "name": "Artillery Grunt",
+        "name": "Artillery-Type Grunt",
         "role": "artillery",
         "info": {
-            "flavor": "",
-            "tactics": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
         },
         "stats": {
             "armor": [
@@ -29,9 +29,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -39,9 +39,9 @@
                 4
             ],
             "sensor": [
-                10,
-                10,
-                10
+                15,
+                15,
+                15
             ],
             "save": [
                 10,
@@ -49,24 +49,24 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
@@ -86,6 +86,10 @@
             ]
         },
         "base_features": [
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced",
             "grunt-rebake_gruntf_artillery_type_artillery",
             "grunt-rebake_gruntf_survival_pistol_artillery",
             "grunt-rebake_gruntf_reflex_targeting_artillery"
@@ -94,15 +98,15 @@
             "grunt-rebake_gruntf_dmr_artillery",
             "grunt-rebake_gruntf_shoulder_mortar_artillery"
         ],
-        "power": 100
+        "power": 25
     },
     {
         "id": "grunt-rebake_gruntc_controller",
-        "name": "Controller Grunt",
+        "name": "Controller-Type Grunt",
         "role": "controller",
         "info": {
-            "flavor": "",
-            "tactics": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
         },
         "stats": {
             "armor": [
@@ -126,9 +130,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -146,24 +150,24 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
@@ -183,20 +187,24 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro"
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced",
+            "grunt-rebake_gruntf_hostile_sync_controller",
+            "grunt-rebake_gruntf_destabilize_controller",
+            "grunt-rebake_gruntf_electro_chaff_controller"
         ],
-        "optional_features": [
-            "npcf_unshielded_reactor_pyro"
-        ],
-        "power": 100
+        "optional_features": [],
+        "power": 25
     },
     {
         "id": "grunt-rebake_gruntc_defender",
-        "name": "Defender Grunt",
+        "name": "Defender-Type Grunt",
         "role": "defender",
         "info": {
-            "flavor": "",
-            "tactics": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
         },
         "stats": {
             "armor": [
@@ -220,9 +228,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -240,34 +248,34 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
-                    1
+                    2
                 ],
                 [
-                    1
+                    2
                 ],
                 [
-                    1
+                    2
                 ]
             ],
             "activations": [
@@ -277,20 +285,24 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro"
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced",
+            "grunt-rebake_gruntf_combat_shotgun_defender",
+            "grunt-rebake_gruntf_ablative_armor_defender",
+            "grunt-rebake_gruntf_guardian_defender"
         ],
-        "optional_features": [
-            "npcf_unshielded_reactor_pyro"
-        ],
-        "power": 100
+        "optional_features": [],
+        "power": 25
     },
     {
         "id": "grunt-rebake_gruntc_striker",
-        "name": "Striker Grunt",
+        "name": "Striker-Type Grunt",
         "role": "striker",
         "info": {
-            "flavor": "",
-            "tactics": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
         },
         "stats": {
             "armor": [
@@ -314,9 +326,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -334,24 +346,24 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
@@ -371,20 +383,26 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro"
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced",
+            "grunt-rebake_gruntf_striker_type_striker",
+            "grunt-rebake_gruntf_double_time_striker"
         ],
         "optional_features": [
-            "npcf_unshielded_reactor_pyro"
+            "grunt-rebake_gruntf_assault_rifle_striker",
+            "grunt-rebake_gruntf_heavy_blade_striker"
         ],
-        "power": 100
+        "power": 25
     },
     {
         "id": "grunt-rebake_gruntc_support",
-        "name": "Support Grunt",
+        "name": "Support-Type Grunt",
         "role": "support",
         "info": {
-            "flavor": "",
-            "tactics": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
         },
         "stats": {
             "armor": [
@@ -408,9 +426,9 @@
                 10
             ],
             "heatcap": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "speed": [
                 4,
@@ -428,24 +446,24 @@
                 14
             ],
             "hull": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "agility": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "systems": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "engineering": [
-                -1,
                 0,
-                1
+                1,
+                2
             ],
             "size": [
                 [
@@ -465,11 +483,15 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro"
+            "grunt-rebake_gruntf_chaff",
+            "grunt-rebake_gruntf_weak",
+            "grunt-rebake_gruntf_rank_and_file",
+            "grunt-rebake_gruntf_mass_produced",
+            "grunt-rebake_gruntf_power_transmission_support",
+            "grunt-rebake_gruntf_recon_drones_support",
+            "grunt-rebake_gruntf_stabilizer_drones_support"
         ],
-        "optional_features": [
-            "npcf_unshielded_reactor_pyro"
-        ],
-        "power": 100
+        "optional_features": [],
+        "power": 25
     }
 ]

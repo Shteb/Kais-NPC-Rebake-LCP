@@ -1,10 +1,67 @@
 [
     {
-        "id": "grunt-rebake_gruntf_artillery_type_artillery",
-        "name": "Artillery Type",
+        "id": "grunt-rebake_gruntf_chaff",
+        "name": "Chaff",
         "origin": {
             "type": "Class",
-            "name": "Artillery Grunt",
+            "name": "Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Grunts have 1 HP and can’t gain more. Unlike other characters, they never take damage when they succeed on a save – regardless of the weapon or system used – but otherwise take damage normally.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_weak",
+        "name": "Weak",
+        "origin": {
+            "type": "Class",
+            "name": "Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Grunts can never have more than 1 structure and 1 stress, and they are immediately destroyed when they take heat from any source other than their own systems and weapons.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_rank_and_file",
+        "name": "Rank and File",
+        "origin": {
+            "type": "Class",
+            "name": "Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Grunts can’t take the Veteran, Squad, Elite, or Ultra templates.",
+        "tags": [],
+        "exclusive": [
+            "npct_veteran",
+            "npct_elite",
+            "npct_ultra"
+        ]
+    },
+    {
+        "id": "grunt-rebake_gruntf_mass_produced",
+        "name": "Mass Produced",
+        "origin": {
+            "type": "Class",
+            "name": "Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Grunts all have the same Mech Skills and Core Stats. When creating Grunts, choose which type they will be; Artillery-Type, Controller-Type, Defender-Type, Striker-Type, or Support-Type.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_artillery_type_artillery",
+        "name": "Artillery-Type",
+        "origin": {
+            "type": "Class",
+            "name": "Artillery-Type Grunt",
             "base": true
         },
         "locked": false,
@@ -17,7 +74,7 @@
         "name": "DMR",
         "origin": {
             "type": "Class",
-            "name": "Artillery Grunt",
+            "name": "Artillery-Type Grunt",
             "base": false
         },
         "locked": false,
@@ -30,9 +87,13 @@
         ],
         "weapon_type": "Main Rifle",
         "attack_bonus": [
+            0,
+            0,
             0
         ],
         "accuracy": [
+            1,
+            1,
             1
         ],
         "damage": [
@@ -58,7 +119,7 @@
         "name": "Shoulder Mortar",
         "origin": {
             "type": "Class",
-            "name": "Artillery Grunt",
+            "name": "Artillery-Type Grunt",
             "base": false
         },
         "locked": false,
@@ -66,10 +127,10 @@
         "effect": "Targets with Lock On hit by this weapon take +2 bonus damage.",
         "tags": [
             {
-                "id": "tg_ordnance"
+                "id": "tg_arcing"
             },
             {
-                "id": "tg_arcing"
+                "id": "tg_ordnance"
             }
         ],
         "weapon_type": "Main Cannon",
@@ -79,15 +140,17 @@
             3
         ],
         "accuracy": [
+            -1,
+            -1,
             -1
         ],
         "damage": [
             {
-                "type": "kinetic",
+                "type": "explosive",
                 "damage": [
-                    6,
-                    7,
-                    8
+                    4,
+                    5,
+                    6
                 ]
             }
         ],
@@ -108,20 +171,13 @@
         "name": "Survival Pistol",
         "origin": {
             "type": "Class",
-            "name": "Artillery Grunt",
+            "name": "Artillery-Type Grunt",
             "base": true
         },
         "locked": false,
         "type": "Weapon",
         "effect": "Before or after attacking with this weapon (including as a reaction), the Artillery-Type may move 2 spaces. This movement ignores engagement and doesn't provoke reactions.",
-        "tags": [
-            {
-                "id": "tg_ordnance"
-            },
-            {
-                "id": "tg_arcing"
-            }
-        ],
+        "tags": [],
         "weapon_type": "Auxiliary CQB",
         "attack_bonus": [
             1,
@@ -155,12 +211,311 @@
         "name": "Reflex Targeting",
         "origin": {
             "type": "Class",
-            "name": "Artillery Grunt",
+            "name": "Artillery-Type Grunt",
             "base": true
         },
         "locked": false,
         "type": "Trait",
         "effect": "The Artillery-Type has +5 Sensors, and may take the Lock On and Search actions before attacking with Ordnance weapons.",
         "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_hostile_sync_controller",
+        "name": "Hostile Sync",
+        "origin": {
+            "type": "Class",
+            "name": "Controller-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Tech",
+        "effect": "Choose a hostile character within Sensors. While this ability is active, the Controller-Type is Immobilized but that character becomes Impaired. This effect lasts until the Controller-Type ends it as a protocol or until they are destroyed.",
+        "tags": [
+            {
+                "id": "tg_full_tech"
+            }
+        ],
+        "tech_type": "Full"
+    },
+    {
+        "id": "grunt-rebake_gruntf_destabilize_controller",
+        "name": "Destabilize",
+        "origin": {
+            "type": "Class",
+            "name": "Controller-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Tech",
+        "effect": "The Controller-Type makes a tech attack against a character within Sensors. On a success, the target is pushed 2 spaces in any direction and must pass a Systems save or be knocked Prone.",
+        "tags": [
+            {
+                "id": "tg_quick_tech"
+            }
+        ],
+        "tech_type": "Quick",
+        "attack_bonus": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": "grunt-rebake_gruntf_electro_chaff_controller",
+        "name": "Electro-Chaff",
+        "origin": {
+            "type": "Class",
+            "name": "Controller-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "System",
+        "effect": "The Controller-Type creates a Blast 1 area within Range 5 that lasts until the end of the scene. Hostile characters that start their turn in the area or move into it for the first time on their turn take {2/3/4} heat and must pass a Systems save or become Slowed until the end of their next turn. A character can disperse this area by passing a Systems check as a quick action while adjacent to it.",
+        "tags": [
+            {
+                "id": "tg_quick_action"
+            },
+            {
+                "id": "tg_limited",
+                "val": 1
+            }
+        ]
+    },
+    {
+        "id": "grunt-rebake_gruntf_combat_shotgun_defender",
+        "name": "Combat Shotgun",
+        "origin": {
+            "type": "Class",
+            "name": "Defender-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Weapon",
+        "effect": "",
+        "tags": [
+            {
+                "id": "tg_knockback",
+                "val": 2
+            }
+        ],
+        "weapon_type": "Main CQB",
+        "attack_bonus": [
+            1,
+            2,
+            3
+        ],
+        "damage": [
+            {
+                "type": "kinetic",
+                "damage": [
+                    4,
+                    5,
+                    6
+                ]
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": 5
+            },
+            {
+                "type": "Threat",
+                "val": 3
+            }
+        ],
+        "on_hit": ""
+    },
+    {
+        "id": "grunt-rebake_gruntf_ablative_armor_defender",
+        "name": "Ablative Armor",
+        "origin": {
+            "type": "Class",
+            "name": "Defender-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "The Defender-Type is Size 2, and begins each combat with {3/4/5} Overshield.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_guardian_defender",
+        "name": "Guardian",
+        "origin": {
+            "type": "Class",
+            "name": "Defender-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Adjacent allied characters can use the Defender-Type for hard cover.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_striker_type_striker",
+        "name": "Striker-Type",
+        "origin": {
+            "type": "Class",
+            "name": "Striker-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Choose either the Assault Rifle or Heavy Blade weapon. If you choose Heavy Blade, the Striker-Type has +2 Speed.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_assault_rifle_striker",
+        "name": "Assault Rifle",
+        "origin": {
+            "type": "Class",
+            "name": "Striker-Type Grunt",
+            "base": false
+        },
+        "locked": false,
+        "type": "Weapon",
+        "effect": "On Critical Hit: If the target does not have cover, the Striker-Type deals +{2/3/4} bonus damage.",
+        "tags": [],
+        "weapon_type": "Main Rifle",
+        "attack_bonus": [
+            0,
+            1,
+            2
+        ],
+        "damage": [
+            {
+                "type": "kinetic",
+                "damage": [
+                    4,
+                    5,
+                    6
+                ]
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": 10
+            }
+        ],
+        "on_hit": ""
+    },
+    {
+        "id": "grunt-rebake_gruntf_heavy_blade_striker",
+        "name": "Heavy Blade",
+        "origin": {
+            "type": "Class",
+            "name": "Striker-Type Grunt",
+            "base": false
+        },
+        "locked": false,
+        "type": "Weapon",
+        "effect": "On Critical Hit: The target must pass a Hull save or be knocked Prone.",
+        "tags": [
+            {
+                "id": "tg_knockback",
+                "val": 1
+            }
+        ],
+        "weapon_type": "Heavy Melee",
+        "attack_bonus": [
+            1,
+            2,
+            3
+        ],
+        "damage": [
+            {
+                "type": "kinetic",
+                "damage": [
+                    6,
+                    7,
+                    8
+                ]
+            }
+        ],
+        "range": [
+            {
+                "type": "Threat",
+                "val": 1
+            }
+        ],
+        "on_hit": ""
+    },
+    {
+        "id": "grunt-rebake_gruntf_double_time_striker",
+        "name": "Double Time",
+        "origin": {
+            "type": "Class",
+            "name": "Striker-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "The Striker-Type moves up to its Speed in any direction.",
+        "tags": [
+            {
+                "id": "tg_protocol"
+            },
+            {
+                "id": "tg_limited",
+                "val": 1
+            }
+        ]
+    },
+    {
+        "id": "grunt-rebake_gruntf_power_transmission_support",
+        "name": "Power Transmission",
+        "origin": {
+            "type": "Class",
+            "name": "Support-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "System",
+        "effect": "An allied character within Range 5 gains +1 Accuracy to all attacks, checks, and saves until the end of the Support-Type's next turn. This effect does not stack, and it immediately ends if the Support-Type is destroyed.",
+        "tags": [
+            {
+                "id": "tg_quick_action"
+            }
+        ]
+    },
+    {
+        "id": "grunt-rebake_gruntf_recon_drones_support",
+        "name": "Recon Drones",
+        "origin": {
+            "type": "Class",
+            "name": "Support-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "System",
+        "effect": "Two hostile characters within Sensors gain Lock On.",
+        "tags": [
+            {
+                "id": "tg_quick_action"
+            }
+        ]
+    },
+    {
+        "id": "grunt-rebake_gruntf_stabilizer_drones_support",
+        "name": "Stabilizer Drones",
+        "origin": {
+            "type": "Class",
+            "name": "Support-Type Grunt",
+            "base": true
+        },
+        "locked": false,
+        "type": "System",
+        "effect": "An allied character within Sensors gains {3/4/5} Overshield and clears Impaired and Slowed.",
+        "tags": [
+            {
+                "id": "tg_quick_action"
+            },
+            {
+                "id": "tg_limited",
+                "val": 1
+            }
+        ]
     }
 ]

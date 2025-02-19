@@ -48,13 +48,13 @@ Sniper | ✓
 Specter | ✓
 Support | ✓
 Witch | ✓
-## Grunt Progress: 20%
+## Grunt Progress: 100%
 | Class | Status |
 | ------ | :------: |
 Artillery | ✓
-Controller | x
-Defender | x
-Striker | x
-Support | x
+Controller | ✓
+Defender | ✓
+Striker | ✓
+Support | ✓
 ### Templates
 Kai's Grunt rebake will be included due to it functioning more like a class. The Veteran rebake will not as it's designed to function with base NPCs and is therefore incompatible with the NPC rebakes.

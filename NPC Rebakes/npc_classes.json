@@ -171,13 +171,13 @@
             ],
             "size": [
                 [
-                    1
+                    2
                 ],
                 [
-                    1
+                    2
                 ],
                 [
-                    1
+                    2
                 ]
             ],
             "activations": [
@@ -2021,6 +2021,106 @@
             "npc-rebake_npcf_superhot_pyro",
             "npc-rebake_npcf_explosive_jet_pyro",
             "npc-rebake_npcf_lingering_flames_pyro"
+        ],
+        "power": 100
+    },
+    {
+        "id": "npc-rebake_npcc_rainmaker",
+        "name": "Rainmaker [K]",
+        "role": "artillery",
+        "info": {
+            "flavor": "The tongue-in-cheek “Rainmaker” nickname describes mechs and pilots that specialize in the use of rockets and missiles. Favored by flexible combat units, Rainmakers are mobile platforms loaded with ordnance and capable of handling engagements at any range, against any target.",
+            "tactics": "Rainmakers are one part artillery and one part controller. Their <strong>Skyhammer Salvo</strong> forces characters to avoid certain areas or take guaranteed <strong>Lock On</strong> and damage. They can also dish out delayed damage through optional systems like <strong>Hound Missiles</strong> and <strong>Atlas Missiles</strong> which render areas of the map dangerous to traverse. Like other artillery mechs, Rainmakers are relatively vulnerable on their own."
+        },
+        "stats": {
+            "armor": [
+                1,
+                1,
+                1
+            ],
+            "hp": [
+                10,
+                12,
+                14
+            ],
+            "evade": [
+                8,
+                10,
+                12
+            ],
+            "edef": [
+                8,
+                10,
+                12
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                3,
+                3,
+                3
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                11,
+                13,
+                15
+            ],
+            "hull": [
+                0,
+                0,
+                0
+            ],
+            "agility": [
+                0,
+                1,
+                1
+            ],
+            "systems": [
+                2,
+                3,
+                4
+            ],
+            "engineering": [
+                0,
+                0,
+                1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_missile_pods_rainmaker",
+            "npc-rebake_npcf_huntsman_rainmaker",
+            "npc-rebake_npcf_skyhammer_salvo_rainmaker"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_hound_missiles_rainmaker",
+            "npc-rebake_npcf_atlas_missiles_rainmaker",
+            "npc-rebake_npcf_hades_missiles_rainmaker",
+            "npc-rebake_npcf_seeker_volley_rainmaker",
+            "npc-rebake_npcf_suppression_salvo_rainmaker"
         ],
         "power": 100
     },

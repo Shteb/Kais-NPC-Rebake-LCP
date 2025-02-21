@@ -56,5 +56,5 @@ Controller | ✓
 Defender | ✓
 Striker | ✓
 Support | ✓
-### Templates
-Kai's Grunt rebake will be included due to it functioning more like a class. The Veteran rebake will not as it's designed to function with base NPCs and is therefore incompatible with the NPC rebakes.
+### Veteran Progress: 100%
+Currently using suffixes on the features to notate which class they belong to - this is up in the air.

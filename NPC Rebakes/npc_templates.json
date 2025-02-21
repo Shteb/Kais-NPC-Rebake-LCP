@@ -1,0 +1,50 @@
+[
+  {
+    "id": "npc-rebake_npct_veteran",
+    "name": "Veteran [K]",
+    "description": "Veterans are hardened, experienced fighters that have survived several direct engagements. This isn’t their first rodeo, and their ability to withstand morale shocks is far higher than an untested greenhorn. Their value on the field is the experience they bring to a deployment and their steady presence along the line.<br>Use the Veteran template to make more memorable characters.",
+    "base_features": [
+      "npc-rebake_npcf_reinforced_veteran",
+      "npc-rebake_npcf_veterancy_veteran",
+      "npc-rebake_npcf_limitless_veteran",
+      "npc-rebake_npcf_veteran_traits_veteran"
+    ],
+    "optional_features": [
+      "npc-rebake_npcf_feign_death_veteran",
+      "npc-rebake_npcf_lesser_sight_veteran",
+      "npc-rebake_npcf_lightning_reflexes_veteran",
+      "npc-rebake_npcf_parting_gift_veteran",
+      "npc-rebake_npcf_self_repair_veteran",
+      "npc-rebake_npcf_air_superiority_veteran",
+      "npc-rebake_npcf_mobile_emitter_veteran",
+      "npc-rebake_npcf_rock_and_roll_veteran",
+      "npc-rebake_npcf_commando_veteran",
+      "npc-rebake_npcf_whirling_death_veteran",
+      "npc-rebake_npcf_remote_assemblers_veteran",
+      "npc-rebake_npcf_close_protection_veteran",
+      "npc-rebake_npcf_rending_cleave_veteran",
+      "npc-rebake_npcf_danger_close_veteran",
+      "npc-rebake_npcf_leadwall_veteran",
+      "npc-rebake_npcf_crashing_charge_veteran",
+      "npc-rebake_npcf_heavy_tread_veteran",
+      "npc-rebake_npcf_turret_nest_veteran",
+      "npc-rebake_npcf_oppresive_force_veteran",
+      "npc-rebake_npcf_abrade_veteran",
+      "npc-rebake_npcf_acrobat_veteran",
+      "npc-rebake_npcf_spec_ops_veteran",
+      "npc-rebake_npcf_power_rerouting_veteran",
+      "npc-rebake_npcf_white_hot_veteran",
+      "npc-rebake_npcf_concussion_warheads_veteran",
+      "npc-rebake_npcf_angled_deflection_veteran",
+      "npc-rebake_npcf_thermal_dissipation_veteran",
+      "npc-rebake_npcf_tactical_reposition_veteran",
+      "npc-rebake_npcf_mag_mines_veteran",
+      "npc-rebake_npcf_eye_of_the_storm_veteran",
+      "npc-rebake_npcf_blinding_laser_veteran",
+      "npc-rebake_npcf_silent_stalker_veteran",
+      "npc-rebake_npcf_whitewash_coordinator_veteran",
+      "npc-rebake_npcf_enfeeble_veteran"
+    ],
+    "power": 50
+  }
+]

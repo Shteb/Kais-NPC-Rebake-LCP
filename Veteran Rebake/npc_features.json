@@ -57,7 +57,7 @@
   },
   {
     "id": "vet-rebake_npcf_feign_death_veteran",
-    "name": "Feign Death",
+    "name": "Feign Death [General]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -65,12 +65,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>General Veteran Trait</strong><br>The first time that the Veteran is destroyed each combat, they are actually feigning death - they appear to be destroyed, but have <strong>1 HP</strong>. Characters adjacent to the Veteran can reveal this with a successful <strong>Systems</strong> check or <strong>pilot skill check</strong>; otherwise, the Veteran remains unnoticed until they move or take action.",
+    "effect": "The first time that the Veteran is destroyed each combat, they are actually feigning death - they appear to be destroyed, but have <strong>1 HP</strong>. Characters adjacent to the Veteran can reveal this with a successful <strong>Systems</strong> check or <strong>pilot skill check</strong>; otherwise, the Veteran remains unnoticed until they move or take action.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_lesser_sight_veteran",
-    "name": "Lesser Sight",
+    "name": "Lesser Sight [General]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -78,12 +78,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>General Veteran Trait</strong><br>The Veteran ignores <strong>Invisible</strong> for characters within <strong>Range 3</strong>, and hostile characters in <strong>Range 3</strong> can’t <strong>Hide</strong> (though they remain <strong>Hidden</strong> if they were already).",
+    "effect": "The Veteran ignores <strong>Invisible</strong> for characters within <strong>Range 3</strong>, and hostile characters in <strong>Range 3</strong> can’t <strong>Hide</strong> (though they remain <strong>Hidden</strong> if they were already).",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_lightning_reflexes_veteran",
-    "name": "Lightning Reflexes",
+    "name": "Lightning Reflexes [General]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -91,12 +91,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>General Veteran Trait</strong><br>Whenever the Veteran is attacked using any <strong>Heavy</strong> or <strong>Superheavy</strong> weapon, first roll <strong>1d6</strong>. On <strong>5+</strong>, the attack automatically misses. This effect does not stack with <strong>Invisible</strong>.",
+    "effect": "Whenever the Veteran is attacked using any <strong>Heavy</strong> or <strong>Superheavy</strong> weapon, first roll <strong>1d6</strong>. On <strong>5+</strong>, the attack automatically misses. This effect does not stack with <strong>Invisible</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_parting_gift_veteran",
-    "name": "Parting Gift",
+    "name": "Parting Gift [General]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -104,7 +104,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>General Veteran Trait</strong><br>The Veteran can <strong>Self-Destruct</strong> (see Lancer p.72).",
+    "effect": "The Veteran can <strong>Self-Destruct</strong> (see Lancer p.72).",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -113,7 +113,7 @@
   },
   {
     "id": "vet-rebake_npcf_self_repair_veteran",
-    "name": "Self Repair",
+    "name": "Self Repair [General]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -121,7 +121,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>General Veteran Trait</strong><br>1/scene, the Veteran regains all <strong>HP</strong> and clears all <strong>conditions</strong> that weren't caused by their own systems, etc.",
+    "effect": "1/scene, the Veteran regains all <strong>HP</strong> and clears all <strong>conditions</strong> that weren't caused by their own systems, etc.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -130,7 +130,7 @@
   },
   {
     "id": "vet-rebake_npcf_air_superiority_veteran",
-    "name": "Air Superiority",
+    "name": "Air Superiority [Ace]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -138,12 +138,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Ace Veteran Trait</strong><br>1/round, when the Ace hits a hostile character with a ranged attack, that character must pass an <strong>Agility</strong> save or immediately land if <strong>flying</strong> (this counts as falling without any damage), and additionally become unable to fly until the end of their next turn.",
+    "effect": "1/round, when the Ace hits a hostile character with a ranged attack, that character must pass an <strong>Agility</strong> save or immediately land if <strong>flying</strong> (this counts as falling without any damage), and additionally become unable to fly until the end of their next turn.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_mobile_emitter_veteran",
-    "name": "Mobile Emitter",
+    "name": "Mobile Emitter [Aegis]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -151,12 +151,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Aegis Veteran Trait</strong><br>The Aegis is <strong>Slowed</strong> while <strong>Defense Net</strong> is active instead of <strong>Immobilized</strong>.",
+    "effect": "The Aegis is <strong>Slowed</strong> while <strong>Defense Net</strong> is active instead of <strong>Immobilized</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_rock_and_roll_veteran",
-    "name": "Rock and Roll",
+    "name": "Rock and Roll [Archer]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -164,12 +164,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Archer Veteran Trait</strong><br>If the Archer chooses not to move during their turn, <strong>Suppress</strong> can be used against two targets instead of one and <strong>Moving Target</strong> may be used <strong>2/round</strong>. Each target triggers and resolves <strong>Moving Target</strong> separately, and a target damaging the Archer only ends the effect of <strong>Suppress</strong> on that target.",
+    "effect": "If the Archer chooses not to move during their turn, <strong>Suppress</strong> can be used against two targets instead of one and <strong>Moving Target</strong> may be used <strong>2/round</strong>. Each target triggers and resolves <strong>Moving Target</strong> separately, and a target damaging the Archer only ends the effect of <strong>Suppress</strong> on that target.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_commando_veteran",
-    "name": "Commando",
+    "name": "Commando [Assualt]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -177,12 +177,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Assault Veteran Trait</strong><br>The Assault may move <strong>2 spaces</strong> before or after attacking with the <strong>Combat Knife</strong>. This movement ignores engagement and doesn't provoke reactions. The <strong>Combat Knife</strong> gains <strong>Thrown 5</strong>, and when thrown automatically returns to the Assault at the end of their turn.",
+    "effect": "The Assault may move <strong>2 spaces</strong> before or after attacking with the <strong>Combat Knife</strong>. This movement ignores engagement and doesn't provoke reactions. The <strong>Combat Knife</strong> gains <strong>Thrown 5</strong>, and when thrown automatically returns to the Assault at the end of their turn.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_whirling_death_veteran",
-    "name": "Whirling Death",
+    "name": "Whirling Death [Assassin]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -190,12 +190,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Assassin Veteran Trait</strong><br>Whenever the Assassin reduces a hostile mech to <strong>0 HP</strong> (causing <strong>structure damage</strong> or destroying them), they may immediately choose a new target for <strong>Assassin's Mark</strong>.",
+    "effect": "Whenever the Assassin reduces a hostile mech to <strong>0 HP</strong> (causing <strong>structure damage</strong> or destroying them), they may immediately choose a new target for <strong>Assassin's Mark</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_remote_assemblers_veteran",
-    "name": "Remote Assemblers",
+    "name": "Remote Assemblers [Barricade]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -203,12 +203,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Barricade Veteran Trait</strong><br>When the Barricade uses Mobile Printer, it can print cubes out to Range 10.",
+    "effect": "When the Barricade uses Mobile Printer, it can print cubes out to Range 10.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_close_protection_veteran",
-    "name": "Close Protection",
+    "name": "Close Protection [Bastion]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -216,12 +216,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Bastion Veteran Trait</strong><br>Characters being protected by Friendly Interdiction may use the Bastion's Armor instead of their own whenever they take damage.",
+    "effect": "Characters being protected by Friendly Interdiction may use the Bastion's Armor instead of their own whenever they take damage.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_rending_cleave_veteran",
-    "name": "Rending Cleave",
+    "name": "Rending Cleave [Berserker]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -229,12 +229,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Berserker Veteran Trait</strong><br>On hit with the <strong>Chain Axe</strong>, the Berserker deals <strong>2/3/4 kinetic damage</strong> to a different character adjacent to either the target or the Berserker.",
+    "effect": "On hit with the <strong>Chain Axe</strong>, the Berserker deals <strong>2/3/4 kinetic damage</strong> to a different character adjacent to either the target or the Berserker.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_danger_close_veteran",
-    "name": "Danger Close",
+    "name": "Danger Close [Bombard]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -242,12 +242,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Bombard Veteran Trait</strong><br>When the Bombard makes an attack with the <strong>Bombard Cannon</strong>, they may exclude one character of their choice in the area from the attack.",
+    "effect": "When the Bombard makes an attack with the <strong>Bombard Cannon</strong>, they may exclude one character of their choice in the area from the attack.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_leadwall_veteran",
-    "name": "Leadwall",
+    "name": "Leadwall [Breacher]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -255,12 +255,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Breacher Veteran Trait</strong><br>Whenever the Breacher misses all attacks with the <strong>Dual Shotguns</strong>, it may make one additional attack for free.",
+    "effect": "Whenever the Breacher misses all attacks with the <strong>Dual Shotguns</strong>, it may make one additional attack for free.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_crashing_charge_veteran",
-    "name": "Crashing Charge",
+    "name": "Crashing Charge [Cataphract]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -268,12 +268,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Cataphract Veteran Trait</strong><br>The Cataphract may push characters affected by <strong>Trample 1 space</strong> in any direction.",
+    "effect": "The Cataphract may push characters affected by <strong>Trample 1 space</strong> in any direction.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_heavy_tread_veteran",
-    "name": "Heavy Tread",
+    "name": "Heavy Tread [Demolisher]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -281,12 +281,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Demolisher Veteran Trait</strong><br>All other characters treat a <strong>Burst 3</strong> area around the Demolisher as <strong>difficult terrain</strong>.",
+    "effect": "All other characters treat a <strong>Burst 3</strong> area around the Demolisher as <strong>difficult terrain</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_turret_nest_veteran",
-    "name": "Turret Nest",
+    "name": "Turret Nest [Engineer]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -294,12 +294,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Engineer Veteran Trait</strong><br>All <strong>Deployable Turrets</strong> within <strong>Range 3</strong> of the Engineer gain <strong>soft cover</strong>. While the Engineer is within <strong>Range 3</strong> of four or more turrets, they also gain <strong>soft cover</strong>.",
+    "effect": "All <strong>Deployable Turrets</strong> within <strong>Range 3</strong> of the Engineer gain <strong>soft cover</strong>. While the Engineer is within <strong>Range 3</strong> of four or more turrets, they also gain <strong>soft cover</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_oppresive_force_veteran",
-    "name": "Oppresive Force",
+    "name": "Oppresive Force [Goliath]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -307,12 +307,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Goliath Veteran Trait</strong><br>When the Goliath uses <strong>Crush Targeting</strong>, they may affect every hostile character within <strong>Sensors</strong>. If they do, affected characters only take <strong>+1 Difficulty</strong> to attacks instead of <strong>+3</strong>.",
+    "effect": "When the Goliath uses <strong>Crush Targeting</strong>, they may affect every hostile character within <strong>Sensors</strong>. If they do, affected characters only take <strong>+1 Difficulty</strong> to attacks instead of <strong>+3</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_oppresive_force_veteran",
-    "name": "Oppresive Force",
+    "name": "Oppresive Force [Hive]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -320,12 +320,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Hive Veteran Trait</strong><br>1/round, on a critical hit with the <strong>Hunter-Killer Nexus</strong>, the target must pass a <strong>Systems</strong> save or become <strong>Shredded</strong> until the end of their next turn.",
+    "effect": "1/round, on a critical hit with the <strong>Hunter-Killer Nexus</strong>, the target must pass a <strong>Systems</strong> save or become <strong>Shredded</strong> until the end of their next turn.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_acrobat_veteran",
-    "name": "Acrobat",
+    "name": "Acrobat [Hornet]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -333,12 +333,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Hornet Veteran Trait</strong><br>Any time an attack misses the Hornet, they may move up to <strong>2 spaces</strong> in any direction as a <strong>reaction</strong>.",
+    "effect": "Any time an attack misses the Hornet, they may move up to <strong>2 spaces</strong> in any direction as a <strong>reaction</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_spec_ops_veteran",
-    "name": "Spec Ops",
+    "name": "Spec Ops [Operator]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -346,12 +346,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Operator Veteran Trait</strong><br>The Operator is equipped with an NHP co-pilot and gains the <strong>AI</strong> tag. Their mech is autonomous and can even function without a pilot. This NHP ignores <strong>cascade</strong> and grants the Operator <strong>Immunity</strong> to <strong>Impaired</strong>. The Operator's pilot can also <strong>Dismount</strong>. While on foot, the pilot uses the <strong>Human</strong> class and can take all actions available to PC pilots, including <strong>Jockey</strong>. When the Operator is destroyed, the pilot can immediately <strong>Eject</strong> before <strong>Self-Erasure</strong> (bringing the NHP with them).",
+    "effect": "The Operator is equipped with an NHP co-pilot and gains the <strong>AI</strong> tag. Their mech is autonomous and can even function without a pilot. This NHP ignores <strong>cascade</strong> and grants the Operator <strong>Immunity</strong> to <strong>Impaired</strong>. The Operator's pilot can also <strong>Dismount</strong>. While on foot, the pilot uses the <strong>Human</strong> class and can take all actions available to PC pilots, including <strong>Jockey</strong>. When the Operator is destroyed, the pilot can immediately <strong>Eject</strong> before <strong>Self-Erasure</strong> (bringing the NHP with them).",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_power_rerouting_veteran",
-    "name": "Power Rerouting",
+    "name": "Power Rerouting [Priest]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -359,12 +359,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Priest Veteran Trait</strong><br>Characters linked to the Priest with <strong>Investiture</strong> can <strong>Overcharge</strong>. Instead of the usual cost, the Priest takes <strong>1d6 heat</strong>.",
+    "effect": "Characters linked to the Priest with <strong>Investiture</strong> can <strong>Overcharge</strong>. Instead of the usual cost, the Priest takes <strong>1d6 heat</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_white_hot_veteran",
-    "name": "White Hot",
+    "name": "White Hot [Pyro]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -372,12 +372,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Pyro Veteran Trait</strong><br>The <strong>Flamethrower</strong> does <strong>+2 heat</strong> on hit.",
+    "effect": "The <strong>Flamethrower</strong> does <strong>+2 heat</strong> on hit.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_concussion_warheads_veteran",
-    "name": "Concussion Warheads",
+    "name": "Concussion Warheads [Rainmaker]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -385,12 +385,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Rainmaker Veteran Trait</strong><br>1/round, when the Rainmaker consumes <strong>Lock On</strong> as part of a successful attack with the <strong>Missile Pods</strong>, they may knock the target <strong>Prone</strong>.",
+    "effect": "1/round, when the Rainmaker consumes <strong>Lock On</strong> as part of a successful attack with the <strong>Missile Pods</strong>, they may knock the target <strong>Prone</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_angled_deflection_veteran",
-    "name": "Angled Deflection",
+    "name": "Angled Deflection [Ronin]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -398,12 +398,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Ronin Veteran Trait</strong><br>When the Ronin uses <strong>Rebound</strong>, on a roll of <strong>4+</strong> they may choose to have the attacker repeat the attack against themselves or against another hostile character within <strong>Range 3</strong> of the attacker.",
+    "effect": "When the Ronin uses <strong>Rebound</strong>, on a roll of <strong>4+</strong> they may choose to have the attacker repeat the attack against themselves or against another hostile character within <strong>Range 3</strong> of the attacker.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_thermal_dissipation_veteran",
-    "name": "Thermal Dissipation",
+    "name": "Thermal Dissipation [Scourer]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -411,12 +411,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Scourer Veteran Trait</strong><br>Whenever <strong>Cooling Module</strong> activates, the Scourer creates a <strong>Burst 2</strong> area of <strong>soft cover</strong> around themselves that lasts until the start of their next turn.",
+    "effect": "Whenever <strong>Cooling Module</strong> activates, the Scourer creates a <strong>Burst 2</strong> area of <strong>soft cover</strong> around themselves that lasts until the start of their next turn.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_tactical_reposition_veteran",
-    "name": "Tactical Reposition",
+    "name": "Tactical Reposition [Scout]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -424,12 +424,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Scout Veteran Trait</strong><br>When the Scout uses <strong>Cloaking Field</strong>, up to two allied characters within the affected area may immediately move their <strong>Speed</strong> to any other free spaces within the affected area. This movement ignores engagement and does not provoke <strong>reactions</strong>.",
+    "effect": "When the Scout uses <strong>Cloaking Field</strong>, up to two allied characters within the affected area may immediately move their <strong>Speed</strong> to any other free spaces within the affected area. This movement ignores engagement and does not provoke <strong>reactions</strong>.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_mag_mines_veteran",
-    "name": "Mag Mines",
+    "name": "Mag Mines [Seeder]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -437,12 +437,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Seeder Veteran Trait</strong><br>Whenever one of the Seeder's mines is detonated by a hostile character, they may move all of their other deployed mines up to <strong>2 spaces</strong> towards the hostile character nearest to them; if two or more hostile characters are equally close to a mine, the Seeder chooses one. All mines must end this movement in free spaces.",
+    "effect": "Whenever one of the Seeder's mines is detonated by a hostile character, they may move all of their other deployed mines up to <strong>2 spaces</strong> towards the hostile character nearest to them; if two or more hostile characters are equally close to a mine, the Seeder chooses one. All mines must end this movement in free spaces.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_eye_of_the_storm_veteran",
-    "name": "Eye of the Storm",
+    "name": "Eye of the Storm [Sentinel]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -450,12 +450,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Sentinel Veteran Trait</strong><br>When <strong>Eye of Midnight</strong> is active, the Sentinel may attack with both the <strong>Combat Shotgun</strong> and <strong>Retractable Sword</strong> each time it takes the <strong>Overwatch</strong> reaction.",
+    "effect": "When <strong>Eye of Midnight</strong> is active, the Sentinel may attack with both the <strong>Combat Shotgun</strong> and <strong>Retractable Sword</strong> each time it takes the <strong>Overwatch</strong> reaction.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_blinding_laser_veteran",
-    "name": "Blinding Laser",
+    "name": "Blinding Laser [Sniper]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -463,12 +463,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Sniper Veteran Trait</strong><br>Whenever a character gains the <strong>Sniper's Mark</strong>, they must pass a <strong>Systems</strong> save or become <strong>Impaired</strong> and <strong>Slowed</strong> until the end of their next turn.",
+    "effect": "Whenever a character gains the <strong>Sniper's Mark</strong>, they must pass a <strong>Systems</strong> save or become <strong>Impaired</strong> and <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_silent_stalker_veteran",
-    "name": "Silent Stalker",
+    "name": "Silent Stalker [Specter]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -476,12 +476,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Specter Veteran Trait</strong><br>The Specter can become <strong>Hidden</strong> while <strong>Engaged</strong>, and while <strong>Hidden</strong> can move through (but not stop in) spaces occupied by hostile characters.",
+    "effect": "The Specter can become <strong>Hidden</strong> while <strong>Engaged</strong>, and while <strong>Hidden</strong> can move through (but not stop in) spaces occupied by hostile characters.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_whitewash_coordinator_veteran",
-    "name": "Whitewash Coordinator",
+    "name": "Whitewash Coordinator [Support]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -489,12 +489,12 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Support Veteran Trait</strong><br>When the Support uses <strong>Sealant Gun</strong> on an allied character, it does not cause them to become <strong>Slowed</strong>. When used on a hostile character, the target is also knocked <strong>Prone</strong> if they fail the <strong>Agility</strong> save.",
+    "effect": "When the Support uses <strong>Sealant Gun</strong> on an allied character, it does not cause them to become <strong>Slowed</strong>. When used on a hostile character, the target is also knocked <strong>Prone</strong> if they fail the <strong>Agility</strong> save.",
     "tags": []
   },
   {
     "id": "vet-rebake_npcf_enfeeble_veteran",
-    "name": "Enfeeble",
+    "name": "Enfeeble [Witch]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -502,7 +502,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Witch Veteran Trait</strong><br>When the Witch uses the <strong>Invade Quick Tech</strong> action, on hit the target is also <strong>Slowed</strong> until the end of their next turn.",
+    "effect": "When the Witch uses the <strong>Invade Quick Tech</strong> action, on hit the target is also <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   }
 ]

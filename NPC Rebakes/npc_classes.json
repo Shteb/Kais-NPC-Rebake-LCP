@@ -3139,7 +3139,7 @@
         "power": 25
     },
     {
-        "id": "npc-rebake_npcc_controller",
+        "id": "npc-rebake_npcc_controller_grunt",
         "name": "Grunt Controller",
         "role": "controller",
         "info": {
@@ -3237,7 +3237,7 @@
         "power": 25
     },
     {
-        "id": "npc-rebake_npcc_defender",
+        "id": "npc-rebake_npcc_defender_grunt",
         "name": "Grunt Defender",
         "role": "defender",
         "info": {
@@ -3335,7 +3335,7 @@
         "power": 25
     },
     {
-        "id": "npc-rebake_npcc_striker",
+        "id": "npc-rebake_npcc_striker_grunt",
         "name": "Grunt Striker",
         "role": "striker",
         "info": {
@@ -3435,7 +3435,7 @@
         "power": 25
     },
     {
-        "id": "npc-rebake_npcc_support",
+        "id": "npc-rebake_npcc_support_grunt",
         "name": "Grunt Support",
         "role": "support",
         "info": {
@@ -3521,13 +3521,13 @@
             ]
         },
         "base_features": [
-            "npc-rebake_npcf_chaff",
-            "npc-rebake_npcf_weak",
-            "npc-rebake_npcf_rank_and_file",
-            "npc-rebake_npcf_mass_produced",
-            "npc-rebake_npcf_power_transmission_support",
-            "npc-rebake_npcf_recon_drones_support",
-            "npc-rebake_npcf_stabilizer_drones_support"
+            "npc-rebake_npcf_chaff_grunt",
+            "npc-rebake_npcf_weak_grunt",
+            "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_mass_produced_grunt",
+            "npc-rebake_npcf_power_transmission_support_grunt",
+            "npc-rebake_npcf_recon_drones_support_grunt",
+            "npc-rebake_npcf_stabilizer_drones_support_grunt"
         ],
         "optional_features": [],
         "power": 25

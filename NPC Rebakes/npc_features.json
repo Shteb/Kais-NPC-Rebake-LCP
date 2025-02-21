@@ -5793,7 +5793,7 @@
     "tags": []
 },
 {
-    "id": "npc-rebake_npcf_hostile_sync_controller",
+    "id": "npc-rebake_npcf_hostile_sync_controller_grunt",
     "name": "Hostile Sync",
     "origin": {
         "type": "Class",

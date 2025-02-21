@@ -5573,7 +5573,7 @@
     ]
   },
   {
-    "id": "vet-rebake_npcf_reinforced_veteran",
+    "id": "npc-rebake_npcf_reinforced_veteran",
     "name": "Reinforced",
     "origin": {
       "type": "Template",
@@ -5590,7 +5590,7 @@
     }
   },
   {
-    "id": "vet-rebake_npcf_veterancy_veteran",
+    "id": "npc-rebake_npcf_veterancy_veteran",
     "name": "Veterancy",
     "origin": {
       "type": "Template",
@@ -5603,7 +5603,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_limitless_veteran",
+    "id": "npc-rebake_npcf_limitless_veteran",
     "name": "Limitless",
     "origin": {
       "type": "Template",
@@ -5616,7 +5616,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_veteran_traits_veteran",
+    "id": "npc-rebake_npcf_veteran_traits_veteran",
     "name": "Veteran Traits",
     "origin": {
       "type": "Template",
@@ -5629,7 +5629,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_feign_death_veteran",
+    "id": "npc-rebake_npcf_feign_death_veteran",
     "name": "Feign Death [General]",
     "origin": {
       "type": "Template",
@@ -5642,7 +5642,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_lesser_sight_veteran",
+    "id": "npc-rebake_npcf_lesser_sight_veteran",
     "name": "Lesser Sight [General]",
     "origin": {
       "type": "Template",
@@ -5655,7 +5655,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_lightning_reflexes_veteran",
+    "id": "npc-rebake_npcf_lightning_reflexes_veteran",
     "name": "Lightning Reflexes [General]",
     "origin": {
       "type": "Template",
@@ -5668,7 +5668,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_parting_gift_veteran",
+    "id": "npc-rebake_npcf_parting_gift_veteran",
     "name": "Parting Gift [General]",
     "origin": {
       "type": "Template",
@@ -5685,7 +5685,7 @@
     ]
   },
   {
-    "id": "vet-rebake_npcf_self_repair_veteran",
+    "id": "npc-rebake_npcf_self_repair_veteran",
     "name": "Self Repair [General]",
     "origin": {
       "type": "Template",
@@ -5702,7 +5702,7 @@
     ]
   },
   {
-    "id": "vet-rebake_npcf_air_superiority_veteran",
+    "id": "npc-rebake_npcf_air_superiority_veteran",
     "name": "Air Superiority [Ace]",
     "origin": {
       "type": "Template",
@@ -5715,7 +5715,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_mobile_emitter_veteran",
+    "id": "npc-rebake_npcf_mobile_emitter_veteran",
     "name": "Mobile Emitter [Aegis]",
     "origin": {
       "type": "Template",
@@ -5728,7 +5728,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_rock_and_roll_veteran",
+    "id": "npc-rebake_npcf_rock_and_roll_veteran",
     "name": "Rock and Roll [Archer]",
     "origin": {
       "type": "Template",
@@ -5741,7 +5741,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_commando_veteran",
+    "id": "npc-rebake_npcf_commando_veteran",
     "name": "Commando [Assualt]",
     "origin": {
       "type": "Template",
@@ -5754,7 +5754,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_whirling_death_veteran",
+    "id": "npc-rebake_npcf_whirling_death_veteran",
     "name": "Whirling Death [Assassin]",
     "origin": {
       "type": "Template",
@@ -5767,7 +5767,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_remote_assemblers_veteran",
+    "id": "npc-rebake_npcf_remote_assemblers_veteran",
     "name": "Remote Assemblers [Barricade]",
     "origin": {
       "type": "Template",
@@ -5780,7 +5780,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_close_protection_veteran",
+    "id": "npc-rebake_npcf_close_protection_veteran",
     "name": "Close Protection [Bastion]",
     "origin": {
       "type": "Template",
@@ -5793,7 +5793,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_rending_cleave_veteran",
+    "id": "npc-rebake_npcf_rending_cleave_veteran",
     "name": "Rending Cleave [Berserker]",
     "origin": {
       "type": "Template",
@@ -5806,7 +5806,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_danger_close_veteran",
+    "id": "npc-rebake_npcf_danger_close_veteran",
     "name": "Danger Close [Bombard]",
     "origin": {
       "type": "Template",
@@ -5819,7 +5819,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_leadwall_veteran",
+    "id": "npc-rebake_npcf_leadwall_veteran",
     "name": "Leadwall [Breacher]",
     "origin": {
       "type": "Template",
@@ -5832,7 +5832,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_crashing_charge_veteran",
+    "id": "npc-rebake_npcf_crashing_charge_veteran",
     "name": "Crashing Charge [Cataphract]",
     "origin": {
       "type": "Template",
@@ -5845,7 +5845,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_heavy_tread_veteran",
+    "id": "npc-rebake_npcf_heavy_tread_veteran",
     "name": "Heavy Tread [Demolisher]",
     "origin": {
       "type": "Template",
@@ -5858,7 +5858,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_turret_nest_veteran",
+    "id": "npc-rebake_npcf_turret_nest_veteran",
     "name": "Turret Nest [Engineer]",
     "origin": {
       "type": "Template",
@@ -5871,7 +5871,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_oppresive_force_veteran",
+    "id": "npc-rebake_npcf_oppresive_force_veteran",
     "name": "Oppresive Force [Goliath]",
     "origin": {
       "type": "Template",
@@ -5884,7 +5884,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_oppresive_force_veteran",
+    "id": "npc-rebake_npcf_oppresive_force_veteran",
     "name": "Oppresive Force [Hive]",
     "origin": {
       "type": "Template",
@@ -5897,7 +5897,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_acrobat_veteran",
+    "id": "npc-rebake_npcf_acrobat_veteran",
     "name": "Acrobat [Hornet]",
     "origin": {
       "type": "Template",
@@ -5910,7 +5910,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_spec_ops_veteran",
+    "id": "npc-rebake_npcf_spec_ops_veteran",
     "name": "Spec Ops [Operator]",
     "origin": {
       "type": "Template",
@@ -5923,7 +5923,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_power_rerouting_veteran",
+    "id": "npc-rebake_npcf_power_rerouting_veteran",
     "name": "Power Rerouting [Priest]",
     "origin": {
       "type": "Template",
@@ -5936,7 +5936,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_white_hot_veteran",
+    "id": "npc-rebake_npcf_white_hot_veteran",
     "name": "White Hot [Pyro]",
     "origin": {
       "type": "Template",
@@ -5949,7 +5949,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_concussion_warheads_veteran",
+    "id": "npc-rebake_npcf_concussion_warheads_veteran",
     "name": "Concussion Warheads [Rainmaker]",
     "origin": {
       "type": "Template",
@@ -5962,7 +5962,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_angled_deflection_veteran",
+    "id": "npc-rebake_npcf_angled_deflection_veteran",
     "name": "Angled Deflection [Ronin]",
     "origin": {
       "type": "Template",
@@ -5975,7 +5975,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_thermal_dissipation_veteran",
+    "id": "npc-rebake_npcf_thermal_dissipation_veteran",
     "name": "Thermal Dissipation [Scourer]",
     "origin": {
       "type": "Template",
@@ -5988,7 +5988,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_tactical_reposition_veteran",
+    "id": "npc-rebake_npcf_tactical_reposition_veteran",
     "name": "Tactical Reposition [Scout]",
     "origin": {
       "type": "Template",
@@ -6001,7 +6001,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_mag_mines_veteran",
+    "id": "npc-rebake_npcf_mag_mines_veteran",
     "name": "Mag Mines [Seeder]",
     "origin": {
       "type": "Template",
@@ -6014,7 +6014,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_eye_of_the_storm_veteran",
+    "id": "npc-rebake_npcf_eye_of_the_storm_veteran",
     "name": "Eye of the Storm [Sentinel]",
     "origin": {
       "type": "Template",
@@ -6027,7 +6027,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_blinding_laser_veteran",
+    "id": "npc-rebake_npcf_blinding_laser_veteran",
     "name": "Blinding Laser [Sniper]",
     "origin": {
       "type": "Template",
@@ -6040,7 +6040,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_silent_stalker_veteran",
+    "id": "npc-rebake_npcf_silent_stalker_veteran",
     "name": "Silent Stalker [Specter]",
     "origin": {
       "type": "Template",
@@ -6053,7 +6053,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_whitewash_coordinator_veteran",
+    "id": "npc-rebake_npcf_whitewash_coordinator_veteran",
     "name": "Whitewash Coordinator [Support]",
     "origin": {
       "type": "Template",
@@ -6066,7 +6066,7 @@
     "tags": []
   },
   {
-    "id": "vet-rebake_npcf_enfeeble_veteran",
+    "id": "npc-rebake_npcf_enfeeble_veteran",
     "name": "Enfeeble [Witch]",
     "origin": {
       "type": "Template",

@@ -3036,5 +3036,500 @@
             "npc-rebake_npcf_immolate_witch"
         ],
         "power": 100
+    },
+    {
+        "id": "npc-rebake_npcc_artillery",
+        "name": "Grunt Artillery",
+        "role": "artillery",
+        "info": {
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                0,
+                0,
+                0
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                0,
+                1,
+                2
+            ],
+            "agility": [
+                0,
+                1,
+                2
+            ],
+            "systems": [
+                0,
+                1,
+                2
+            ],
+            "engineering": [
+                0,
+                1,
+                2
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_chaff_grunt",
+            "npc-rebake_npcf_weak_grunt",
+            "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_mass_produced_grunt",
+            "npc-rebake_npcf_artillery_type_artillery_grunt",
+            "npc-rebake_npcf_survival_pistol_artillery_grunt",
+            "npc-rebake_npcf_reflex_targeting_artillery_grunt"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_dmr_artillery_grunt",
+            "npc-rebake_npcf_shoulder_mortar_artillery_grunt"
+        ],
+        "power": 25
+    },
+    {
+        "id": "npc-rebake_npcc_controller",
+        "name": "Grunt Controller",
+        "role": "controller",
+        "info": {
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                0,
+                0,
+                0
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                0,
+                1,
+                2
+            ],
+            "agility": [
+                0,
+                1,
+                2
+            ],
+            "systems": [
+                0,
+                1,
+                2
+            ],
+            "engineering": [
+                0,
+                1,
+                2
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_chaff_grunt",
+            "npc-rebake_npcf_weak_grunt",
+            "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_mass_produced_grunt",
+            "npc-rebake_npcf_hostile_sync_controller_grunt",
+            "npc-rebake_npcf_destabilize_controller_grunt",
+            "npc-rebake_npcf_electro_chaff_controller_grunt"
+        ],
+        "optional_features": [],
+        "power": 25
+    },
+    {
+        "id": "npc-rebake_npcc_defender",
+        "name": "Grunt Defender",
+        "role": "defender",
+        "info": {
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                0,
+                0,
+                0
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                0,
+                1,
+                2
+            ],
+            "agility": [
+                0,
+                1,
+                2
+            ],
+            "systems": [
+                0,
+                1,
+                2
+            ],
+            "engineering": [
+                0,
+                1,
+                2
+            ],
+            "size": [
+                [
+                    2
+                ],
+                [
+                    2
+                ],
+                [
+                    2
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_chaff_grunt",
+            "npc-rebake_npcf_weak_grunt",
+            "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_mass_produced_grunt",
+            "npc-rebake_npcf_combat_shotgun_defender_grunt",
+            "npc-rebake_npcf_ablative_armor_defender_grunt",
+            "npc-rebake_npcf_guardian_defender_grunt"
+        ],
+        "optional_features": [],
+        "power": 25
+    },
+    {
+        "id": "npc-rebake_npcc_striker",
+        "name": "Grunt Striker",
+        "role": "striker",
+        "info": {
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                0,
+                0,
+                0
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                0,
+                1,
+                2
+            ],
+            "agility": [
+                0,
+                1,
+                2
+            ],
+            "systems": [
+                0,
+                1,
+                2
+            ],
+            "engineering": [
+                0,
+                1,
+                2
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_chaff_grunt",
+            "npc-rebake_npcf_weak_grunt",
+            "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_mass_produced_grunt",
+            "npc-rebake_npcf_striker_type_striker_grunt",
+            "npc-rebake_npcf_double_time_striker_grunt"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_assault_rifle_striker_grunt",
+            "npc-rebake_npcf_heavy_blade_striker_grunt"
+        ],
+        "power": 25
+    },
+    {
+        "id": "npc-rebake_npcc_support",
+        "name": "Grunt Support",
+        "role": "support",
+        "info": {
+            "flavor": "Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies.",
+            "tactics": ""
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                0,
+                0,
+                0
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                0,
+                1,
+                2
+            ],
+            "agility": [
+                0,
+                1,
+                2
+            ],
+            "systems": [
+                0,
+                1,
+                2
+            ],
+            "engineering": [
+                0,
+                1,
+                2
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_chaff",
+            "npc-rebake_npcf_weak",
+            "npc-rebake_npcf_rank_and_file",
+            "npc-rebake_npcf_mass_produced",
+            "npc-rebake_npcf_power_transmission_support",
+            "npc-rebake_npcf_recon_drones_support",
+            "npc-rebake_npcf_stabilizer_drones_support"
+        ],
+        "optional_features": [],
+        "power": 25
     }
 ]

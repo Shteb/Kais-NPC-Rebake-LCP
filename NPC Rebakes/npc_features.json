@@ -5573,7 +5573,7 @@
     ]
   },
   {
-    "id": "grunt-rebake_gruntf_chaff",
+    "id": "npc-rebake_npcf_chaff_grunt",
     "name": "Chaff",
     "origin": {
         "type": "Class",
@@ -5586,7 +5586,7 @@
     "tags": []
 },
 {
-    "id": "grunt-rebake_gruntf_weak",
+    "id": "npc-rebake_npcf_weak_grunt",
     "name": "Weak",
     "origin": {
         "type": "Class",
@@ -5599,7 +5599,7 @@
     "tags": []
 },
 {
-    "id": "grunt-rebake_gruntf_rank_and_file",
+    "id": "npc-rebake_npcf_rank_and_file_grunt",
     "name": "Rank and File",
     "origin": {
         "type": "Class",
@@ -5617,7 +5617,7 @@
     ]
 },
 {
-    "id": "grunt-rebake_gruntf_mass_produced",
+    "id": "npc-rebake_npcf_mass_produced_grunt",
     "name": "Mass Produced",
     "origin": {
         "type": "Class",
@@ -5630,11 +5630,11 @@
     "tags": []
 },
 {
-    "id": "grunt-rebake_gruntf_artillery_type_artillery",
+    "id": "npc-rebake_npcf_artillery_type_artillery_grunt",
     "name": "Artillery-Type",
     "origin": {
         "type": "Class",
-        "name": "Artillery-Type Grunt",
+        "name": "Grunt Artillery",
         "base": true
     },
     "locked": false,
@@ -5643,11 +5643,11 @@
     "tags": []
 },
 {
-    "id": "grunt-rebake_gruntf_dmr_artillery",
+    "id": "npc-rebake_npcf_dmr_artillery_grunt",
     "name": "DMR",
     "origin": {
         "type": "Class",
-        "name": "Artillery-Type Grunt",
+        "name": "Grunt Artillery",
         "base": false
     },
     "locked": false,
@@ -5688,11 +5688,11 @@
     "on_hit": ""
 },
 {
-    "id": "grunt-rebake_gruntf_shoulder_mortar_artillery",
+    "id": "npc-rebake_npcf_shoulder_mortar_artillery_grunt",
     "name": "Shoulder Mortar",
     "origin": {
         "type": "Class",
-        "name": "Artillery-Type Grunt",
+        "name": "Grunt Artillery",
         "base": false
     },
     "locked": false,
@@ -5740,11 +5740,11 @@
     "on_hit": ""
 },
 {
-    "id": "grunt-rebake_gruntf_survival_pistol_artillery",
+    "id": "npc-rebake_npcf_survival_pistol_artillery_grunt",
     "name": "Survival Pistol",
     "origin": {
         "type": "Class",
-        "name": "Artillery-Type Grunt",
+        "name": "Grunt Artillery",
         "base": true
     },
     "locked": false,
@@ -5780,11 +5780,11 @@
     "on_hit": ""
 },
 {
-    "id": "grunt-rebake_gruntf_reflex_targeting_artillery",
+    "id": "npc-rebake_npcf_reflex_targeting_artillery_grunt",
     "name": "Reflex Targeting",
     "origin": {
         "type": "Class",
-        "name": "Artillery-Type Grunt",
+        "name": "Grunt Artillery",
         "base": true
     },
     "locked": false,
@@ -5793,11 +5793,11 @@
     "tags": []
 },
 {
-    "id": "grunt-rebake_gruntf_hostile_sync_controller",
+    "id": "npc-rebake_npcf_hostile_sync_controller",
     "name": "Hostile Sync",
     "origin": {
         "type": "Class",
-        "name": "Controller-Type Grunt",
+        "name": "Grunt Controller",
         "base": true
     },
     "locked": false,
@@ -5811,11 +5811,11 @@
     "tech_type": "Full"
 },
 {
-    "id": "grunt-rebake_gruntf_destabilize_controller",
+    "id": "npc-rebake_npcf_destabilize_controller_grunt",
     "name": "Destabilize",
     "origin": {
         "type": "Class",
-        "name": "Controller-Type Grunt",
+        "name": "Grunt Controller",
         "base": true
     },
     "locked": false,
@@ -5834,11 +5834,11 @@
     ]
 },
 {
-    "id": "grunt-rebake_gruntf_electro_chaff_controller",
+    "id": "npc-rebake_npcf_electro_chaff_controller_grunt",
     "name": "Electro-Chaff",
     "origin": {
         "type": "Class",
-        "name": "Controller-Type Grunt",
+        "name": "Grunt Controller",
         "base": true
     },
     "locked": false,
@@ -5855,11 +5855,11 @@
     ]
 },
 {
-    "id": "grunt-rebake_gruntf_combat_shotgun_defender",
+    "id": "npc-rebake_npcf_combat_shotgun_defender_grunt",
     "name": "Combat Shotgun",
     "origin": {
         "type": "Class",
-        "name": "Defender-Type Grunt",
+        "name": "Grunt Defender",
         "base": true
     },
     "locked": false,
@@ -5900,11 +5900,11 @@
     "on_hit": ""
 },
 {
-    "id": "grunt-rebake_gruntf_ablative_armor_defender",
+    "id": "npc-rebake_npcf_ablative_armor_defender_grunt",
     "name": "Ablative Armor",
     "origin": {
         "type": "Class",
-        "name": "Defender-Type Grunt",
+        "name": "Grunt Defender",
         "base": true
     },
     "locked": false,
@@ -5913,11 +5913,11 @@
     "tags": []
 },
 {
-    "id": "grunt-rebake_gruntf_guardian_defender",
+    "id": "npc-rebake_npcf_guardian_defender_grunt",
     "name": "Guardian",
     "origin": {
         "type": "Class",
-        "name": "Defender-Type Grunt",
+        "name": "Grunt Defender",
         "base": true
     },
     "locked": false,
@@ -5926,11 +5926,11 @@
     "tags": []
 },
 {
-    "id": "grunt-rebake_gruntf_striker_type_striker",
+    "id": "npc-rebake_npcf_striker_type_striker_grunt",
     "name": "Striker-Type",
     "origin": {
         "type": "Class",
-        "name": "Striker-Type Grunt",
+        "name": "Grunt Striker",
         "base": true
     },
     "locked": false,
@@ -5939,11 +5939,11 @@
     "tags": []
 },
 {
-    "id": "grunt-rebake_gruntf_assault_rifle_striker",
+    "id": "npc-rebake_npcf_assault_rifle_striker_grunt",
     "name": "Assault Rifle",
     "origin": {
         "type": "Class",
-        "name": "Striker-Type Grunt",
+        "name": "Grunt Striker",
         "base": false
     },
     "locked": false,
@@ -5975,11 +5975,11 @@
     "on_hit": ""
 },
 {
-    "id": "grunt-rebake_gruntf_heavy_blade_striker",
+    "id": "npc-rebake_npcf_heavy_blade_striker_grunt",
     "name": "Heavy Blade",
     "origin": {
         "type": "Class",
-        "name": "Striker-Type Grunt",
+        "name": "Grunt Striker",
         "base": false
     },
     "locked": false,
@@ -6016,11 +6016,11 @@
     "on_hit": ""
 },
 {
-    "id": "grunt-rebake_gruntf_double_time_striker",
+    "id": "npc-rebake_npcf_double_time_striker_grunt",
     "name": "Double Time",
     "origin": {
         "type": "Class",
-        "name": "Striker-Type Grunt",
+        "name": "Grunt Striker",
         "base": true
     },
     "locked": false,
@@ -6037,11 +6037,11 @@
     ]
 },
 {
-    "id": "grunt-rebake_gruntf_power_transmission_support",
+    "id": "npc-rebake_npcf_power_transmission_support_grunt",
     "name": "Power Transmission",
     "origin": {
         "type": "Class",
-        "name": "Support-Type Grunt",
+        "name": "Grunt Support",
         "base": true
     },
     "locked": false,
@@ -6054,11 +6054,11 @@
     ]
 },
 {
-    "id": "grunt-rebake_gruntf_recon_drones_support",
+    "id": "npc-rebake_npcf_recon_drones_support_grunt",
     "name": "Recon Drones",
     "origin": {
         "type": "Class",
-        "name": "Support-Type Grunt",
+        "name": "Grunt Support",
         "base": true
     },
     "locked": false,
@@ -6071,11 +6071,11 @@
     ]
 },
 {
-    "id": "grunt-rebake_gruntf_stabilizer_drones_support",
+    "id": "npc-rebake_npcf_stabilizer_drones_support_grunt",
     "name": "Stabilizer Drones",
     "origin": {
         "type": "Class",
-        "name": "Support-Type Grunt",
+        "name": "Grunt Support",
         "base": true
     },
     "locked": false,

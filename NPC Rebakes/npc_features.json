@@ -5582,7 +5582,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Veteran gains +1 Structure and +1 Stress.",
+    "effect": "The Veteran gains <strong>+1 Structure</strong> and <strong>+1 Stress</strong>.",
     "tags": [],
     "bonus": {
       "structure": 1,
@@ -5776,7 +5776,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Barricade uses Mobile Printer, it can print cubes out to Range 10.",
+    "effect": "When the Barricade uses <strong>Mobile Printer</strong>, it can print cubes out to <strong>Range 10</strong>.",
     "tags": []
   },
   {
@@ -5789,7 +5789,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters being protected by Friendly Interdiction may use the Bastion's Armor instead of their own whenever they take damage.",
+    "effect": "Characters being protected by <strong>Friendly Interdiction</strong> may use the Bastion's <strong>Armor</strong> instead of their own whenever they take damage.",
     "tags": []
   },
   {
@@ -5871,8 +5871,8 @@
     "tags": []
   },
   {
-    "id": "npc-rebake_npcf_oppresive_force_veteran",
-    "name": "Oppresive Force [Goliath]",
+    "id": "npc-rebake_npcf_oppressive_force_veteran",
+    "name": "Oppressive Force [Goliath]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -5884,8 +5884,8 @@
     "tags": []
   },
   {
-    "id": "npc-rebake_npcf_oppresive_force_veteran",
-    "name": "Oppresive Force [Hive]",
+    "id": "npc-rebake_npcf_abrade_veteran",
+    "name": "Abrade [Hive]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",

@@ -5910,6 +5910,19 @@
     "tags": []
   },
   {
+    "id": "npc-rebake_npcf_sensor_lag_veteran",
+    "name": "Sensor Lag [Mirage]",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": " 1/round, whenever the Mirage <strong>teleports</strong> an allied character, the Mirage may <strong>teleport 3 spaces</strong> in any direction as well.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_spec_ops_veteran",
     "name": "Spec Ops [Operator]",
     "origin": {

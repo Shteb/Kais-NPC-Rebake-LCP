@@ -6612,6 +6612,126 @@
   },
   // ULTRA REBAKE FEATURES BEGIN HERE
   {
+    "id": "npc-rebake_npcf_argus_armor_ultra",
+    "name": "Argus Armor",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra has <strong>6 Armor</strong> instead of its normal value. Each time they roll a <strong>structure damage or overheating check</strong>, they lose <strong>2 Armor</strong> to a minimum of <strong>0</strong>. While at <strong>0 Armor</strong>, the Ultra gains <strong>+1 Accuracy</strong> on all attacks.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_devastator_ultra",
+    "name": "Devastator",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/round, when the Ultra makes a successful attack, they may deal <strong>30 AP explosive damage</strong> to an object or piece of terrain within line of sight. All characters adjacent to that object or piece of terrain take <strong>{3/4/5} kinetic damage</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_greater_sight_ultra",
+    "name": "Greater Sight",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra ignores <strong>Invisible</strong> for characters within <strong>Range 10</strong>, and hostile characters in <strong>Range 10</strong> can’t <strong>Hide</strong> (though they remain <strong>Hidden</strong> if they were already). As a <strong>quick action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Ultra to attempt to disable this trait; all characters are aware of this. The Ultra must be within their <strong>Sensors</strong> for them to attempt this check. If they succeed, this trait is disabled until the end of the Ultra's next turn. If they fail, that character gains <strong>Lock On</strong> becomes <strong>Impaired</strong> until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_evasive_ultra",
+    "name": "Evasive",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+4 Evasion</strong> (to a maximum of <strong>20</strong>), <strong>+1 Accuracy</strong> on all saves, and <strong>-1 Structure</strong>.",
+    "tags": [],
+    "bonus": {
+      "structure": -1
+    }
+  },
+  {
+    "id": "npc-rebake_npcf_legion_ultra",
+    "name": "Legion",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+4 E-Defense</strong> (to a maximum of <strong>20</strong>) and <strong>+1 Accuracy</strong> on all <strong>tech attacks</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_limitless_ultra",
+    "name": "Limitless",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra can <strong>Overcharge</strong>. Instead of the standard cost, they always gain <strong>1d6 heat</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_superior_shielding_ultra",
+    "name": "Superior Shielding",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "This trait replaces <strong>Resilient</strong>. At the start of the Ultra's turn, the Ultra chooses one damage type - <strong>kinetic, explosive, or energy damage</strong> - and gains <strong>Resistance</strong> to that damage until the start of their next turn. The Ultra can’t gain <strong>Resistance</strong> to more than two of these damage types at a time, whether from this or any other system.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_superior_construction_ultra",
+    "name": "Superior Construction",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+5 HP</strong>. When using <strong>Juggernaut</strong>, the Ultra may clear two conditions at a time instead of one. Different costs must be chosen for each condition cleared this way.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_superior_frame_ultra",
+    "name": "Superior Frame",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When using <strong>Juggernaut</strong>, the Ultra may clear either <strong>Slowed</strong> or <strong>Immobilized</strong> by taking <strong>4 heat</strong> instead of the usual costs.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_superior_reactor_ultra",
     "name": "Superior Reactor",
     "origin": {

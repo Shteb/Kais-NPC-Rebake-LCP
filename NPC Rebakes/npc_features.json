@@ -6610,6 +6610,7 @@
     "effect": "When the Witch uses the <strong>Invade Quick Tech</strong> action, on hit the target is also <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
+  // ULTRA REBAKE FEATURES BEGIN HERE
   {
     "id": "npc-rebake_npcf_superior_reactor_ultra",
     "name": "Superior Reactor",

@@ -46,5 +46,26 @@
       "npc-rebake_npcf_enfeeble_veteran"
     ],
     "power": 50
+  },
+  {
+    "id": "npc-rebake_npct_ultra",
+    "name": "Ultra [K]",
+    "description": "Ultras are the most dangerous individual foes a lancer might face on the battlefield – the champions, favored soldiers, chosen ones, and other mighty warriors of a fighting force. An Ultra might command a small retinue or lead an army from the front, but they are no grand strategists. Their primary tasks are always direct engagement with the enemy, holding or breaking lines, and ensuring through heroic efforts that their side wins the day.<br>Ultras are powerful enemies capable of taking on multiple mechs at once, along the lines of “boss” characters in video games. Like Elites, they have extra Structure, meaning they roll on the structure damage table and are much more resilient than most NPCs. Because they’re so much more powerful than regular NPCs (and keeping track of them is much more complex), it’s recommended you only use one Ultra in any given combat encounter.",
+    "base_features": [
+      "npc-rebake_npcf_best_of_the_best_ultra",
+      "npc-rebake_npcf_resilient_ultra",
+      "npc-rebake_npcf_reinforced_ultra",
+      "npc-rebake_npcf_shock_and_awe_ultra",
+      "npc-rebake_npcf_deadly_ultra",
+      "npc-rebake_npcf_juggernaut_ultra",
+      "npc-rebake_npcf_auto-repair_functions_ultra",
+      "npc-rebake_npcf_legendary_ultra",
+      "npc-rebake_npcf_reflex_ultra",
+      "npc-rebake_npcf_advanced_kit_ultra",
+      "npc-rebake_npcf_ultra_systems_and_traits_ultra"
+    ],
+    "optional_features": [
+    ],
+    "power": 300
   }
 ]

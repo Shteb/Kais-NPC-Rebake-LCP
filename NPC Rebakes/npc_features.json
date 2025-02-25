@@ -6612,6 +6612,143 @@
   },
   // ULTRA REBAKE FEATURES BEGIN HERE
   {
+    "id": "npc-rebake_npcf_best_of_the_best_ultra",
+    "name": "Best of the Best",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra can’t take the <strong>Elite</strong> or <strong>Grunt</strong> templates.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_resilient_ultra",
+    "name": "Resilient",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+5 HP</strong>.",
+    "tags": [],
+    "bonus": {
+      "hp": 5
+    }
+  },
+  {
+    "id": "npc-rebake_npcf_reinforced_ultra",
+    "name": "Reinforced",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+3 Structure</strong> and <strong>+3 Stress</strong>.",
+    "tags": [],
+    "bonus": {
+      "structure": 3,
+      "stress": 3
+    }
+  },
+  {
+    "id": "npc-rebake_npcf_shock_and_awe_ultra",
+    "name": "Shock and Awe",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra takes <strong>two separate turns</strong> each round. They regain spent <strong>reactions</strong> each time they take a turn. If the Ultra is facing <strong>five or more</strong> hostile characters when combat begins, the Ultra takes a <strong>third turn</strong> each round.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_deadly_ultra",
+    "name": "Deadly",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra deals <strong>+1d6 bonus damage</strong> on <strong>critical hits</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_juggernaut_ultra",
+    "name": "Juggernaut",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the start of the Ultra’s turn, they may clear one condition. If they do, they choose one; become <strong>Impaired</strong> until the end of their turn, take <strong>5 energy damage</strong> that can't be reduced in any way, or instead of <strong>two quick actions or a full action</strong> during their turn, they may only take <strong>one quick action</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_auto-repair_functions_ultra",
+    "name": "Auto-Repair Functions",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the end of the Ultra's turn, they may repair one destroyed weapon or system of their choice. If they do, they choose one; become <strong>Jammed</strong> until the start of their next turn, or take <strong>1d6 heat</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_legendary_ultra",
+    "name": "Legendary",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra rolls all <strong>structure damage and overheating checks</strong> twice and chooses either result.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_reflex_ultra",
+    "name": "Reflex",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra can <strong>Overwatch</strong> unlimited times per round.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_advanced_kit_ultra",
+    "name": "Advanced Kit",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra chooses 1-2 additional optional systems from their class.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_ultra_systems_and_traits_ultra",
     "name": "Ultra Systems and Traits",
     "origin": {
@@ -6621,7 +6758,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Ultra chooses 1-3 options from the Ultra Systems and Traits list.",
+    "effect": "The Ultra chooses 1-3 options from the <strong>Ultra Systems and Traits</strong> list.",
     "tags": []
   },
   {

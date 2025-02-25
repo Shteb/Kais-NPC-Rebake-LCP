@@ -6612,6 +6612,145 @@
   },
   // ULTRA REBAKE FEATURES BEGIN HERE
   {
+    "id": "npc-rebake_npcf_sidereal_realignment_ultra",
+    "name": "Sidereal Realignment",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Up to three characters within <strong>Sensors</strong> are pulled <strong>1 space</strong> in any direction of your choice. Characters that have one or more conditions (<strong>Impaired</strong>, <strong>Slowed</strong>, etc) may be pulled <strong>2 spaces</strong> instead.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_sidereal_realignment_ultra",
+    "name": "Sidereal Realignment",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Up to three characters within <strong>Sensors</strong> are pulled <strong>1 space</strong> in any direction of your choice. Characters that have one or more conditions (<strong>Impaired</strong>, <strong>Slowed</strong>, etc) may be pulled <strong>2 spaces</strong> instead.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_slivershielding_ultra",
+    "name": "Slivershielding",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "This system replaces <strong>Resilient</strong>. The Ultra gains <strong>Resistance</strong> to all damage from attacks that originate beyond <strong>Range 3</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_slivershielding_ultra",
+    "name": "Slivershielding",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "This system replaces <strong>Resilient</strong>. The Ultra becomes permanently <strong>Invisible</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_short-cycle_lance_ultra",
+    "name": "Short-Cycle Lance",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "This powerful lance weapon begins charging during the Ultra's turn, which is visible to all characters. Set a <strong>Charge Die</strong>, <strong>1d6</strong>, starting at <strong>6</strong>. At the start of each of the Ultra's turns, reduce the value of the <strong>Charge Die</strong> by <strong>1</strong>, then roll <strong>1d6</strong>: on <strong>5+</strong>, reduce the value by another <strong>1</strong>. The value is also reduced by <strong>1</strong> each time the Ultra takes <strong>stress or structure damage</strong>.<br><br>When the <strong>Charge Die</strong> reaches <strong>1</strong>, the Ultra may reset it to <strong>6</strong> and, as a <strong>full action</strong>, draw a <strong>Line 30</strong> path. All sources of cover, terrain, objects, and deployables smaller than <strong>Size 5</strong> are completely annihilated, and then all characters within the affected area must pass an <strong>Agility</strong> save or take <strong>1 structure damage</strong>. On a success, they are reduced to <strong>1 HP</strong>.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_suppression_pulse_ultra",
+    "name": "Suppression Pulse",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "All hostile characters in a <strong>Blast 2</strong> area within <strong>Sensors</strong> must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_volley_module_ultra",
+    "name": "Volley Module",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra adopts a stable stance and prepares one of their weapons. On their next turn, as a <strong>protocol</strong>, the Ultra uses the prepared weapon to attack any number of characters once, as long as they are within <strong>Range</strong>, and aren't in cover or <strong>Prone</strong>. All characters are aware of this attack and can choose to drop <strong>Prone</strong> as a <strong>free action</strong> on their turn to avoid being targeted.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_wolfhound_missile_ultra",
+    "name": "Wolfhound Missile",
+    "origin": {
+      "type": "Template",
+      "name": "ULTRA",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "<strong>Wolfound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone and Immobilized</strong>).<br><br>The Ultra deploys the Wolfound Missile in an adjacent space and picks a target in <strong>Range 30</strong> and line of sight. At the start of the Ultra’s turns the missile makes its own standard move, <strong>flying 4 spaces</strong> towards its target, <strong>8</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2 explosion</strong>. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{14/20/28} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Wolfound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, and the missile immediately moves another <strong>4 spaces</strong> towards its target.",
+    "tags": [
+      {
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
     "id": "npc-rebake_npcf_argus_armor_ultra",
     "name": "Argus Armor",
     "origin": {

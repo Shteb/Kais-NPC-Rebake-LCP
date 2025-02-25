@@ -7089,7 +7089,8 @@
     "effect": "The Ultra gains <strong>+4 Evasion</strong> (to a maximum of <strong>20</strong>), <strong>+1 Accuracy</strong> on all saves, and <strong>-1 Structure</strong>.",
     "tags": [],
     "bonus": {
-      "structure": -1
+      "structure": -1,
+      "evade": 5
     }
   },
   {
@@ -7103,7 +7104,10 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Ultra gains <strong>+4 E-Defense</strong> (to a maximum of <strong>20</strong>) and <strong>+1 Accuracy</strong> on all <strong>tech attacks</strong>.",
-    "tags": []
+    "tags": [],
+    "bonus": {
+      "edef": 5
+    }
   },
   {
     "id": "npc-rebake_npcf_limitless_ultra",
@@ -7142,7 +7146,10 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Ultra gains <strong>+5 HP</strong>. When using <strong>Juggernaut</strong>, the Ultra may clear two conditions at a time instead of one. Different costs must be chosen for each condition cleared this way.",
-    "tags": []
+    "tags": [],
+    "bonus": {
+      "hp": 5
+    }
   },
   {
     "id": "npc-rebake_npcf_superior_frame_ultra",

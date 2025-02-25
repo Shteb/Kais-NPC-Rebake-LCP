@@ -6612,8 +6612,21 @@
   },
   // ULTRA REBAKE FEATURES BEGIN HERE
   {
-    "id": "npc-rebake_npcf_sidereal_realignment_ultra",
-    "name": "Sidereal Realignment",
+    "id": "npc-rebake_npcf_ultra_systems_and_traits_ultra",
+    "name": "Ultra Systems and Traits",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra chooses 1-3 options from the Ultra Systems and Traits list.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_aceso_flock_ultra",
+    "name": "Aceso Flock",
     "origin": {
       "type": "Template",
       "name": "Ultra [K]",
@@ -6621,12 +6634,150 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Up to three characters within <strong>Sensors</strong> are pulled <strong>1 space</strong> in any direction of your choice. Characters that have one or more conditions (<strong>Impaired</strong>, <strong>Slowed</strong>, etc) may be pulled <strong>2 spaces</strong> instead.",
+    "effect": "Up to two allied characters within <strong>Range 5</strong> gain <strong>{4/5/6} Overshield</strong>, and while they have this <strong>Overshield</strong> they have <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Jammed</strong> (clearing those conditions if they already have them).",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_all-theater_ex_suite_ultra",
+    "name": "All-Theater EX Suite",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra can hover whenever they move.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_grind_maniple_ultra",
+    "name": "Grind Maniple",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, a swarm of tiny, hard to hit drones clamp onto the target, causing them to take <strong>2 burn</strong> each time they take any action or <strong>reaction</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
       }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
     ]
+  },
+  {
+    "id": "npc-rebake_npcf_harbinger_rockets_ultra",
+    "name": "Harbinger Rockets",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra launches a salvo of powerful rockets, targeting one space of their choice occupied by each hostile non-<strong>Drone</strong> character within <strong>Range 30</strong> and line of sight; all characters know that these spaces have been chosen. At the end of the next round, these rockets impact, creating a <strong>Blast 2</strong> explosion centered on each targeted space. Characters in these affected areas must pass an <strong>Agility</strong> save or take <strong>{10/14/18} explosive damage</strong> and become <strong>Shredded</strong> until the end of their next turn. On a success, they take half damage only.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_h0r_os_v??_puppet_crasher_ultra",
+    "name": "H0R_OS v?? Puppet Crasher",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, they take <strong>{2/3/4} heat</strong>, gain <strong>Lock On</strong>, become <strong>Impaired</strong> until the end of their next turn, and move their <strong>Speed</strong> in a direction of the Ultra's choice. This movement is involuntary, but provokes <strong>reactions</strong> and Engagement as normal and doesn’t count as <strong>Knockback</strong>, pushing, or pulling.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "5"
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_ontolotactical_array_ultra",
+    "name": "Ontolotactical Array",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Whenever an allied character within <strong>Range 10</strong> attempts an attack roll, check, or save, the Ultra may grant them additional <strong>Accuracy</strong> on that roll by expending charges from this system; this doesn't take an action, but can't be used if the Ultra is <strong>Jammed</strong> or <strong>Stunned</strong>. Up to <strong>2 charges</strong> can be expended per roll this way. The Ultra regains <strong>1 charge</strong> each time they end their turn without having made any attacks or forced any saves, and each time they take <strong>stress or structure damage</strong>, to a maximum of <strong>6</strong>.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_orbital_eye_ultra",
+    "name": "Orbital Eye",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "All hostile characters in a <strong>Blast 1</strong> area within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "5"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_repulsion_field_ultra",
+    "name": "Repulsion Field",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When hostile characters start their turn adjacent to the Ultra or become adjacent to the Ultra for the first time on their turn, they take <strong>{2/3/4} AP energy damage</strong> and must pass a <strong>Systems</strong> save or be knocked back <strong>2 spaces</strong> and become <strong>Impaired</strong> until the end of their next turn.",
+    "tags": []
   },
   {
     "id": "npc-rebake_npcf_sidereal_realignment_ultra",

@@ -6610,7 +6610,6 @@
     "effect": "When the Witch uses the <strong>Invade Quick Tech</strong> action, on hit the target is also <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
-  // ULTRA REBAKE FEATURES BEGIN HERE
   {
     "id": "npc-rebake_npcf_best_of_the_best_ultra",
     "name": "Best of the Best",
@@ -6934,8 +6933,8 @@
     ]
   },
   {
-    "id": "npc-rebake_npcf_slivershielding_ultra",
-    "name": "Slivershielding",
+    "id": "npc-rebake_npcf_siege_shield_ultra",
+    "name": "Siege Shield",
     "origin": {
       "type": "Template",
       "name": "Ultra [K]",

@@ -6230,7 +6230,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, when the Ace hits a hostile character with a ranged attack, that character must pass an <strong>Agility</strong> save or immediately land if <strong>flying</strong> (this counts as falling without any damage), and additionally become unable to fly until the end of their next turn.",
+    "effect": "1/round, when the Ace hits a hostile character with a ranged attack, that character must pass an <strong>Agility</strong> save or immediately land if <strong>flying</strong> (this counts as falling without any damage), and additionally become unable to fly or take <strong>reactions</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -6308,7 +6308,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters being protected by <strong>Friendly Interdiction</strong> may use the Bastion's <strong>Armor</strong> instead of their own whenever they take damage.",
+    "effect": "Characters benefiting from <strong>Guardian's hard cover</strong> or being protected by <strong>Friendly Interdiction</strong> may use the Bastion's <strong>Armor</strong> instead of their own whenever they take damage.",
     "tags": []
   },
   {
@@ -6373,7 +6373,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "All other characters treat a <strong>Burst 3</strong> area around the Demolisher as <strong>difficult terrain</strong>.",
+    "effect": "All other characters treat a <strong>Burst 2</strong> area around the Demolisher as <strong>difficult terrain</strong>.",
     "tags": []
   },
   {
@@ -6390,8 +6390,8 @@
     "tags": []
   },
   {
-    "id": "npc-rebake_npcf_oppressive_force_veteran",
-    "name": "Oppressive Force [Goliath]",
+    "id": "npc-rebake_npcf_oppression_veteran",
+    "name": "Oppression [Goliath]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",

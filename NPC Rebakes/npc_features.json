@@ -5856,6 +5856,19 @@
     ]
   },
   {
+    "id": "npc-rebake_npcf_reinforced_systems_controller_grunt",
+    "name": "Reinforced Systems",
+    "origin": {
+      "type": "Class",
+      "name": "Grunt Controller",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Controller-Type ignores the first amount of <strong>Heat</strong> they take during a scene.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_combat_shotgun_defender_grunt",
     "name": "Combat Shotgun",
     "origin": {
@@ -5949,7 +5962,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+{2/3/4} bonus damage</strong>.",
+    "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+2 bonus damage</strong>.",
     "tags": [],
     "weapon_type": "Main Rifle",
     "attack_bonus": [

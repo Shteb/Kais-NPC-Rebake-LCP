@@ -2422,7 +2422,7 @@
         ],
         "optional_features": [
             "npc-rebake_npcf_spotter_scout",
-            "npc-rebake_npcf_scout_drone_scout",
+            "npc-rebake_npcf_sensor_link_scout",
             "npc-rebake_npcf_orbital_strike_scout",
             "npc-rebake_npcf_expose_weakness_scout",
             "npc-rebake_npcf_pathfinder_scout"

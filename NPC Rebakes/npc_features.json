@@ -5106,7 +5106,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The <strong>Monowire Sword</strong> deals double damage when no other characters are adjacent to the target.",
+    "effect": "The <strong>Monowire Sword</strong> deals double damage when no other characters are adjacent to the target besides the Specter (bonus damage is not doubled).",
     "tags": []
   },
   {
@@ -5175,9 +5175,9 @@
     ],
     "tech_type": "Quick",
     "attack_bonus": [
-      1,
       2,
-      3
+      4,
+      6
     ]
   },
   {
@@ -5190,7 +5190,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter becomes <strong>Intangible</strong> until the start of their next turn and moves spaces equal to their <strong>Speed</strong>. At the start of their next turn, their next attack with the <strong>Monowire Sword</strong> gains <strong>+1 Accuracy</strong> and deals <strong>+1d6 bonus damage</strong> on a critical hit. This bonus damage is not doubled.",
+    "effect": "The Specter becomes <strong>Intangible</strong> until the start of their next turn and moves spaces equal to their <strong>Speed</strong>. At the start of their next turn, their next attack with the <strong>Monowire Sword</strong> gains <strong>+1 Accuracy</strong> and deals <strong>+1d6 bonus damage</strong> on a critical hit.",
     "tags": [
       {
         "id": "tg_full_action"

@@ -4861,6 +4861,11 @@
       4,
       6
     ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
     "damage": [
       {
         "type": "kinetic",

@@ -7367,10 +7367,10 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "",
+    "effect": "If the Ultra does not make any other attacks during their turn, they may attack with this weapon as a <strong>free action</strong>.",
     "tags": [
       {
-        "id": "tg_smart"
+        "id": "tg_seeking"
       }
     ],
     "weapon_type": "Auxiliary Launcher",
@@ -7392,7 +7392,7 @@
     "range": [
       {
         "type": "Range",
-        "val": 10
+        "val": 15
       },
       {
         "type": "Blast",

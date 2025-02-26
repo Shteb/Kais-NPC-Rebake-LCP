@@ -105,7 +105,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon deals double damage to characters with <strong>Lock On</strong>, and doesn’t affect allied characters.",
+    "effect": "This weapon deals double damage to characters with <strong>Lock On</strong>, and doesn’t affect allied characters (bonus damage is not doubled).",
     "tags": [
       {
         "id": "tg_loading"

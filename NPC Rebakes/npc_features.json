@@ -6891,7 +6891,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "All hostile characters in a <strong>Blast 1</strong> area within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
+    "effect": "All hostile characters in a <strong>Blast 2</strong> area within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -7284,20 +7284,25 @@
     "locked": false,
     "type": "Weapon",
     "effect": "<strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.<br><br>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double damage.",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "{2/3/4}"
+      }
+    ],
     "weapon_type": "Heavy Melee",
     "attack_bonus": [
-      1,
       2,
-      3
+      4,
+      6
     ],
     "damage": [
       {
         "type": "Kinetic",
         "damage": [
-          5,
           6,
-          7
+          7,
+          8
         ]
       }
     ],
@@ -7367,10 +7372,10 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "",
+    "effect": "If the Ultra does not make any other attacks during their turn, they may attack with this weapon as a <strong>free action</strong>.",
     "tags": [
       {
-        "id": "tg_smart"
+        "id": "tg_seeking"
       }
     ],
     "weapon_type": "Auxiliary Launcher",
@@ -7392,7 +7397,7 @@
     "range": [
       {
         "type": "Range",
-        "val": 10
+        "val": 15
       },
       {
         "type": "Blast",

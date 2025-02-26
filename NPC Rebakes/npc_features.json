@@ -105,7 +105,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon deals double damage to characters with <strong>Lock On</strong>, and doesn’t affect allied characters.",
+    "effect": "This weapon deals double damage to characters with <strong>Lock On</strong>, and doesn’t affect allied characters (bonus damage is not doubled).",
     "tags": [
       {
         "id": "tg_loading"
@@ -167,7 +167,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Whenever the Ace would gain a condition from a hostile character, it may spend a charge from this system to ignore that condition. The Ace then takes <strong>4 Heat</strong>, and the character that inflicted that condition gains <strong>Lock On</strong>.",
+    "effect": "Whenever the Ace would gain a condition from a hostile character (<strong>Impaired</strong>, <strong>Slowed</strong>, etc), it may spend a charge from this system to ignore that condition. The character that inflicted that condition then gains <strong>Lock On</strong>.",
     "tags": [
       {
         "id": "tg_limited",
@@ -185,7 +185,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Ace is destroyed, it instead moves up to its <strong>Speed</strong> and immediately lands, remaining at <strong>1 HP</strong>. The <strong>SSC Flight System</strong> is then permanently destroyed, and all of the Ace's other systems and traits are disabled. If the <strong>SSC Flight System</strong> is already destroyed, this trait has no effect.",
+    "effect": "Whenever the Ace is destroyed, it instead moves up to its <strong>Speed</strong> and immediately lands, remaining at <strong>1 HP</strong>. All of the Ace's systems and traits (but not weapons) are then disabled",
     "tags": []
   },
   {
@@ -328,7 +328,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Aegis activates <strong>Defense Net</strong>, it may choose a free space within <strong>Range 10</strong> and generate a <strong>Burst 2</strong> area centered on that space instead. All other effects of <strong>Defense Net</strong> remain the same while this remote field is active (e.g. the Aegis is <strong>Immobilized</strong>, etc).",
+    "effect": "When the Aegis activates <strong>Defense Net</strong>, it may choose a free space within <strong>Range 5</strong> and generate a <strong>Burst 2</strong> area centered on that space instead. All other effects of <strong>Defense Net</strong> remain the same while this remote field is active (e.g. the Aegis is <strong>Immobilized</strong>, etc).",
     "tags": [
       {
         "id": "tg_recharge",
@@ -385,8 +385,8 @@
         "type": "kinetic",
         "damage": [
           5,
-          6,
-          7
+          7,
+          9
         ]
       }
     ],
@@ -589,13 +589,13 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "Deals double damage to <strong>Prone</strong>, <strong>Shredded</strong>, <strong>Immobilized</strong>, or <strong>Stunned</strong> targets.",
+    "effect": "Deals double damage to <strong>Prone</strong>, <strong>Shredded</strong>, <strong>Immobilized</strong>, or <strong>Stunned</strong> targets (bonus damage is not doubled).",
     "tags": [],
     "weapon_type": "Main Melee",
     "attack_bonus": [
+      1,
       2,
-      3,
-      4
+      3
     ],
     "accuracy": [
       1,
@@ -782,7 +782,7 @@
         "val": 6
       },
       {
-        "id": "tg_quick_tech"
+        "id": "tg_quick_action"
       }
     ]
   },
@@ -944,7 +944,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Assault launches a <strong>Line 10</strong> volley of micro-missiles. All characters within the affected area must succeed on a <strong>Hull</strong> save or take {6/8/10} explosive damage. On a successful save, they take half damage.",
+    "effect": "The Assault launches a <strong>Line 10</strong> volley of micro-missiles. All characters within the affected area must succeed on a <strong>Hull</strong> save or take <strong>{6/8/10} explosive damage</strong>. On a successful save, they take half damage. Characters who do not have cover make this save with <strong>+1 Difficulty</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -984,7 +984,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Hunker Down</strong> no longer causes the Assault to become <strong>Slowed</strong>. Whenever the Assault uses <strong>Hunker Down</strong>, they may also move up to their <strong>Speed</strong> as part of the Reaction.",
+    "effect": "When the Assault uses <strong>Hunker Down</strong>, instead of the normal effect, they may instead <strong>Boost</strong> and gain <strong>+1 Accuracy</strong> on all attacks, checks, and saves until the end of their next turn.",
     "tags": []
   },
   {
@@ -1691,7 +1691,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Flare Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/20/30}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)<br>This drone can be deployed to a space within line of sight and <strong>Range 25</strong>, where it hovers in place and begins projecting bright light in a <strong>Burst 2</strong> area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the Bombard gains <strong>+1 Accuracy</strong> to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
+    "effect": "<strong>Flare Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/15/20}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)<br>This drone can be deployed to a space within line of sight and <strong>Range 25</strong>, where it hovers in place and begins projecting bright light in a <strong>Burst 2</strong> area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the Bombard gains <strong>+1 Accuracy</strong> to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
     "tags": [
       {
         "id": "tg_drone"
@@ -1799,7 +1799,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Breacher moves up to <strong>6 spaces</strong> in a straight line, ignoring engagement and passing through – but not stopping in – spaces occupied by other characters. Obstructions and objects in the Breacher’s path take <strong>10/20/30 AP kinetic damage</strong>. The Breacher passes through any obstructions destroyed this way and continues moving until they have moved <strong>6 spaces</strong> or fail to destroy an obstruction. Any characters in the Breacher’s path must succeed on an <strong>Agility</strong> save or be pushed out of the way as directly as possible and knocked <strong>Prone</strong>.",
+    "effect": "The Breacher moves up to <strong>6 spaces</strong> in a straight line, ignoring engagement and passing through – but not stopping in – spaces occupied by other characters. Obstructions and objects in the Breacher’s path take <strong>30 AP kinetic damage</strong>. The Breacher passes through any obstructions destroyed this way and continues moving until they have moved <strong>6 spaces</strong> or fail to destroy an obstruction. Any characters in the Breacher’s path must succeed on an <strong>Agility</strong> save or be pushed out of the way as directly as possible and knocked <strong>Prone</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1874,7 +1874,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Breacher may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the ensuing <strong>Blast 1</strong> explosion must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and become <strong>Shredded</strong> until the end of their next turn. Objects, terrain, and <strong>Deployables</strong> in the area automatically take <strong>{10/20/30} AP explosive damage</strong>; if any objects or terrain are destroyed this way, the Breacher may immediately move their <strong>Speed</strong> towards one of those spaces or as close as possible.",
+    "effect": "The Breacher may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the ensuing <strong>Blast 1</strong> explosion must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and become <strong>Shredded</strong> until the end of their next turn. Objects, terrain, and <strong>Deployables</strong> in the area automatically take <strong>30 AP explosive damage</strong>; if any objects or terrain are destroyed this way, the Breacher may immediately move their <strong>Speed</strong> towards one of those spaces or as close as possible.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2188,7 +2188,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Attack</strong>: The Demolisher deals <strong>10/20/30 AP kinetic damage</strong> to an object or piece of terrain within <strong>Range 2</strong>, if there is one. Hit or miss, place a <strong>Size 1</strong> piece of terrain that grants <strong>hard cover</strong> in a free space adjacent to your target. The terrain has <strong>10 HP</strong> and <strong>Evasion 5</strong>.",
+    "effect": "<strong>On Attack</strong>: The Demolisher deals <strong>10/20/30 AP kinetic damage</strong> to an object or piece of terrain within <strong>Range 2</strong>, if there is one. Hit or miss, place a <strong>Size 1</strong> piece of terrain that grants <strong>hard cover</strong> in a free space adjacent to your target. The terrain has <strong>10 HP</strong> and <strong>Evasion 5</strong>. This weapon does not need to be retrieved between uses",
     "tags": [
       {
         "id": "tg_thrown",
@@ -2646,7 +2646,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "A character within <strong>Sensors</strong> and line of sight must pass a <strong>Hull</strong> save or be pulled <strong>3 spaces</strong> towards the Goliath. If they are pulled adjacent to the Goliath, they automatically become grappled. The Goliath can only grapple one character this way at a time, and can't use this system while grappling someone this way.",
+    "effect": "A character within Sensors and line of sight must pass a <strong>Hull</strong> save or be pulled <strong>3 spaces</strong> towards the Goliath. If they are pulled adjacent to the Goliath (or are already adjacent to them), they automatically become grappled. The Goliath can only grapple one character this way at a time, and can't use this system while grappling someone this way.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -2979,7 +2979,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Hornet flies to a space in line of sight and <strong>Range 50</strong> so impossibly fast that it counts as <strong>teleportation</strong>. If they end this movement within <strong>Range 5</strong> of another character, that character becomes <strong>Impaired</strong> until the end of their next turn and this ability automatically recharges; If multiple characters are within <strong>Range 5</strong>, the Hornet chooses one of them.",
+    "effect": "The Hornet flies to a space in line of sight and <strong>Range 50</strong> so impossibly fast that it counts as <strong>teleportation</strong>. If they end this movement within <strong>Range 5</strong> of another character, that character becomes <strong>Impaired</strong> until the end of their next turn and this ability automatically recharges; if multiple characters are within <strong>Range 5</strong>, the Hornet chooses only one of them to become <strong>Impaired</strong>.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -3035,7 +3035,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hornet makes a Tech Attack against a target in <strong>Sensors</strong>. On a success, they take <strong>{3/4/5} Heat</strong> and are pushed <strong>3 spaces</strong> in a direction of the Hornet's choice, then the Hornet moves to a free space within <strong>Range 5</strong> of the target as directly as possible.",
+    "effect": "The Hornet makes a Tech Attack against a target in <strong>Sensors</strong>. On a success, they take <strong>{3/4/5} Heat</strong> and are pushed <strong>3 spaces</strong> in a direction of the Hornet's choice, then the Hornet moves to any free space within <strong>Range 5</strong> of the target as directly as possible.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3312,7 +3312,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Operator <strong>teleports</strong> during their turn before making any attacks, they gain <strong>+1 Accuracy</strong> on all attacks with the <strong>Raptor Plasma Rifle</strong> until the end of their turn. Whenever the Operator <strong>teleports</strong> during their turn after making any attacks, all attacks against them recieve <strong>+1 Difficulty</strong> until the end of their next turn.",
+    "effect": "Whenever the Operator <strong>teleports</strong> during their turn before making any attacks, they gain <strong>+1 Accuracy</strong> on all attacks with the <strong>Raptor Plasma Rifle</strong> until the end of their turn. Whenever the Operator <strong>teleports</strong> during their turn after making any attacks, all attacks against them recieve <strong>+1 Difficulty</strong> until the end of their next turn. If the Operator splits their movement with an attack, they may only choose one of these effects.",
     "tags": []
   },
   {
@@ -3658,7 +3658,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Pyro clears all <strong>Heat</strong>. All characters within <strong>Burst 2</strong> must pass an <strong>Agility</strong> save or take <strong>Heat</strong> equal to <strong>half the amount the Pyro cleared</strong> and be knocked <strong>Prone</strong>.",
+    "effect": "The Pyro clears all heat. All characters within <strong>Burst 2 </strong>must pass an <strong>Agility</strong> save or take <strong>heat</strong> equal to <strong>half the amount the Pyro cleared</strong> and be knocked <strong>Prone</strong>.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -3848,7 +3848,7 @@
   },
   {
     "id": "npc-rebake_npcf_hound_missiles_rainmaker",
-    "name": "Hounds Missiles",
+    "name": "Hound Missiles",
     "origin": {
       "type": "Class",
       "name": "Rainmaker [K]",
@@ -3856,7 +3856,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Hound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone and Immobilized</strong>).<br>The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in <strong>Range 15</strong> and line of sight. At the start of the Rainmaker’s turns the missile makes its own standard move, <strong>flying 3 spaces</strong> towards its target, 6 if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When it collides with a character or reaches its target, it creates a <strong>Burst 1</strong> explosion. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{16/20/24} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested Systems check against the Rainmaker. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Rainmaker may change the missile's target to that character.",
+    "effect": "<strong>Hound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone and Immobilized</strong>).<br>The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in <strong>Range 15</strong> and line of sight. At the start of the Rainmaker’s turns the missile makes its own standard move, <strong>flying 3 spaces</strong> towards its target, <strong>6</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{16/20/24} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Rainmaker. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Rainmaker may change the missile's target to that character",
     "tags": [
       {
         "id": "tg_drone"
@@ -4021,7 +4021,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever a character makes a ranged attack against the Ronin, that character gains a <strong>Ronin's Mark</strong>. Only one character at a time can have a <strong>Ronin's Mark</strong>; if a new mark is applied, any others are removed. When the Ronin makes a successful attack against a character using the <strong>Carbon Fiber Sword</strong>, it can consume the <strong>Ronin's Mark</strong> to deal <strong>+1d6 bonus damage</strong>.",
+    "effect": "Whenever a hostile character within <strong>Range 5</strong> makes a ranged attack, the Ronin may give them a <strong>Ronin's Mark</strong>. Only one character at a time can have a <strong>Ronin's Mark</strong>; if a new mark is applied, any others are removed. When the Ronin makes a successful attack against a character using the <strong>Carbon Fiber Sword</strong>, it can consume the <strong>Ronin's Mark</strong> to deal <strong>+1d6 bonus damage</strong>.",
     "tags": []
   },
   {
@@ -4225,12 +4225,15 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
-    "effect": "When the Scourer makes an attack with the <strong>Thermal Lance</strong>, they can attack two targets at a time, dealing half damage on hit. This trait automatically <strong>Recharges</strong> whenever <strong>Cooling Module</strong> activates.",
+    "type": "System",
+    "effect": "The next time the Scourer makes an attack with the <strong>Thermal Lance</strong>, they can attack two targets at a time, dealing half damage on hit. This system automatically <strong>recharges</strong> whenever <strong>Cooling Module</strong> activates.",
     "tags": [
       {
         "id": "tg_recharge",
         "val": 6
+      },
+      {
+        "id": "tg_protocol"
       }
     ]
   },
@@ -4327,7 +4330,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Scout makes a tech attack against a target in Sensors. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn.",
+    "effect": "The Scout makes a tech attack against a target in <strong>Sensors</strong>. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn. The Scout may choose to automatically hit allied characters with this tech attack; if they do, this system automatically <strong>recharges</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -4340,8 +4343,8 @@
     "tech_type": "Quick",
     "attack_bonus": [
       2,
-      3,
-      4
+      4,
+      6
     ]
   },
   {
@@ -4379,26 +4382,19 @@
     "tags": []
   },
   {
-    "id": "npc-rebake_npcf_scout_drone_scout",
-    "name": "Scout Drone",
+    "id": "npc-rebake_npcf_sensor_link_scout",
+    "name": "Sensor Link",
     "origin": {
       "type": "Class",
       "name": "Scout [K]",
-      "base": true
+      "base": false
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Scout Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {5/8/10}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)<br>The Scout deploys the drone to a free space within <strong>Sensors</strong> The drone creates a <strong>Burst 2</strong> perimeter, within which characters cannot become <strong>Invisible</strong> or <strong>Hide</strong>, and lose those conditions if they have them. The Scout and all allied characters also gain <strong>+1 Accuracy</strong> when attacking characters within the affected area. The drone can be deployed to a new location as a protocol.",
+    "effect": "The Scout chooses an allied character within <strong>Range 3</strong> and patches their own sensor feed directly into that ally's systems, becoming <strong>Immobilized</strong> until the end of their next turn. That character gains the benefits of <strong>Sight</strong>. This effect lasts until the Scout is destroyed or until the end of the Scout's next turn",
     "tags": [
       {
-        "id": "tg_drone"
-      },
-      {
-        "id": "tg_limited",
-        "val": 1
-      },
-      {
-        "id": "tg_quick_action"
+        "id": "tg_full_action"
       }
     ]
   },
@@ -4412,7 +4408,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scout chooses a space on the ground, within line of sight and <strong>Range 20</strong>; all characters know that it has been chosen. The Scout calls in an orbital bombardment that hits at the end of the next round, creating a <strong>Burst 2</strong> explosion. Characters in the affected area must make <strong>Agility</strong> saves. On a fail, they take <strong>{12/16/20} Energy damage</strong> and are knocked <strong>Prone</strong>. On a pass, they take half damage and remain standing.",
+    "effect": "The Scout chooses a space on the ground, within line of sight and <strong>Range 20</strong>; all characters know that it has been chosen. The Scout calls in an orbital bombardment that hits at the end of the next round, creating a <strong>Burst 2</strong> explosion. Characters in the affected area must make <strong>Agility</strong> saves. On a fail, they take <strong>{12/16/20} Energy damage</strong> and are knocked <strong>Prone</strong>. On a success, they take half damage and remain standing.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -4433,7 +4429,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters that are successfully attacked with the <strong>Marker Rifle</strong> gain a <strong>Scout's Mark</strong>. Only one character can be marked this way at a time, and marking another character clears any marks from the last one. The next time an ally successfully hits a character with a <strong>Scout's Mark</strong>, they may consume the mark to choose one of the following:<ul><li>The Target takes <strong>+1d6 bonus damage</strong>.</li><li>The target is knocked <strong>Prone</strong>.</li><li>The target only has line of sight to adjacent spaces until the end of their next turn</li><ul>",
+    "effect": "Characters that are successfully attacked with the <strong>Marker Rifle</strong> gain a <strong>Scout's Mark</strong>. Only one character can be marked this way at a time, and marking another character clears any marks from the last one. The next time an ally successfully hits a character with a <strong>Scout's Mark</strong>, they may consume the mark to choose one of the following:<ul><li>The Target takes <strong>+1d6 bonus damage</strong>.</li><li>The target is knocked <strong>Prone</strong>.</li><li>The target is pushed <strong>2 spaces</strong> in a direction of the attacker's choice and <strong>Impaired</strong> until the end of their next turn.</li><ul>",
     "tags": []
   },
   {
@@ -4446,8 +4442,13 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>1/round</strong>, whenever the Scout successfully attacks with the <strong>Marker Rifle</strong>, an allied character within <strong>Sensors</strong> and line of sight can move up to their <strong>Speed</strong> as a Reaction.",
-    "tags": []
+    "effect": "After the Scout successfully attacks with the <strong>Marker Rifle</strong>, an allied character within <strong>Sensors</strong> and line of sight can <strong>Boost</strong> as a reaction.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_grav_grenade_launcher_seeder",
@@ -4860,6 +4861,11 @@
       4,
       6
     ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
     "damage": [
       {
         "type": "kinetic",
@@ -5100,7 +5106,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The <strong>Monowire Sword</strong> deals double damage when no other characters are adjacent to the target.",
+    "effect": "The <strong>Monowire Sword</strong> deals double damage when no other characters are adjacent to the target besides the Specter (bonus damage is not doubled).",
     "tags": []
   },
   {
@@ -5169,9 +5175,9 @@
     ],
     "tech_type": "Quick",
     "attack_bonus": [
-      1,
       2,
-      3
+      4,
+      6
     ]
   },
   {
@@ -5184,7 +5190,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter becomes <strong>Intangible</strong> until the start of their next turn and moves spaces equal to their <strong>Speed</strong>. At the start of their next turn, their next attack with the <strong>Monowire Sword</strong> gains <strong>+1 Accuracy</strong> and deals <strong>+1d6 bonus damage</strong> on a critical hit. This bonus damage is not doubled.",
+    "effect": "The Specter becomes <strong>Intangible</strong> until the start of their next turn and moves spaces equal to their <strong>Speed</strong>. At the start of their next turn, their next attack with the <strong>Monowire Sword</strong> gains <strong>+1 Accuracy</strong> and deals <strong>+1d6 bonus damage</strong> on a critical hit.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -5855,6 +5861,19 @@
     ]
   },
   {
+    "id": "npc-rebake_npcf_reinforced_systems_controller_grunt",
+    "name": "Reinforced Systems",
+    "origin": {
+      "type": "Class",
+      "name": "Grunt Controller",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Controller-Type ignores the first amount of <strong>Heat</strong> they take during a scene.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_combat_shotgun_defender_grunt",
     "name": "Combat Shotgun",
     "origin": {
@@ -5948,7 +5967,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+{2/3/4} bonus damage</strong>.",
+    "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+2 bonus damage</strong>.",
     "tags": [],
     "weapon_type": "Main Rifle",
     "attack_bonus": [
@@ -6230,7 +6249,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, when the Ace hits a hostile character with a ranged attack, that character must pass an <strong>Agility</strong> save or immediately land if <strong>flying</strong> (this counts as falling without any damage), and additionally become unable to fly until the end of their next turn.",
+    "effect": "1/round, when the Ace hits a hostile character with a ranged attack, that character must pass an <strong>Agility</strong> save or immediately land if <strong>flying</strong> (this counts as falling without any damage), and additionally become unable to fly or take <strong>reactions</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -6308,7 +6327,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters being protected by <strong>Friendly Interdiction</strong> may use the Bastion's <strong>Armor</strong> instead of their own whenever they take damage.",
+    "effect": "Characters benefiting from <strong>Guardian's hard cover</strong> or being protected by <strong>Friendly Interdiction</strong> may use the Bastion's <strong>Armor</strong> instead of their own whenever they take damage.",
     "tags": []
   },
   {
@@ -6373,7 +6392,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "All other characters treat a <strong>Burst 3</strong> area around the Demolisher as <strong>difficult terrain</strong>.",
+    "effect": "All other characters treat a <strong>Burst 2</strong> area around the Demolisher as <strong>difficult terrain</strong>.",
     "tags": []
   },
   {
@@ -6390,8 +6409,8 @@
     "tags": []
   },
   {
-    "id": "npc-rebake_npcf_oppressive_force_veteran",
-    "name": "Oppressive Force [Goliath]",
+    "id": "npc-rebake_npcf_oppression_veteran",
+    "name": "Oppression [Goliath]",
     "origin": {
       "type": "Template",
       "name": "Veteran [K]",
@@ -6891,7 +6910,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "All hostile characters in a <strong>Blast 1</strong> area within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
+    "effect": "All hostile characters in a <strong>Blast 2</strong> area within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -7284,20 +7303,25 @@
     "locked": false,
     "type": "Weapon",
     "effect": "<strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.<br><br>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double damage.",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "{2/3/4}"
+      }
+    ],
     "weapon_type": "Heavy Melee",
     "attack_bonus": [
-      1,
       2,
-      3
+      4,
+      6
     ],
     "damage": [
       {
         "type": "Kinetic",
         "damage": [
-          5,
           6,
-          7
+          7,
+          8
         ]
       }
     ],
@@ -7367,10 +7391,10 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "",
+    "effect": "If the Ultra does not make any other attacks during their turn, they may attack with this weapon as a <strong>free action</strong>.",
     "tags": [
       {
-        "id": "tg_smart"
+        "id": "tg_seeking"
       }
     ],
     "weapon_type": "Auxiliary Launcher",
@@ -7392,7 +7416,7 @@
     "range": [
       {
         "type": "Range",
-        "val": 10
+        "val": 15
       },
       {
         "type": "Blast",
@@ -7452,7 +7476,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: If the Ultra consumed <strong>Lock On</strong> as part of an attack with this weapon, they can choose one; the target becomes <strong>Slowed</strong> until the end of their next turn, <strong>Shredded</strong> until the end of their next turn, or the target only has line of sight to adjacent spaces until the end of their next turn.",
+    "effect": "<strong>On Critical Hit</strong>: The target must pass a <strong>Systems</strong> save, or the Ultra chooses one: <ul><li>The target becomes <strong>Slowed</strong> until the end of their next turn.</li><li>The target becomes <strong>Shredded</strong> until the end of their next turn.</li><li>The target only has line of sight to adjacent spaces until the end of their next turn.</li></ul> ",
     "tags": [
       {
         "id": "tg_smart"

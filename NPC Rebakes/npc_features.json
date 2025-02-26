@@ -5576,176 +5576,176 @@
     "id": "npc-rebake_npcf_chaff_grunt",
     "name": "Chaff",
     "origin": {
-        "type": "Class",
-        "name": "Grunt",
-        "base": true
+      "type": "Class",
+      "name": "Grunt",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "Grunts have <strong>1 HP</strong> and can’t gain more. Unlike other characters, they never take damage when they succeed on a save – regardless of the weapon or system used – but otherwise take damage normally.",
     "tags": []
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_weak_grunt",
     "name": "Weak",
     "origin": {
-        "type": "Class",
-        "name": "Grunt",
-        "base": true
+      "type": "Class",
+      "name": "Grunt",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "Grunts can never have more than <strong>1 structure</strong> and <strong>1 stress</strong>, and they are immediately destroyed when they take heat from any source other than their own systems and weapons.",
     "tags": []
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_rank_and_file_grunt",
     "name": "Rank and File",
     "origin": {
-        "type": "Class",
-        "name": "Grunt",
-        "base": true
+      "type": "Class",
+      "name": "Grunt",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "Grunts can’t take the <strong>Veteran</strong>, <strong>Squad</strong>, <strong>Elite</strong>, or <strong>Ultra</strong> templates.",
     "tags": [],
     "exclusive": [
-        "npct_veteran",
-        "npct_elite",
-        "npct_ultra"
+      "npct_veteran",
+      "npct_elite",
+      "npct_ultra"
     ]
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_mass_produced_grunt",
     "name": "Mass Produced",
     "origin": {
-        "type": "Class",
-        "name": "Grunt",
-        "base": true
+      "type": "Class",
+      "name": "Grunt",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "Grunts all have the same Mech Skills and Core Stats. When creating Grunts, choose which type they will be; <strong>Artillery-Type</strong>, <strong>Controller-Type</strong>, <strong>Defender-Type</strong>, <strong>Striker-Type</strong>, or <strong>Support-Type</strong>.",
     "tags": []
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_artillery_type_artillery_grunt",
     "name": "Artillery-Type",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Artillery",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Artillery",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "Choose either the DMR or Shoulder Mortar weapon.",
     "tags": []
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_dmr_artillery_grunt",
     "name": "DMR",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Artillery",
-        "base": false
+      "type": "Class",
+      "name": "Grunt Artillery",
+      "base": false
     },
     "locked": false,
     "type": "Weapon",
     "effect": "This weapon gains <strong>AP</strong> against targets with <strong>Lock On</strong>.",
     "tags": [
-        {
-            "id": "tg_ordnance"
-        }
+      {
+        "id": "tg_ordnance"
+      }
     ],
     "weapon_type": "Main Rifle",
     "attack_bonus": [
-        0,
-        0,
-        0
+      0,
+      0,
+      0
     ],
     "accuracy": [
-        1,
-        1,
-        1
+      1,
+      1,
+      1
     ],
     "damage": [
-        {
-            "type": "kinetic",
-            "damage": [
-                6,
-                7,
-                8
-            ]
-        }
+      {
+        "type": "kinetic",
+        "damage": [
+          6,
+          7,
+          8
+        ]
+      }
     ],
     "range": [
-        {
-            "type": "Range",
-            "val": 15
-        }
+      {
+        "type": "Range",
+        "val": 15
+      }
     ],
     "on_hit": ""
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_shoulder_mortar_artillery_grunt",
     "name": "Shoulder Mortar",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Artillery",
-        "base": false
+      "type": "Class",
+      "name": "Grunt Artillery",
+      "base": false
     },
     "locked": false,
     "type": "Weapon",
     "effect": "Targets with <strong>Lock On</strong> hit by this weapon take <strong>+2 bonus damage</strong>.",
     "tags": [
-        {
-            "id": "tg_arcing"
-        },
-        {
-            "id": "tg_ordnance"
-        }
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_ordnance"
+      }
     ],
     "weapon_type": "Main Cannon",
     "attack_bonus": [
-        1,
-        2,
-        3
+      1,
+      2,
+      3
     ],
     "accuracy": [
-        -1,
-        -1,
-        -1
+      -1,
+      -1,
+      -1
     ],
     "damage": [
-        {
-            "type": "explosive",
-            "damage": [
-                4,
-                5,
-                6
-            ]
-        }
+      {
+        "type": "explosive",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
     ],
     "range": [
-        {
-            "type": "Range",
-            "val": 15
-        },
-        {
-            "type": "Blast",
-            "val": 1
-        }
+      {
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
     ],
     "on_hit": ""
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_survival_pistol_artillery_grunt",
     "name": "Survival Pistol",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Artillery",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Artillery",
+      "base": true
     },
     "locked": false,
     "type": "Weapon",
@@ -5753,198 +5753,198 @@
     "tags": [],
     "weapon_type": "Auxiliary CQB",
     "attack_bonus": [
-        1,
-        2,
-        3
+      1,
+      2,
+      3
     ],
     "damage": [
-        {
-            "type": "kinetic",
-            "damage": [
-                2,
-                3,
-                4
-            ]
-        }
+      {
+        "type": "kinetic",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
     ],
     "range": [
-        {
-            "type": "Range",
-            "val": 5
-        },
-        {
-            "type": "Threat",
-            "val": 3
-        }
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
     ],
     "on_hit": ""
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_reflex_targeting_artillery_grunt",
     "name": "Reflex Targeting",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Artillery",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Artillery",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "The Artillery-Type has <strong>+5 Sensors</strong>, and may take the <strong>Lock On</strong> and <strong>Search </strong>actions before attacking with <strong>Ordnance</strong> weapons.",
     "tags": []
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_hostile_sync_controller_grunt",
     "name": "Hostile Sync",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Controller",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Controller",
+      "base": true
     },
     "locked": false,
     "type": "Tech",
     "effect": "Choose a hostile character within <strong>Sensors</strong>. While this ability is active, the Controller-Type is <strong>Immobilized</strong> but that character becomes <strong>Impaired</strong>. This effect lasts until the Controller-Type ends it as a protocol or until they are destroyed.",
     "tags": [
-        {
-            "id": "tg_full_tech"
-        }
+      {
+        "id": "tg_full_tech"
+      }
     ],
     "tech_type": "Full"
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_destabilize_controller_grunt",
     "name": "Destabilize",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Controller",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Controller",
+      "base": true
     },
     "locked": false,
     "type": "Tech",
     "effect": "The Controller-Type makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target is <strong>pushed 2 spaces</strong> in any direction and must pass a <strong>Systems</strong> save or be knocked <strong>Prone</strong>.",
     "tags": [
-        {
-            "id": "tg_quick_tech"
-        }
+      {
+        "id": "tg_quick_tech"
+      }
     ],
     "tech_type": "Quick",
     "attack_bonus": [
-        1,
-        2,
-        3
+      1,
+      2,
+      3
     ]
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_electro_chaff_controller_grunt",
     "name": "Electro-Chaff",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Controller",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Controller",
+      "base": true
     },
     "locked": false,
     "type": "System",
     "effect": "The Controller-Type creates a <strong>Blast 1</strong> area within <strong>Range 5</strong> that lasts until the end of the scene. Hostile characters that start their turn in the area or move into it for the first time on their turn take <strong>{2/3/4} heat</strong> and must pass a <strong>Systems</strong> save or become <strong>Slowed</strong> until the end of their next turn. A character can disperse this area by passing a <strong>Systems</strong> check as a quick action while adjacent to it.",
     "tags": [
-        {
-            "id": "tg_quick_action"
-        },
-        {
-            "id": "tg_limited",
-            "val": 1
-        }
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
     ]
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_combat_shotgun_defender_grunt",
     "name": "Combat Shotgun",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Defender",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Defender",
+      "base": true
     },
     "locked": false,
     "type": "Weapon",
     "effect": "",
     "tags": [
-        {
-            "id": "tg_knockback",
-            "val": 2
-        }
+      {
+        "id": "tg_knockback",
+        "val": 2
+      }
     ],
     "weapon_type": "Main CQB",
     "attack_bonus": [
-        1,
-        2,
-        3
+      1,
+      2,
+      3
     ],
     "damage": [
-        {
-            "type": "kinetic",
-            "damage": [
-                4,
-                5,
-                6
-            ]
-        }
+      {
+        "type": "kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
     ],
     "range": [
-        {
-            "type": "Range",
-            "val": 5
-        },
-        {
-            "type": "Threat",
-            "val": 3
-        }
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
     ],
     "on_hit": ""
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_ablative_armor_defender_grunt",
     "name": "Ablative Armor",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Defender",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Defender",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "The Defender-Type is <strong>Size 2</strong>, and begins each combat with <strong>{3/4/5} Overshield</strong>.",
     "tags": []
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_guardian_defender_grunt",
     "name": "Guardian",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Defender",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Defender",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "Adjacent allied characters can use the Defender-Type for <strong>hard cover</strong>.",
     "tags": []
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_striker_type_striker_grunt",
     "name": "Striker-Type",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Striker",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Striker",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "Choose either the Assault Rifle or Heavy Blade weapon. If you choose Heavy Blade, the Striker-Type has <strong>+2 Speed</strong>.",
     "tags": []
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_assault_rifle_striker_grunt",
     "name": "Assault Rifle",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Striker",
-        "base": false
+      "type": "Class",
+      "name": "Grunt Striker",
+      "base": false
     },
     "locked": false,
     "type": "Weapon",
@@ -5952,146 +5952,146 @@
     "tags": [],
     "weapon_type": "Main Rifle",
     "attack_bonus": [
-        0,
-        1,
-        2
+      0,
+      1,
+      2
     ],
     "damage": [
-        {
-            "type": "kinetic",
-            "damage": [
-                4,
-                5,
-                6
-            ]
-        }
+      {
+        "type": "kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
     ],
     "range": [
-        {
-            "type": "Range",
-            "val": 10
-        }
+      {
+        "type": "Range",
+        "val": 10
+      }
     ],
     "on_hit": ""
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_heavy_blade_striker_grunt",
     "name": "Heavy Blade",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Striker",
-        "base": false
+      "type": "Class",
+      "name": "Grunt Striker",
+      "base": false
     },
     "locked": false,
     "type": "Weapon",
     "effect": "<strong>On Critical Hit</strong>: The target must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>.",
     "tags": [
-        {
-            "id": "tg_knockback",
-            "val": 1
-        }
+      {
+        "id": "tg_knockback",
+        "val": 1
+      }
     ],
     "weapon_type": "Heavy Melee",
     "attack_bonus": [
-        1,
-        2,
-        3
+      1,
+      2,
+      3
     ],
     "damage": [
-        {
-            "type": "kinetic",
-            "damage": [
-                6,
-                7,
-                8
-            ]
-        }
+      {
+        "type": "kinetic",
+        "damage": [
+          6,
+          7,
+          8
+        ]
+      }
     ],
     "range": [
-        {
-            "type": "Threat",
-            "val": 1
-        }
+      {
+        "type": "Threat",
+        "val": 1
+      }
     ],
     "on_hit": ""
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_double_time_striker_grunt",
     "name": "Double Time",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Striker",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Striker",
+      "base": true
     },
     "locked": false,
     "type": "Trait",
     "effect": "The Striker-Type moves up to its Speed in any direction.",
     "tags": [
-        {
-            "id": "tg_protocol"
-        },
-        {
-            "id": "tg_limited",
-            "val": 1
-        }
+      {
+        "id": "tg_protocol"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
     ]
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_power_transmission_support_grunt",
     "name": "Power Transmission",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Support",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Support",
+      "base": true
     },
     "locked": false,
     "type": "System",
     "effect": "An allied character within <strong>Range 5</strong> gains <strong>+1 Accuracy</strong> to all attacks, checks, and saves until the end of the Support-Type's next turn. This effect does not stack, and it immediately ends if the Support-Type is destroyed.",
     "tags": [
-        {
-            "id": "tg_quick_action"
-        }
+      {
+        "id": "tg_quick_action"
+      }
     ]
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_recon_drones_support_grunt",
     "name": "Recon Drones",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Support",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Support",
+      "base": true
     },
     "locked": false,
     "type": "System",
     "effect": "Two hostile characters within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
     "tags": [
-        {
-            "id": "tg_quick_action"
-        }
+      {
+        "id": "tg_quick_action"
+      }
     ]
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_stabilizer_drones_support_grunt",
     "name": "Stabilizer Drones",
     "origin": {
-        "type": "Class",
-        "name": "Grunt Support",
-        "base": true
+      "type": "Class",
+      "name": "Grunt Support",
+      "base": true
     },
     "locked": false,
     "type": "System",
     "effect": "An allied character within <strong>Sensors</strong> gains <strong>{3/4/5} Overshield</strong> and clears <strong>Impaired</strong> and <strong>Slowed</strong>.",
     "tags": [
-        {
-            "id": "tg_quick_action"
-        },
-        {
-            "id": "tg_limited",
-            "val": 1
-        }
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
     ]
-},
-{
+  },
+  {
     "id": "npc-rebake_npcf_reinforced_veteran",
     "name": "Reinforced",
     "origin": {
@@ -6609,5 +6609,877 @@
     "type": "Trait",
     "effect": "When the Witch uses the <strong>Invade Quick Tech</strong> action, on hit the target is also <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_best_of_the_best_ultra",
+    "name": "Best of the Best",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra can’t take the <strong>Elite</strong> or <strong>Grunt</strong> templates.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_resilient_ultra",
+    "name": "Resilient",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+5 HP</strong>.",
+    "tags": [],
+    "bonus": {
+      "hp": 5
+    }
+  },
+  {
+    "id": "npc-rebake_npcf_reinforced_ultra",
+    "name": "Reinforced",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+3 Structure</strong> and <strong>+3 Stress</strong>.",
+    "tags": [],
+    "bonus": {
+      "structure": 3,
+      "stress": 3
+    }
+  },
+  {
+    "id": "npc-rebake_npcf_shock_and_awe_ultra",
+    "name": "Shock and Awe",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra takes <strong>two separate turns</strong> each round. They regain spent <strong>reactions</strong> each time they take a turn. If the Ultra is facing <strong>five or more</strong> hostile characters when combat begins, the Ultra takes a <strong>third turn</strong> each round.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_deadly_ultra",
+    "name": "Deadly",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra deals <strong>+1d6 bonus damage</strong> on <strong>critical hits</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_juggernaut_ultra",
+    "name": "Juggernaut",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the start of the Ultra’s turn, they may clear one condition. If they do, they choose one; become <strong>Impaired</strong> until the end of their turn, take <strong>5 energy damage</strong> that can't be reduced in any way, or instead of <strong>two quick actions or a full action</strong> during their turn, they may only take <strong>one quick action</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_auto-repair_functions_ultra",
+    "name": "Auto-Repair Functions",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the end of the Ultra's turn, they may repair one destroyed weapon or system of their choice. If they do, they choose one; become <strong>Jammed</strong> until the start of their next turn, or take <strong>1d6 heat</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_legendary_ultra",
+    "name": "Legendary",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra rolls all <strong>structure damage and overheating checks</strong> twice and chooses either result.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_reflex_ultra",
+    "name": "Reflex",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra can <strong>Overwatch</strong> unlimited times per round.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_advanced_kit_ultra",
+    "name": "Advanced Kit",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra chooses 1-2 additional optional systems from their class.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_ultra_systems_and_traits_ultra",
+    "name": "Ultra Systems and Traits",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra chooses 1-3 options from the <strong>Ultra Systems and Traits</strong> list.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_aceso_flock_ultra",
+    "name": "Aceso Flock",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Up to two allied characters within <strong>Range 5</strong> gain <strong>{4/5/6} Overshield</strong>, and while they have this <strong>Overshield</strong> they have <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Jammed</strong> (clearing those conditions if they already have them).",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_all-theater_ex_suite_ultra",
+    "name": "All-Theater EX Suite",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra can hover whenever they move.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_grind_maniple_ultra",
+    "name": "Grind Maniple",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, a swarm of tiny, hard to hit drones clamp onto the target, causing them to take <strong>2 burn</strong> each time they take any action or <strong>reaction</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_harbinger_rockets_ultra",
+    "name": "Harbinger Rockets",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra launches a salvo of powerful rockets, targeting one space of their choice occupied by each hostile non-<strong>Drone</strong> character within <strong>Range 30</strong> and line of sight; all characters know that these spaces have been chosen. At the end of the next round, these rockets impact, creating a <strong>Blast 2</strong> explosion centered on each targeted space. Characters in these affected areas must pass an <strong>Agility</strong> save or take <strong>{10/14/18} explosive damage</strong> and become <strong>Shredded</strong> until the end of their next turn. On a success, they take half damage only.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_h0r_os_v??_puppet_crasher_ultra",
+    "name": "H0R_OS v?? Puppet Crasher",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, they take <strong>{2/3/4} heat</strong>, gain <strong>Lock On</strong>, become <strong>Impaired</strong> until the end of their next turn, and move their <strong>Speed</strong> in a direction of the Ultra's choice. This movement is involuntary, but provokes <strong>reactions</strong> and Engagement as normal and doesn’t count as <strong>Knockback</strong>, pushing, or pulling.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "5"
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_ontolotactical_array_ultra",
+    "name": "Ontolotactical Array",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Whenever an allied character within <strong>Range 10</strong> attempts an attack roll, check, or save, the Ultra may grant them additional <strong>Accuracy</strong> on that roll by expending charges from this system; this doesn't take an action, but can't be used if the Ultra is <strong>Jammed</strong> or <strong>Stunned</strong>. Up to <strong>2 charges</strong> can be expended per roll this way. The Ultra regains <strong>1 charge</strong> each time they end their turn without having made any attacks or forced any saves, and each time they take <strong>stress or structure damage</strong>, to a maximum of <strong>6</strong>.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_orbital_eye_ultra",
+    "name": "Orbital Eye",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "All hostile characters in a <strong>Blast 1</strong> area within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "5"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_repulsion_field_ultra",
+    "name": "Repulsion Field",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When hostile characters start their turn adjacent to the Ultra or become adjacent to the Ultra for the first time on their turn, they take <strong>{2/3/4} AP energy damage</strong> and must pass a <strong>Systems</strong> save or be knocked back <strong>2 spaces</strong> and become <strong>Impaired</strong> until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_sidereal_realignment_ultra",
+    "name": "Sidereal Realignment",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Up to three characters within <strong>Sensors</strong> are pulled <strong>1 space</strong> in any direction of your choice. Characters that have one or more conditions (<strong>Impaired</strong>, <strong>Slowed</strong>, etc) may be pulled <strong>2 spaces</strong> instead.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_siege_shield_ultra",
+    "name": "Siege Shield",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "This system replaces <strong>Resilient</strong>. The Ultra gains <strong>Resistance</strong> to all damage from attacks that originate beyond <strong>Range 3</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_slivershielding_ultra",
+    "name": "Slivershielding",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "This system replaces <strong>Resilient</strong>. The Ultra becomes permanently <strong>Invisible</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_short-cycle_lance_ultra",
+    "name": "Short-Cycle Lance",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "This powerful lance weapon begins charging during the Ultra's turn, which is visible to all characters. Set a <strong>Charge Die</strong>, <strong>1d6</strong>, starting at <strong>6</strong>. At the start of each of the Ultra's turns, reduce the value of the <strong>Charge Die</strong> by <strong>1</strong>, then roll <strong>1d6</strong>: on <strong>5+</strong>, reduce the value by another <strong>1</strong>. The value is also reduced by <strong>1</strong> each time the Ultra takes <strong>stress or structure damage</strong>.<br><br>When the <strong>Charge Die</strong> reaches <strong>1</strong>, the Ultra may reset it to <strong>6</strong> and, as a <strong>full action</strong>, draw a <strong>Line 30</strong> path. All sources of cover, terrain, objects, and deployables smaller than <strong>Size 5</strong> are completely annihilated, and then all characters within the affected area must pass an <strong>Agility</strong> save or take <strong>1 structure damage</strong>. On a success, they are reduced to <strong>1 HP</strong>.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_suppression_pulse_ultra",
+    "name": "Suppression Pulse",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "All hostile characters in a <strong>Blast 2</strong> area within <strong>Sensors</strong> must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_volley_module_ultra",
+    "name": "Volley Module",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ultra adopts a stable stance and prepares one of their weapons. On their next turn, as a <strong>protocol</strong>, the Ultra uses the prepared weapon to attack any number of characters once, as long as they are within <strong>Range</strong>, and aren't in cover or <strong>Prone</strong>. All characters are aware of this attack and can choose to drop <strong>Prone</strong> as a <strong>free action</strong> on their turn to avoid being targeted.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_wolfhound_missile_ultra",
+    "name": "Wolfhound Missile",
+    "origin": {
+      "type": "Template",
+      "name": "ULTRA",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "<strong>Wolfound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone and Immobilized</strong>).<br><br>The Ultra deploys the Wolfound Missile in an adjacent space and picks a target in <strong>Range 30</strong> and line of sight. At the start of the Ultra’s turns the missile makes its own standard move, <strong>flying 4 spaces</strong> towards its target, <strong>8</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2 explosion</strong>. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{14/20/28} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Wolfound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, and the missile immediately moves another <strong>4 spaces</strong> towards its target.",
+    "tags": [
+      {
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_argus_armor_ultra",
+    "name": "Argus Armor",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra has <strong>6 Armor</strong> instead of its normal value. Each time they roll a <strong>structure damage or overheating check</strong>, they lose <strong>2 Armor</strong> to a minimum of <strong>0</strong>. While at <strong>0 Armor</strong>, the Ultra gains <strong>+1 Accuracy</strong> on all attacks.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_devastator_ultra",
+    "name": "Devastator",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/round, when the Ultra makes a successful attack, they may deal <strong>30 AP explosive damage</strong> to an object or piece of terrain within line of sight. All characters adjacent to that object or piece of terrain take <strong>{3/4/5} kinetic damage</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_greater_sight_ultra",
+    "name": "Greater Sight",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra ignores <strong>Invisible</strong> for characters within <strong>Range 10</strong>, and hostile characters in <strong>Range 10</strong> can’t <strong>Hide</strong> (though they remain <strong>Hidden</strong> if they were already). As a <strong>quick action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Ultra to attempt to disable this trait; all characters are aware of this. The Ultra must be within their <strong>Sensors</strong> for them to attempt this check. If they succeed, this trait is disabled until the end of the Ultra's next turn. If they fail, that character gains <strong>Lock On</strong> becomes <strong>Impaired</strong> until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_evasive_ultra",
+    "name": "Evasive",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+4 Evasion</strong> (to a maximum of <strong>20</strong>), <strong>+1 Accuracy</strong> on all saves, and <strong>-1 Structure</strong>.",
+    "tags": [],
+    "bonus": {
+      "structure": -1,
+      "evade": 5
+    }
+  },
+  {
+    "id": "npc-rebake_npcf_legion_ultra",
+    "name": "Legion",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+4 E-Defense</strong> (to a maximum of <strong>20</strong>) and <strong>+1 Accuracy</strong> on all <strong>tech attacks</strong>.",
+    "tags": [],
+    "bonus": {
+      "edef": 5
+    }
+  },
+  {
+    "id": "npc-rebake_npcf_limitless_ultra",
+    "name": "Limitless",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra can <strong>Overcharge</strong>. Instead of the standard cost, they always gain <strong>1d6 heat</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_superior_shielding_ultra",
+    "name": "Superior Shielding",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "This trait replaces <strong>Resilient</strong>. At the start of the Ultra's turn, the Ultra chooses one damage type - <strong>kinetic, explosive, or energy damage</strong> - and gains <strong>Resistance</strong> to that damage until the start of their next turn. The Ultra can’t gain <strong>Resistance</strong> to more than two of these damage types at a time, whether from this or any other system.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_superior_construction_ultra",
+    "name": "Superior Construction",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>+5 HP</strong>. When using <strong>Juggernaut</strong>, the Ultra may clear two conditions at a time instead of one. Different costs must be chosen for each condition cleared this way.",
+    "tags": [],
+    "bonus": {
+      "hp": 5
+    }
+  },
+  {
+    "id": "npc-rebake_npcf_superior_frame_ultra",
+    "name": "Superior Frame",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When using <strong>Juggernaut</strong>, the Ultra may clear either <strong>Slowed</strong> or <strong>Immobilized</strong> by taking <strong>4 heat</strong> instead of the usual costs.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_superior_reactor_ultra",
+    "name": "Superior Reactor",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "While the Ultra is <strong>Exposed</strong>, all attacks against them are made with <strong>+1 Difficulty</strong>. Whenever the Ultra takes <strong>kinetic, explosive, or energy damage</strong> while <strong>Exposed</strong>, they clear Exposed immediately afterward and clear all <strong>heat</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_supreme_logistics_ultra",
+    "name": "Supreme Logistics",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/turn as a <strong>quick action</strong>, the Ultra may either repair a destroyed weapon or system belonging to them or an adjacent ally, or reload one <strong>Loading</strong> weapon belonging to them or an adjacent ally.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_supreme_melee_ultra",
+    "name": "Supreme Melee",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/turn as a <strong>free action</strong>, the Ultra may <strong>Grapple</strong> or <strong>Ram</strong>. The Ultra counts as <strong>1 Size</strong> larger for the purpose of grapples (up to a maximum of <strong>Size 3</strong>), and on a successful <strong>Ram</strong> they knock targets back <strong>2 spaces</strong> instead of <strong>1</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_supreme_mobility_ultra",
+    "name": "Supreme Mobility",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/turn as a <strong>free action</strong>, the Ultra may <strong>Boost</strong>. One allied character they start this <strong>Boost</strong> adjacent to may immediately <strong>Boost</strong> as a <strong>reaction</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_unstoppable_ultra",
+    "name": "Unstoppable",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ultra gains <strong>Immunity</strong> to <strong>Prone</strong>, and may ignore involuntary movement (<strong>Knockback</strong>, push, pull, etc) by taking <strong>1 kinetic damage</strong> per point of movement ignored; this damage can't be reduced in any way.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_hellfire_projector_ultra",
+    "name": "Hellfire Projector",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon can make two attacks at a time, but the area of these two attacks can’t overlap.",
+    "tags": [],
+    "weapon_type": "Heavy CQB",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "type": "Burn",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_hyperdense_blade_ultra",
+    "name": "Hyperdense Blade",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "<strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.<br><br>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double damage.",
+    "tags": [],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_miniaturized_railgun_ultra",
+    "name": "Miniaturized Railgun",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "The Ultra may ignore <strong>Ordnance</strong> when attacking with this weapon. If they do, it gains <strong>4 Heat (Self)</strong> and makes attacks with <strong>+1 Difficulty</strong>",
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "weapon_type": "Heavy Rifle",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_nova_missiles_ultra",
+    "name": "Nova Missiles",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Auxiliary Launcher",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_ravager_turret_ultra",
+    "name": "Ravager Turret",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon attacks every hostile character within line of sight and <strong>Range</strong>.",
+    "tags": [],
+    "weapon_type": "Heavy Cannon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_wraith_nexus_ultra",
+    "name": "Wraith Nexus",
+    "origin": {
+      "type": "Template",
+      "name": "Ultra [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "<strong>On Critical Hit</strong>: If the Ultra consumed <strong>Lock On</strong> as part of an attack with this weapon, they can choose one; the target becomes <strong>Slowed</strong> until the end of their next turn, <strong>Shredded</strong> until the end of their next turn, or the target only has line of sight to adjacent spaces until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Main Nexus",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
   }
 ]

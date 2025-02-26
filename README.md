@@ -58,3 +58,4 @@ Striker | ✓
 Support | ✓
 ### Veteran Progress: 100%
 Currently using suffixes on the features to notate which class they belong to - this is up in the air.
+### Ultra Progress: 100%

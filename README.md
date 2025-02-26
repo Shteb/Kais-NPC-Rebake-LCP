@@ -1,11 +1,14 @@
 # Kai's NPC Rebake LCP
 A project to LCP-ify the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
+## Check releases for the lcp file.
 
-Each folder is intended to be rezipped and renamed to an LCP individually. Step by step, that would be:
-- Select contents of either the "Grunt Rebake" folder or the "NPC Rebake" folder. *Do not select the folder itself*.
+
+To compile the lcp manually:
+- Select contents of the "NPC Rebake" folder. *Do not select the folder itself*.
 - Right click and select "Add to "folder-name.zip"
 - Change the file extension to .lcp
   - Similar instructions will work for other non-Winrar compression programs
+- Note that versioning will likely be broken for self compiled ones.
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for examples.
 All Classes are being named "(DEFAULT_CLASS_NAME) [K]". See existing rebakes for examples.

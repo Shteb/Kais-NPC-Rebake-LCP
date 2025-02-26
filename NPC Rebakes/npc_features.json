@@ -6891,7 +6891,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "All hostile characters in a <strong>Blast 1</strong> area within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
+    "effect": "All hostile characters in a <strong>Blast 2</strong> area within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"

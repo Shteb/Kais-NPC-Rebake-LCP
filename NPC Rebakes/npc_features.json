@@ -4021,7 +4021,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever a character makes a ranged attack against the Ronin, that character gains a <strong>Ronin's Mark</strong>. Only one character at a time can have a <strong>Ronin's Mark</strong>; if a new mark is applied, any others are removed. When the Ronin makes a successful attack against a character using the <strong>Carbon Fiber Sword</strong>, it can consume the <strong>Ronin's Mark</strong> to deal <strong>+1d6 bonus damage</strong>.",
+    "effect": "Whenever a hostile character within <strong>Range 5</strong> makes a ranged attack, the Ronin may give them a <strong>Ronin's Mark</strong>. Only one character at a time can have a <strong>Ronin's Mark</strong>; if a new mark is applied, any others are removed. When the Ronin makes a successful attack against a character using the <strong>Carbon Fiber Sword</strong>, it can consume the <strong>Ronin's Mark</strong> to deal <strong>+1d6 bonus damage</strong>.",
     "tags": []
   },
   {
@@ -4225,12 +4225,15 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
-    "effect": "When the Scourer makes an attack with the <strong>Thermal Lance</strong>, they can attack two targets at a time, dealing half damage on hit. This trait automatically <strong>Recharges</strong> whenever <strong>Cooling Module</strong> activates.",
+    "type": "System",
+    "effect": "The next time the Scourer makes an attack with the <strong>Thermal Lance</strong>, they can attack two targets at a time, dealing half damage on hit. This system automatically <strong>recharges</strong> whenever <strong>Cooling Module</strong> activates.",
     "tags": [
       {
         "id": "tg_recharge",
         "val": 6
+      },
+      {
+        "id": "tg_protocol"
       }
     ]
   },

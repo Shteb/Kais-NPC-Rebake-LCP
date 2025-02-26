@@ -7452,7 +7452,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: If the Ultra consumed <strong>Lock On</strong> as part of an attack with this weapon, they can choose one; the target becomes <strong>Slowed</strong> until the end of their next turn, <strong>Shredded</strong> until the end of their next turn, or the target only has line of sight to adjacent spaces until the end of their next turn.",
+    "effect": "<strong>On Critical Hit</strong>: The target must pass a <strong>Systems</strong> save, or the Ultra chooses one: <ul><li>The target becomes <strong>Slowed</strong> until the end of their next turn.</li><li>The target becomes <strong>Shredded</strong> until the end of their next turn.</li><li>The target only has line of sight to adjacent spaces until the end of their next turn.</li></ul> ",
     "tags": [
       {
         "id": "tg_smart"

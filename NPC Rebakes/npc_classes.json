@@ -3163,9 +3163,9 @@
                 10
             ],
             "edef": [
-                8,
-                9,
-                10
+                10,
+                11,
+                12
             ],
             "heatcap": [
                 0,
@@ -3231,7 +3231,8 @@
             "npc-rebake_npcf_mass_produced_grunt",
             "npc-rebake_npcf_hostile_sync_controller_grunt",
             "npc-rebake_npcf_destabilize_controller_grunt",
-            "npc-rebake_npcf_electro_chaff_controller_grunt"
+            "npc-rebake_npcf_electro_chaff_controller_grunt",
+            "npc-rebake_npcf_reinforced_systems_controller_grunt"
         ],
         "optional_features": [],
         "power": 25
@@ -3344,9 +3345,9 @@
         },
         "stats": {
             "armor": [
-                0,
-                0,
-                0
+                1,
+                1,
+                1
             ],
             "hp": [
                 1,
@@ -3354,9 +3355,9 @@
                 1
             ],
             "evade": [
-                8,
-                9,
-                10
+                10,
+                11,
+                12
             ],
             "edef": [
                 8,

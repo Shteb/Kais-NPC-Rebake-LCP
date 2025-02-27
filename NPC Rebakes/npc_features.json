@@ -6698,7 +6698,10 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Ultra takes <strong>two separate turns</strong> each round. They regain spent <strong>reactions</strong> each time they take a turn. If the Ultra is facing <strong>five or more</strong> hostile characters when combat begins, the Ultra takes a <strong>third turn</strong> each round.",
-    "tags": []
+    "tags": [],
+    "bonus": {
+      "activations": 1
+    }
   },
   {
     "id": "npc-rebake_npcf_deadly_ultra",

@@ -2444,14 +2444,22 @@
     "id": "npc-rebake_npcf_auto_tracking_engineer",
     "name": "Auto-Tracking",
     "origin": {
-      "type": "Reaction",
+      "type": "Class",
       "name": "Engineer [K]",
       "base": false
     },
     "locked": false,
     "type": "Reaction",
     "effect": "The <strong>Deployable Turret</strong> makes an attack against the triggering character's target, as long as the target is within line of sight and <strong>Range</strong>.",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
     "trigger": "An allied character within <strong>Range 3</strong> of a <strong>Deployable Turret</strong> makes a successful attack."
   },
   {
@@ -3721,7 +3729,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Reaction",
     "effect": "The Pyro gains <strong>Resistance</strong> to all damage from the attack. The attacker must pass an <strong>Engineering</strong> save or take {3/4/5} <strong>Burn</strong>.",
     "tags": [
       {
@@ -4776,6 +4784,10 @@
     "tags": [
       {
         "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
       }
     ],
     "trigger": "Someone attacks the Sentinel’s ward."
@@ -7408,7 +7420,7 @@
     ],
     "damage": [
       {
-        "type": "Kinetic",
+        "type": "Energy",
         "damage": [
           4,
           6,

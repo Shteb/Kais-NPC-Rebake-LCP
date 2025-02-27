@@ -7417,7 +7417,7 @@
     ],
     "damage": [
       {
-        "type": "Kinetic",
+        "type": "Energy",
         "damage": [
           4,
           6,

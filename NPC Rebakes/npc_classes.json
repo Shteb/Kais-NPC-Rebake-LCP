@@ -3125,8 +3125,8 @@
         },
         "base_features": [
             "npc-rebake_npcf_chaff_grunt",
-            "npc-rebake_npcf_weak_grunt",
             "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_necessary_modifications_grunt",
             "npc-rebake_npcf_mass_produced_grunt",
             "npc-rebake_npcf_artillery_type_artillery_grunt",
             "npc-rebake_npcf_survival_pistol_artillery_grunt",
@@ -3163,9 +3163,9 @@
                 10
             ],
             "edef": [
-                10,
-                11,
-                12
+                8,
+                9,
+                10
             ],
             "heatcap": [
                 0,
@@ -3226,8 +3226,8 @@
         },
         "base_features": [
             "npc-rebake_npcf_chaff_grunt",
-            "npc-rebake_npcf_weak_grunt",
             "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_necessary_modifications_grunt",
             "npc-rebake_npcf_mass_produced_grunt",
             "npc-rebake_npcf_hostile_sync_controller_grunt",
             "npc-rebake_npcf_destabilize_controller_grunt",
@@ -3308,13 +3308,13 @@
             ],
             "size": [
                 [
-                    2
+                    1
                 ],
                 [
-                    2
+                    1
                 ],
                 [
-                    2
+                    1
                 ]
             ],
             "activations": [
@@ -3325,8 +3325,8 @@
         },
         "base_features": [
             "npc-rebake_npcf_chaff_grunt",
-            "npc-rebake_npcf_weak_grunt",
             "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_necessary_modifications_grunt",
             "npc-rebake_npcf_mass_produced_grunt",
             "npc-rebake_npcf_combat_shotgun_defender_grunt",
             "npc-rebake_npcf_ablative_armor_defender_grunt",
@@ -3345,9 +3345,9 @@
         },
         "stats": {
             "armor": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
             ],
             "hp": [
                 1,
@@ -3355,9 +3355,9 @@
                 1
             ],
             "evade": [
-                10,
-                11,
-                12
+                8,
+                9,
+                10
             ],
             "edef": [
                 8,
@@ -3423,11 +3423,12 @@
         },
         "base_features": [
             "npc-rebake_npcf_chaff_grunt",
-            "npc-rebake_npcf_weak_grunt",
             "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_necessary_modifications_grunt",
             "npc-rebake_npcf_mass_produced_grunt",
             "npc-rebake_npcf_striker_type_striker_grunt",
-            "npc-rebake_npcf_double_time_striker_grunt"
+            "npc-rebake_npcf_double_time_striker_grunt",
+            "npc-rebake_npcf_assault_armor_striker_grunt"
         ],
         "optional_features": [
             "npc-rebake_npcf_assault_rifle_striker_grunt",
@@ -3523,8 +3524,8 @@
         },
         "base_features": [
             "npc-rebake_npcf_chaff_grunt",
-            "npc-rebake_npcf_weak_grunt",
             "npc-rebake_npcf_rank_and_file_grunt",
+            "npc-rebake_npcf_necessary_modifications_grunt",
             "npc-rebake_npcf_mass_produced_grunt",
             "npc-rebake_npcf_power_transmission_support_grunt",
             "npc-rebake_npcf_recon_drones_support_grunt",

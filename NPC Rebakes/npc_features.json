@@ -5600,20 +5600,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Grunts have <strong>1 HP</strong> and can’t gain more. Unlike other characters, they never take damage when they succeed on a save – regardless of the weapon or system used – but otherwise take damage normally.",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_weak_grunt",
-    "name": "Weak",
-    "origin": {
-      "type": "Class",
-      "name": "Grunt",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "Grunts can never have more than <strong>1 structure</strong> and <strong>1 stress</strong>, and they are immediately destroyed when they take heat from any source other than their own systems and weapons.",
+    "effect": "Grunts have <strong>1 HP</strong> and can’t gain more, nor can they gain additional <strong>Structure</strong> or <strong>Stress</strong>. Unlike other characters, they never take damage when they succeed on a save – regardless of the weapon or system used – but otherwise take damage normally. They are immediately destroyed when they take any amount of heat.",
     "tags": []
   },
   {
@@ -5626,13 +5613,26 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Grunts can’t take the <strong>Veteran</strong>, <strong>Squad</strong>, <strong>Elite</strong>, or <strong>Ultra</strong> templates.",
+    "effect": "Grunts can’t take templates.",
     "tags": [],
     "exclusive": [
       "npct_veteran",
       "npct_elite",
       "npct_ultra"
     ]
+  },
+  {
+    "id": "npc-rebake_npcf_necessary_modifications_grunt",
+    "name": "Necessary Modifications",
+    "origin": {
+      "type": "Class",
+      "name": "Grunt",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "During scenes which take place in zero-g environments, Grunts may deploy with modifications which allow them to move normally.",
+    "tags": []
   },
   {
     "id": "npc-rebake_npcf_mass_produced_grunt",
@@ -5644,7 +5644,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Grunts all have the same Mech Skills and Core Stats. When creating Grunts, choose which type they will be; <strong>Artillery-Type</strong>, <strong>Controller-Type</strong>, <strong>Defender-Type</strong>, <strong>Striker-Type</strong>, or <strong>Support-Type</strong>.",
+    "effect": "Grunts all have the same Mech Skills and Core Stats; these may be modified by their type. When creating Grunts, choose which type they will be; <strong>Artillery-Type</strong>, <strong>Controller-Type</strong>, <strong>Defender-Type</strong>, <strong>Striker-Type</strong>, or <strong>Support-Type</strong>.",
     "tags": []
   },
   {
@@ -5767,7 +5767,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "Before or after attacking with this weapon (including as a <strong>reaction</strong>), the Artillery-Type may move <strong>2 spaces</strong>. This movement ignores engagement and doesn't provoke reactions.",
+    "effect": "The Artillery-Type may move <strong>2 spaces</strong> in any direction before or after attacking with this weapon. This movement ignores engagement and doesn't provoke <strong>reactions</strong>.",
     "tags": [],
     "weapon_type": "Auxiliary CQB",
     "attack_bonus": [
@@ -5807,7 +5807,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Artillery-Type has <strong>+5 Sensors</strong>, and may take the <strong>Lock On</strong> and <strong>Search </strong>actions before attacking with <strong>Ordnance</strong> weapons.",
+    "effect": "The Artillery-Type has <strong>+5 Sensors</strong>, and may take the <strong>Lock On</strong> and <strong>Search</strong> actions before attacking with <strong>Ordnance</strong> weapons.",
     "tags": []
   },
   {
@@ -5882,8 +5882,11 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Controller-Type ignores the first amount of <strong>Heat</strong> they take during a scene.",
-    "tags": []
+    "effect": "The Controller-Type has <strong>+2 E-Defense</strong> and ignores the first amount of <strong>Heat</strong> they take during a scene.",
+    "tags": [],
+    "bonus": {
+      "edef": 2
+    }
   },
   {
     "id": "npc-rebake_npcf_combat_shotgun_defender_grunt",
@@ -5941,7 +5944,10 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Defender-Type is <strong>Size 2</strong>, and begins each combat with <strong>{3/4/5} Overshield</strong>.",
-    "tags": []
+    "tags": [],
+    "bonus": {
+      "size": 1
+    }
   },
   {
     "id": "npc-rebake_npcf_guardian_defender_grunt",
@@ -5966,7 +5972,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Choose either the Assault Rifle or Heavy Blade weapon. If you choose Heavy Blade, the Striker-Type has <strong>+2 Speed</strong>.",
+    "effect": "Choose either the <strong>Assault Rifle</strong> or <strong>Heavy Blade</strong> weapon. If you choose <strong>Heavy Blade</strong>, the Striker-Type has <strong>+2 Speed</strong>.",
     "tags": []
   },
   {
@@ -6044,7 +6050,10 @@
         "val": 1
       }
     ],
-    "on_hit": ""
+    "on_hit": "",
+    "bonus": {
+      "speed": 2
+    }
   },
   {
     "id": "npc-rebake_npcf_double_time_striker_grunt",
@@ -6056,7 +6065,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Striker-Type moves up to its Speed in any direction.",
+    "effect": "The Striker-Type moves up to their <strong>Speed</strong> in any direction.",
     "tags": [
       {
         "id": "tg_protocol"
@@ -6066,6 +6075,23 @@
         "val": 1
       }
     ]
+  },
+  {
+    "id": "npc-rebake_npcf_assault_armor_striker_grunt",
+    "name": "Assault Armor",
+    "origin": {
+      "type": "Class",
+      "name": "Grunt Striker",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Striker-Type has <strong>+2 Evasion</strong> and <strong>+1 Armor</strong>.",
+    "tags": [],
+    "bonus": {
+      "evade": 2,
+      "armor": 1
+    }
   },
   {
     "id": "npc-rebake_npcf_power_transmission_support_grunt",

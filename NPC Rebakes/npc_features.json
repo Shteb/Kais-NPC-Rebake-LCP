@@ -2331,7 +2331,11 @@
     "locked": false,
     "type": "System",
     "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br><br>An embedded character can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
-    "tags": []
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_flak_cannon_engineer",

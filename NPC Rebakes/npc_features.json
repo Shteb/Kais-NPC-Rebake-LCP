@@ -2675,7 +2675,8 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Tech",
+    "tech_type": "Full",
     "effect": "All characters of the Goliath's choice within <strong>Sensors</strong> are pulled <strong>2 spaces</strong> towards the Goliath.",
     "tags": [
       {

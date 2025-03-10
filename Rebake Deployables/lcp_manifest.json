@@ -1,0 +1,9 @@
+{
+  "name": "Kai's NPC Rebake Deployables",
+  "author": "Stebb SkydivingSnake and Eleonor",
+  "description": "Adds a custom Deployable NPC's based on Kai's rebake for VTT users",
+  "item_prefix": "npc-rebake-deployable",
+  "version": "1.0.0",
+  "image_url": "",
+  "website": ""
+}

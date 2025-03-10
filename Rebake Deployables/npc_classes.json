@@ -1,0 +1,101 @@
+[
+  {
+    "id": "npc-rebake_npcc_deployable_turret",
+    "name": "DEPLOYABLE TURRET [K]",
+    "role": "striker",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        1,
+        1,
+        1
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npc-rebake_npcf_turret_cannon_deployable_turret"
+    ],
+    "optional_features": [
+      "npc-rebake_npcf_perimiter_cannon_deployable_turret",
+      "npc-rebake_npcf_skyshield_deployable_turret",
+      "npc-rebake_npcf_deployable_fortified_deployable_turret"
+    ],
+    "power": 100
+  }
+]

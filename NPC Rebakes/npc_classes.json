@@ -315,7 +315,7 @@
             "armor": [
                 0,
                 0,
-                1
+                0
             ],
             "hp": [
                 16,
@@ -2011,7 +2011,7 @@
         },
         "base_features": [
             "npc-rebake_npcf_flamethrower_pyro",
-            "npc-rebake_npcf_firebreak_shield_pyro",
+            "npc-rebake_npcf_firebreak_pyro",
             "npc-rebake_npcf_explosive_vent_pyro",
             "npc-rebake_npcf_insulated_pyro"
         ],

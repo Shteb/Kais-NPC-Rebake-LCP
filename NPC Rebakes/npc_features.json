@@ -3645,8 +3645,8 @@
     "on_hit": ""
   },
   {
-    "id": "npc-rebake_npcf_firebreak_shield_pyro",
-    "name": "Firebreak Shield",
+    "id": "npc-rebake_npcf_firebreak_pyro",
+    "name": "Firebreak",
     "origin": {
       "type": "Class",
       "name": "Pyro [K]",
@@ -3655,11 +3655,7 @@
     "locked": false,
     "type": "System",
     "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attack is made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
-    "tags": [
-      {
-        "id": "tg_shield"
-      }
-    ]
+    "tags": []
   },
   {
     "id": "npc-rebake_npcf_explosive_vent_pyro",
@@ -3749,7 +3745,7 @@
         "val": "4"
       }
     ],
-    "trigger": "The Pyro takes damage from a melee attack."
+    "trigger": "The Pyro takes damage from an attack."
   },
   {
     "id": "npc-rebake_npcf_explosive_jet_pyro",

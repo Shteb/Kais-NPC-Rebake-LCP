@@ -1,0 +1,97 @@
+[ {
+  "id": "npc-rebake_npcf_turret_cannon_deployable_turret",
+  "name": "TURRET CANNON",
+  "origin": {
+    "type": "Class",
+    "name": "DEPLOYABLE TURRET",
+    "base": true
+  },
+  "locked": false,
+  "type": "Weapon",
+  "effect": "At the end of the Engineer's turn, attack the <strong>nearest hostile character</strong> in <strong>Range</strong> with this weapon.",
+  "tags": [],
+  "weapon_type": "Drone Weapon",
+  "attack_bonus": [
+    1,
+    2,
+    3
+  ],
+  "damage": [{
+    "type": "Kinetic",
+    "damage": [
+      4,
+      5,
+      6
+    ]
+  }],
+  "range": [{
+      "type": "Range",
+      "val": 10
+    }
+  ],
+  "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_perimiter_cannon_deployable_turret",
+    "name": "PERIMETER CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "DEPLOYABLE TURRET",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "At the end of the Engineer's turn, attack the <strong>nearest hostile character</strong> in <strong>Range</strong> with this weapon.<br> <strong>1/round</strong>, the Deployable Turret may <strong>Overwatch</strong> with this weapon.",
+    "tags": [],
+    "weapon_type": "Drone Weapon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [{
+      "type": "Kinetic",
+      "damage": [
+        4,
+        5,
+        6
+      ]
+    }],
+    "range": [{
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+    },
+  {
+    "id": "npc-rebake_npcf_skyshield_deployable_turret",
+    "name": "SKYSHIELD TURRET",
+    "origin": {
+      "type": "Class",
+      "name": "DEPLOYABLE TURRET",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Deployable Turret gains <strong>+1 Accuracy</strong> against <strong>flying</strong> targets.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_deployable_fortified_deployable_turret",
+    "name": "FORTIFIED TURRET",
+    "origin": {
+      "type": "Class",
+      "name": "DEPLOYABLE TURRET",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Deployable Turret is <strong>Size 1</strong>. Adjacent allied characters can use the Deployable Turret as <strong>hard cover</strong>.",
+    "tags": []
+  }
+]

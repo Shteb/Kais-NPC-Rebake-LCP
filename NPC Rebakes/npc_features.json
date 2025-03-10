@@ -3745,7 +3745,7 @@
         "val": "4"
       }
     ],
-    "trigger": "The Pyro takes damage from a melee attack."
+    "trigger": "The Pyro takes damage from an attack."
   },
   {
     "id": "npc-rebake_npcf_explosive_jet_pyro",

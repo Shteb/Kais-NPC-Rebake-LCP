@@ -92,6 +92,12 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Deployable Turret is <strong>Size 1</strong>. Adjacent allied characters can use the Deployable Turret as <strong>hard cover</strong>.",
-    "tags": []
+    "tags": [],
+    "override": {
+      "sizes": [
+        1
+      ],
+      "size": 1
+    }
   }
 ]

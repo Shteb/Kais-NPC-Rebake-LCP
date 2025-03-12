@@ -1,2 +1,4 @@
 /Base NPCs
 /node_modules
+*.zip
+*.lcp

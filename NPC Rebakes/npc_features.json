@@ -1639,7 +1639,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may also fire a special earthshaker shell. In addition to any damage, all characters within the <strong>Blast</strong> must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>. Debris or broken earth is thrown up by the impact, creating two <strong>Size 1</strong> segments of hard cover in free spaces within <strong>Range 5</strong> of the targeted space. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may also fire a special earthshaker shell. In addition to any damage, one character within the <strong>Blast</strong> must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>. Debris or broken earth is thrown up by the impact, creating two <strong>Size 1</strong> segments of hard cover in free spaces within <strong>Range 3</strong> of the targeted space. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>two or more characters</strong> were targeted by this attack.",
     "tags": []
   },
   {
@@ -1665,7 +1665,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special high-impact shell. <strong>On hit</strong>, characters are knocked back <strong>3 spaces</strong> either directly away from the Bombard or away from the center of the <strong>Blast</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special high-impact shell. <strong>On hit</strong>, characters are knocked back <strong>2 spaces</strong> either directly away from the Bombard or away from the center of the <strong>Blast</strong>, <strong>+1 space</strong> for each targeted character beyond the first, up to a maximum of <strong>5 spaces</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>two or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
     "tags": []
   },
   {
@@ -1678,7 +1678,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special bunker buster shell. The <strong>Bombard Cannon</strong> automatically deals <strong>{10/20/30} AP explosive damage</strong> to all objects and terrain in the affected area, and the area within the <strong>Blast</strong> also becomes <strong>difficult terrain</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special bunker buster shell. The <strong>Bombard Cannon</strong> automatically deals <strong>{10/20/30} AP explosive damage</strong> to all objects and terrain in the affected area, and one character must pass a <strong>Hull</strong> save or become <strong>Shredded</strong> until the end of their next turn. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>two or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
     "tags": []
   },
   {

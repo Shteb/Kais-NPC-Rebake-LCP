@@ -4747,7 +4747,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters damaged by the Sentinel’s <strong>Overwatch</strong> attacks also become <strong>Slowed</strong> until the end of their next turn.",
+    "effect": "Characters hit by the Sentinel’s <strong>Overwatch</strong> attacks also become <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
   {

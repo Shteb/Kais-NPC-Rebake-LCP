@@ -3329,6 +3329,7 @@
             "npc-rebake_npcf_necessary_modifications_grunt",
             "npc-rebake_npcf_mass_produced_grunt",
             "npc-rebake_npcf_shotgun_defender_grunt",
+            "npc-rebake_npcf_interpose_defender_grunt",
             "npc-rebake_npcf_ablative_armor_defender_grunt",
             "npc-rebake_npcf_guardian_defender_grunt"
         ],

@@ -5935,6 +5935,28 @@
     "on_hit": ""
   },
   {
+    "id": "npc-rebake_npcf_interpose_defender_grunt",
+    "name": "Interpose",
+    "origin": {
+      "type": "Class",
+      "name": "Grunt Defender",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "That character gains <strong>Resistance</strong> to the triggering attack. The Defender-Type is then destroyed.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An allied character adjacent to the Defender-Type is hit by a <strong>non-Superheavy ranged or melee attack</strong>."
+  },
+  {
     "id": "npc-rebake_npcf_ablative_armor_defender_grunt",
     "name": "Ablative Armor",
     "origin": {

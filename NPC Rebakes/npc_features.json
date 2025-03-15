@@ -6143,10 +6143,10 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A hostile character within <strong>Sensors</strong> gains <strong>Lock On</strong>, then one allied character within <strong>Sensors</strong> may move <strong>2 spaces</strong> in any direction.",
+    "effect": "A hostile character within <strong>Sensors</strong> gains <strong>Lock On</strong>, then an allied character within <strong>Sensors</strong> may move <strong>2 spaces</strong> in any direction.",
     "tags": [
       {
-        "id": "tg_quick_action"
+        "id": "tg_full_action"
       }
     ]
   },

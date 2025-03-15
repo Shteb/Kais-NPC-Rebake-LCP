@@ -6143,7 +6143,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Two hostile characters within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
+    "effect": "A hostile character within <strong>Sensors</strong> gains <strong>Lock On</strong>, then one allied character within <strong>Sensors</strong> may move <strong>2 spaces</strong> in any direction.",
     "tags": [
       {
         "id": "tg_quick_action"

@@ -6887,7 +6887,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Ultra makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, a swarm of tiny, hard to hit drones clamp onto the target, causing them to take <strong>2 burn</strong> each time they take any action or <strong>reaction</strong> until the end of their next turn.",
+    "effect": "The Ultra makes a tech attack against a character within <strong>Sensors</strong>. On a success, a swarm of tiny, hard to hit drones clamp onto the target, causing them to take <strong>2 burn</strong> each time they take any action or <strong>reaction</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"

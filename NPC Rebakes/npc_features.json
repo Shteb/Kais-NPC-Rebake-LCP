@@ -6126,10 +6126,10 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "An allied character within <strong>Range 5</strong> gains <strong>+1 Accuracy</strong> to all attacks, checks, and saves until the end of the Support-Type's next turn. This effect does not stack, and it immediately ends if the Support-Type is destroyed.",
+    "effect": "An allied character within <strong>Range 5</strong> gains <strong>+1 Accuracy</strong> to all attacks, checks, and saves until the start of the Support-Type's next turn. This effect does not stack, and it immediately ends if the Support-Type is destroyed.",
     "tags": [
       {
-        "id": "tg_quick_action"
+        "id": "tg_full_action"
       }
     ]
   },

@@ -3848,7 +3848,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Rainmaker establishes a <strong>Blast 1</strong> targeting area within line of sight and <strong>Sensors</strong>, visible to all characters. Hostile characters that start their turn within this area (even partially) or enter it for the first time during their turn gain <strong>Lock On</strong>. Hostile characters that end their turn within this area are hit by a rocket, taking <strong>{4/5/6} explosive damage</strong>. This area lasts until the start of the Rainmaker's next turn.",
+    "effect": "The Rainmaker establishes a <strong>Blast 1</strong> targeting area within line of sight and <strong>Sensors</strong>, visible to all characters. Hostile characters that start their turn within this area (even partially, up to <strong>10 spaces</strong> high) or enter it for the first time during their turn gain <strong>Lock On</strong>. Hostile characters that end their turn within this area are hit by a rocket, taking <strong>{4/5/6} explosive damage</strong>. This area lasts until the start of the Rainmaker's next turn.",
     "tags": [
       {
         "id": "tg_quick_action"

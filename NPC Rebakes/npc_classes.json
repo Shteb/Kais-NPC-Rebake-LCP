@@ -1357,14 +1357,14 @@
                 3
             ],
             "sensor": [
-                8,
-                8,
-                8
+                10,
+                10,
+                10
             ],
             "save": [
                 11,
-                12,
-                14
+                13,
+                15
             ],
             "hull": [
                 4,
@@ -1736,9 +1736,9 @@
                 0
             ],
             "hp": [
-                10,
                 12,
-                14
+                14,
+                16
             ],
             "evade": [
                 10,
@@ -3328,7 +3328,8 @@
             "npc-rebake_npcf_rank_and_file_grunt",
             "npc-rebake_npcf_necessary_modifications_grunt",
             "npc-rebake_npcf_mass_produced_grunt",
-            "npc-rebake_npcf_combat_shotgun_defender_grunt",
+            "npc-rebake_npcf_shotgun_defender_grunt",
+            "npc-rebake_npcf_interpose_defender_grunt",
             "npc-rebake_npcf_ablative_armor_defender_grunt",
             "npc-rebake_npcf_guardian_defender_grunt"
         ],

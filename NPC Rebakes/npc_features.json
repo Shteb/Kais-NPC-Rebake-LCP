@@ -6008,13 +6008,13 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+2 bonus damage</strong>.",
+    "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+2 bonus damage</strong> and may immediately <strong>Boost</strong> as a free action.",
     "tags": [],
     "weapon_type": "Main Rifle",
     "attack_bonus": [
-      0,
       1,
-      2
+      2,
+      3
     ],
     "damage": [
       {

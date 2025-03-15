@@ -3393,7 +3393,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 Heat</strong> and adding that many additonal spaces to the movement.",
+    "effect": "The Operator <strong>teleports</strong> their <strong>Speed</strong>. They may take <strong>1d6 Heat</strong> to also become <strong>Invisible</strong> until the start of their next turn.",
     "tags": [
       {
         "id": "tg_round",

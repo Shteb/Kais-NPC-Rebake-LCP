@@ -6053,9 +6053,9 @@
     ],
     "weapon_type": "Heavy Melee",
     "attack_bonus": [
-      1,
       2,
-      3
+      4,
+      6
     ],
     "damage": [
       {

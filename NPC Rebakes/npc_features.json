@@ -3013,7 +3013,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "If the target is not <strong>Impaired</strong>, they immediately become <strong>Impaired</strong> until the end of their next turn. If the target is <strong>Impaired</strong>, they must pass a <strong>Systems</strong> check or their attack automatically misses.",
+    "effect": "If the target is not <strong>Impaired</strong>, they immediately become <strong>Impaired</strong> until the end of their next turn; this interrupts and resolves before the triggering attack. If the target is <strong>Impaired</strong>, they must pass a <strong>Systems</strong> check or their attack automatically misses.",
     "tags": [
       {
         "id": "tg_round",

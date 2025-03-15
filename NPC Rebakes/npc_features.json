@@ -4090,7 +4090,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "An adjacent character must pass an <strong>Agility</strong> save or choose: become <strong>Jammed</strong> until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take half that weapon's damage from a ruptured magazine or power cell, then they become <strong>Impaired</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn only.",
+    "effect": "A character within <strong>Range 2</strong> must pass an <strong>Agility</strong> save or choose: become <strong>Jammed</strong> until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take that weapon's damage from a ruptured magazine or power cell, then they become <strong>Impaired</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn only.",
     "tags": [
       {
         "id": "tg_recharge",

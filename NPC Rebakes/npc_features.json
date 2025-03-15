@@ -3048,7 +3048,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hornet makes a Tech Attack against a target in <strong>Sensors</strong>. On a success, they take <strong>{3/4/5} Heat</strong> and are pushed <strong>3 spaces</strong> in a direction of the Hornet's choice, then the Hornet moves to any free space within <strong>Range 5</strong> of the target as directly as possible.",
+    "effect": "The Hornet makes a tech attack against a character in <strong>Sensors</strong>. On a success, they take <strong>{3/4/5} Heat</strong> and are pushed <strong>3 spaces</strong> in a direction of the Hornet's choice, then the Hornet moves to any free space within <strong>Range 5</strong> of the target as directly as possible.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3092,7 +3092,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Mirage makes a tech attack against a target within <strong>Sensors</strong>. On a success, they take <strong>{2/3/4} heat</strong> and all attacks they make until the end of their next turn treat their targets as having <strong>soft cover</strong>.",
+    "effect": "The Mirage makes a tech attack against a character within <strong>Sensors</strong>. On a success, they take <strong>{2/3/4} heat</strong> and all attacks they make until the end of their next turn treat their targets as having <strong>soft cover</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3168,7 +3168,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Mirage makes a tech attack against a target within Sensors. On a success, the target treats all characters allied to the Mirage as Invisible until the start of the Mirage's next turn.",
+    "effect": "The Mirage makes a tech attack against a character within Sensors. On a success, the target treats all characters allied to the Mirage as Invisible until the start of the Mirage's next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3452,7 +3452,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Priest makes a tech attack against a target within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} heat</strong> each time they make any attack roll until the end of their next turn.",
+    "effect": "The Priest makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} heat</strong> each time they make any attack roll until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -4339,7 +4339,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Scout makes a tech attack against a target in <strong>Sensors</strong>. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn. The Scout may choose to automatically hit allied characters with this tech attack; if they do, this system automatically <strong>recharges</strong>.",
+    "effect": "The Scout makes a tech attack against a character in <strong>Sensors</strong>. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn. The Scout may choose to automatically hit allied characters with this tech attack; if they do, this system automatically <strong>recharges</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"

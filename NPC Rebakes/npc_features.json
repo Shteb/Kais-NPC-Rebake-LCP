@@ -7366,11 +7366,15 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.<br><br>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double damage.",
+    "effect": "<strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.<br><br>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double <strong>Knockback</strong> on hit.",
     "tags": [
       {
         "id": "tg_reliable",
         "val": "{2/3/4}"
+      },
+      { 
+        "id": "tg_knockback",
+        "val": "2"
       }
     ],
     "weapon_type": "Heavy Melee",

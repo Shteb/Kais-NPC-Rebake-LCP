@@ -5890,8 +5890,8 @@
     }
   },
   {
-    "id": "npc-rebake_npcf_combat_shotgun_defender_grunt",
-    "name": "Combat Shotgun",
+    "id": "npc-rebake_npcf_shotgun_defender_grunt",
+    "name": "Shotgun",
     "origin": {
       "type": "Class",
       "name": "Grunt Defender",

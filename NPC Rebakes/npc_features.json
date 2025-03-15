@@ -3731,7 +3731,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Pyro gains <strong>Resistance</strong> to all damage from the attack. The attacker must pass an <strong>Engineering</strong> save or take {3/4/5} <strong>Burn</strong>.",
+    "effect": "The Pyro gains <strong>Resistance</strong> to all damage from the attack. If the attack was a melee attack, the triggering character must pass an <strong>Engineering</strong> save or take {3/4/5} <strong>Burn</strong>.",
     "tags": [
       {
         "id": "tg_round",

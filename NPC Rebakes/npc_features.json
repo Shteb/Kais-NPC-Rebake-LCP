@@ -4785,10 +4785,6 @@
     "tags": [
       {
         "id": "tg_reaction"
-      },
-      {
-        "id": "tg_round",
-        "val": 1
       }
     ],
     "trigger": "Someone attacks the Sentinel’s ward."
@@ -7372,7 +7368,7 @@
         "id": "tg_reliable",
         "val": "{2/3/4}"
       },
-      { 
+      {
         "id": "tg_knockback",
         "val": "2"
       }

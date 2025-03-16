@@ -88,7 +88,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>1/round</strong>, the Ace can fly spaces equal to their <strong>Speed</strong> in any direction, automatically dealing <strong>{3/4/5} kinetic damage</strong> to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have <strong>Lock On</strong>.",
+    "effect": "<strong>1/round</strong>, the Ace can fly spaces equal to their <strong>Speed</strong> in any direction, automatically dealing <strong>{3/4/5} kinetic damage</strong> to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have <strong>Lock On</strong> (though <strong>Lock On</strong> must be consumed if used this way).",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -536,7 +536,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "After the Archer makes a successful attack, they may force their target to pass an <strong>Engineering</strong> save. On a failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
+    "effect": "<strong>1/round</strong>, after the Archer makes a successful attack, they may force their target to pass an <strong>Engineering</strong> save. On a failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
     "tags": [
       {
         "id": "tg_round",
@@ -1639,7 +1639,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may also fire a special earthshaker shell. In addition to any damage, all characters within the <strong>Blast</strong> must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>. Debris or broken earth is thrown up by the impact, creating two <strong>Size 1</strong> segments of hard cover in free spaces within <strong>Range 5</strong> of the targeted space. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may also fire a special earthshaker shell. In addition to any damage, one character within the <strong>Blast</strong> must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>. Debris or broken earth is thrown up by the impact, creating two <strong>Size 1</strong> segments of hard cover in free spaces within <strong>Range 3</strong> of the targeted space. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>two or more characters</strong> were targeted by this attack.",
     "tags": []
   },
   {
@@ -1665,7 +1665,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special high-impact shell. <strong>On hit</strong>, characters are knocked back <strong>3 spaces</strong> either directly away from the Bombard or away from the center of the <strong>Blast</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special high-impact shell. <strong>On hit</strong>, characters are knocked back <strong>2 spaces</strong> either directly away from the Bombard or away from the center of the <strong>Blast</strong>, <strong>+1 space</strong> for each targeted character beyond the first, up to a maximum of <strong>5 spaces</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>two or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
     "tags": []
   },
   {
@@ -1678,7 +1678,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special bunker buster shell. The <strong>Bombard Cannon</strong> automatically deals <strong>{10/20/30} AP explosive damage</strong> to all objects and terrain in the affected area, and the area within the <strong>Blast</strong> also becomes <strong>difficult terrain</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special bunker buster shell. The <strong>Bombard Cannon</strong> automatically deals <strong>{10/20/30} AP explosive damage</strong> to all objects and terrain in the affected area, and one character must pass a <strong>Hull</strong> save or become <strong>Shredded</strong> until the end of their next turn. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>two or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
     "tags": []
   },
   {
@@ -2387,7 +2387,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Deployable Turret (<strong>Size</strong> 1/2, <strong>HP</strong> {1/1/1}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags:</strong> Drone)<br><br>Up to two of these self-constructing turrets can be deployed to any free space within <strong>Range 3</strong>. At the end of Engineer’s turn, deployed turrets attack the nearest hostile character within <strong>Range 10</strong>. They attack at +{1/2/3} and deal <strong>{4/5/6} Kinetic damage</strong>. The Engineer may have six turrets deployed at one time; if they deploy additional turrets beyond this, previous turrets of their choice are destroyed until they have no more than six total.<br><br>All turrets are destroyed when the Engineer is destroyed. If the Engineer becomes <strong>Jammed</strong> or <strong>Stunned</strong>, their turrets are also disabled for the duration of those conditions.",
+    "effect": "Deployable Turret (<strong>Size</strong> 1/2, <strong>HP</strong> {1/1/1}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags:</strong> Drone)<br><br>Up to two of these self-constructing turrets can be deployed to any free space within <strong>Range 3</strong>. At the end of Engineer’s turn, deployed turrets attack the nearest hostile character within <strong>Range 10</strong>. They attack at +{1/2/3} and deal <strong>{4/5/6} Kinetic damage</strong>. The Engineer may have six turrets deployed at one time; if they deploy additional turrets beyond this, previous turrets of their choice are destroyed until they have no more than six total.<br><br>All turrets are destroyed when the Engineer is destroyed. If the Engineer becomes <strong>Jammed</strong> or <strong>Stunned</strong>, their turrets are also disabled for the duration of those conditions instead of attacking.",
     "tags": [
       {
         "id": "tg_drone"
@@ -3013,7 +3013,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "If the target is not <strong>Impaired</strong>, they immediately become <strong>Impaired</strong> until the end of their next turn. If the target is <strong>Impaired</strong>, they must pass a <strong>Systems</strong> check or their attack automatically misses.",
+    "effect": "If the target is not <strong>Impaired</strong>, they immediately become <strong>Impaired</strong> until the end of their next turn; this interrupts and resolves before the triggering attack. If the target is <strong>Impaired</strong>, they must pass a <strong>Systems</strong> check or their attack automatically misses.",
     "tags": [
       {
         "id": "tg_round",
@@ -3048,7 +3048,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hornet makes a Tech Attack against a target in <strong>Sensors</strong>. On a success, they take <strong>{3/4/5} Heat</strong> and are pushed <strong>3 spaces</strong> in a direction of the Hornet's choice, then the Hornet moves to any free space within <strong>Range 5</strong> of the target as directly as possible.",
+    "effect": "The Hornet makes a tech attack against a character in <strong>Sensors</strong>. On a success, they take <strong>{3/4/5} Heat</strong> and are pushed <strong>3 spaces</strong> in a direction of the Hornet's choice, then the Hornet moves to any free space within <strong>Range 5</strong> of the target as directly as possible.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3092,7 +3092,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Mirage makes a tech attack against a target within <strong>Sensors</strong>. On a success, they take <strong>{2/3/4} heat</strong> and all attacks they make until the end of their next turn treat their targets as having <strong>soft cover</strong>.",
+    "effect": "The Mirage makes a tech attack against a character within <strong>Sensors</strong>. On a success, they take <strong>{2/3/4} heat</strong> and all attacks they make until the end of their next turn treat their targets as having <strong>soft cover</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3168,7 +3168,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Mirage makes a tech attack against a target within Sensors. On a success, the target treats all characters allied to the Mirage as Invisible until the start of the Mirage's next turn.",
+    "effect": "The Mirage makes a tech attack against a character within Sensors. On a success, the target treats all characters allied to the Mirage as Invisible until the start of the Mirage's next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3393,7 +3393,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 Heat</strong> and adding that many additonal spaces to the movement.",
+    "effect": "The Operator <strong>teleports</strong> their <strong>Speed</strong>. They may take <strong>1d6 Heat</strong> to also become <strong>Invisible</strong> until the start of their next turn.",
     "tags": [
       {
         "id": "tg_round",
@@ -3452,7 +3452,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Priest makes a tech attack against a target within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} heat</strong> each time they make any attack roll until the end of their next turn.",
+    "effect": "The Priest makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} heat</strong> each time they make any attack roll until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3848,7 +3848,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Rainmaker establishes a <strong>Blast 1</strong> targeting area within line of sight and <strong>Sensors</strong>, visible to all characters. Hostile characters that start their turn within this area (even partially) or enter it for the first time during their turn gain <strong>Lock On</strong>. Hostile characters that end their turn within this area are hit by a rocket, taking <strong>{4/5/6} explosive damage</strong>. This area lasts until the start of the Rainmaker's next turn.",
+    "effect": "The Rainmaker establishes a <strong>Blast 1</strong> targeting area within line of sight and <strong>Sensors</strong>, visible to all characters. Hostile characters that start their turn within this area (even partially, up to <strong>10 spaces</strong> high) or enter it for the first time during their turn gain <strong>Lock On</strong>. Hostile characters that end their turn within this area are hit by a rocket, taking <strong>{4/5/6} explosive damage</strong>. This area lasts until the start of the Rainmaker's next turn.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -3865,7 +3865,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Hound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone and Immobilized</strong>).<br><br>The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in <strong>Range 15</strong> and line of sight. At the start of the Rainmaker’s turns the missile makes its own standard move, <strong>flying 3 spaces</strong> towards its target, <strong>6</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{16/20/24} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Rainmaker. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Rainmaker may change the missile's target to that character",
+    "effect": "<strong>Hound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone, Slowed, and Immobilized</strong>).<br><br>The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in <strong>Range 15</strong> and line of sight. At the start of the Rainmaker’s turns the missile makes its own standard move, <strong>flying 3 spaces</strong> towards its target, <strong>6</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{16/20/24} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Rainmaker. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Rainmaker may change the missile's target to that character",
     "tags": [
       {
         "id": "tg_drone"
@@ -4090,7 +4090,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "An adjacent character must pass an <strong>Agility</strong> save or choose: become <strong>Jammed</strong> until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take half that weapon's damage from a ruptured magazine or power cell, then they become <strong>Impaired</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn only.",
+    "effect": "A character within <strong>Range 2</strong> must pass an <strong>Agility</strong> save or choose: become <strong>Jammed</strong> until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take that weapon's damage from a ruptured magazine or power cell, then they become <strong>Impaired</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn only.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -4339,7 +4339,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Scout makes a tech attack against a target in <strong>Sensors</strong>. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn. The Scout may choose to automatically hit allied characters with this tech attack; if they do, this system automatically <strong>recharges</strong>.",
+    "effect": "The Scout makes a tech attack against a character in <strong>Sensors</strong>. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn. The Scout may choose to automatically hit allied characters with this tech attack; if they do, this system automatically <strong>recharges</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -4747,7 +4747,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters damaged by the Sentinel’s <strong>Overwatch</strong> attacks also become <strong>Slowed</strong> until the end of their next turn.",
+    "effect": "Characters hit by the Sentinel’s <strong>Overwatch</strong> attacks also become <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -5890,8 +5890,8 @@
     }
   },
   {
-    "id": "npc-rebake_npcf_combat_shotgun_defender_grunt",
-    "name": "Combat Shotgun",
+    "id": "npc-rebake_npcf_shotgun_defender_grunt",
+    "name": "Shotgun",
     "origin": {
       "type": "Class",
       "name": "Grunt Defender",
@@ -5933,6 +5933,28 @@
       }
     ],
     "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_interpose_defender_grunt",
+    "name": "Interpose",
+    "origin": {
+      "type": "Class",
+      "name": "Grunt Defender",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "That character gains <strong>Resistance</strong> to the triggering attack. The Defender-Type is then destroyed.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An allied character adjacent to the Defender-Type is hit by a <strong>non-Superheavy ranged or melee attack</strong>."
   },
   {
     "id": "npc-rebake_npcf_ablative_armor_defender_grunt",
@@ -5986,13 +6008,13 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+2 bonus damage</strong>.",
+    "effect": "<strong>On Critical Hit</strong>: If the target does not have cover, the Striker-Type deals <strong>+2 bonus damage</strong> and may immediately <strong>Boost</strong> as a free action.",
     "tags": [],
     "weapon_type": "Main Rifle",
     "attack_bonus": [
-      0,
       1,
-      2
+      2,
+      3
     ],
     "damage": [
       {
@@ -6031,9 +6053,9 @@
     ],
     "weapon_type": "Heavy Melee",
     "attack_bonus": [
-      1,
       2,
-      3
+      4,
+      6
     ],
     "damage": [
       {
@@ -6104,10 +6126,10 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "An allied character within <strong>Range 5</strong> gains <strong>+1 Accuracy</strong> to all attacks, checks, and saves until the end of the Support-Type's next turn. This effect does not stack, and it immediately ends if the Support-Type is destroyed.",
+    "effect": "An allied character within <strong>Range 5</strong> gains <strong>+1 Accuracy</strong> to all attacks, checks, and saves until the start of the Support-Type's next turn. This effect does not stack, and it immediately ends if the Support-Type is destroyed.",
     "tags": [
       {
-        "id": "tg_quick_action"
+        "id": "tg_full_action"
       }
     ]
   },
@@ -6121,10 +6143,10 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Two hostile characters within <strong>Sensors</strong> gain <strong>Lock On</strong>.",
+    "effect": "A hostile character within <strong>Sensors</strong> gains <strong>Lock On</strong>, then an allied character within <strong>Sensors</strong> may move <strong>2 spaces</strong> in any direction.",
     "tags": [
       {
-        "id": "tg_quick_action"
+        "id": "tg_full_action"
       }
     ]
   },
@@ -6865,7 +6887,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Ultra makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, a swarm of tiny, hard to hit drones clamp onto the target, causing them to take <strong>2 burn</strong> each time they take any action or <strong>reaction</strong> until the end of their next turn.",
+    "effect": "The Ultra makes a tech attack against a character within <strong>Sensors</strong>. On a success, a swarm of tiny, hard to hit drones clamp onto the target, causing them to take <strong>2 burn</strong> each time they take any action or <strong>reaction</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -7084,7 +7106,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Wolfound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone and Immobilized</strong>).<br><br>The Ultra deploys the Wolfound Missile in an adjacent space and picks a target in <strong>Range 30</strong> and line of sight. At the start of the Ultra’s turns the missile makes its own standard move, <strong>flying 4 spaces</strong> towards its target, <strong>8</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2 explosion</strong>. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{14/20/28} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Wolfound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, and the missile immediately moves another <strong>4 spaces</strong> towards its target.",
+    "effect": "<strong>Wolfound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone, Slowed, and Immobilized</strong>).<br><br>The Ultra deploys the Wolfound Missile in an adjacent space and picks a target in <strong>Range 30</strong> and line of sight. At the start of the Ultra’s turns the missile makes its own standard move, <strong>flying 4 spaces</strong> towards its target, <strong>8</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2 explosion</strong>. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{14/20/28} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Wolfound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, and the missile immediately moves another <strong>4 spaces</strong> towards its target.",
     "tags": [
       {
         "id": "tg_drone"
@@ -7344,11 +7366,15 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.<br><br>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double damage.",
+    "effect": "<strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.<br><br>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double <strong>Knockback</strong> on hit.",
     "tags": [
       {
         "id": "tg_reliable",
         "val": "{2/3/4}"
+      },
+      { 
+        "id": "tg_knockback",
+        "val": "2"
       }
     ],
     "weapon_type": "Heavy Melee",

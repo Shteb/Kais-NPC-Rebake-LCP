@@ -112,7 +112,7 @@
     "name": "Unstoppable",
     "origin": {
       "type": "Class",
-      "name": "rebake_npcc_deployable_hound_missile",
+      "name": "HOUND MISSILE",
       "base": true
     },
     "locked": false,
@@ -126,7 +126,7 @@
     "name": "Target Acquired",
     "origin": {
       "type": "Class",
-      "name": "rebake_npcc_deployable_hound_missile",
+      "name": "HOUND MISSILE",
       "base": true
     },
     "locked": false,

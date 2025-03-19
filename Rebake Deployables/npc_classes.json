@@ -2,7 +2,7 @@
   {
     "id": "npc-rebake_npcc_deployable_turret",
     "name": "DEPLOYABLE TURRET [K]",
-    "role": "Striker",
+    "role": "striker",
     "info": {
       "flavor": "",
       "tactics": ""
@@ -98,7 +98,7 @@
   {
     "id": "npc-rebake_npcc_deployable_titan-snare_drone",
     "name": "Titan-Snare Drone [K]",
-    "role": "Controller",
+    "role": "controller",
     "info": {
       "flavor": "",
       "tactics": ""
@@ -188,7 +188,7 @@
   {
     "id": "npc-rebake_npcc_deployable_flare_drone",
     "name": "Flare Drone [K]",
-    "role": "Support",
+    "role": "support",
     "info": {
       "flavor": "",
       "tactics": ""
@@ -278,7 +278,7 @@
   {
     "id": "rebake_npcc_deployable_hound_missile",
     "name": "Hound Missile",
-    "role": "Striker",
+    "role": "striker",
     "info": {
       "flavor": "",
       "tactics": ""

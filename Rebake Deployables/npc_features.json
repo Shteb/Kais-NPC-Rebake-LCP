@@ -1,35 +1,39 @@
-[ {
-  "id": "npc-rebake_npcf_turret_cannon_deployable_turret",
-  "name": "TURRET CANNON",
-  "origin": {
-    "type": "Class",
-    "name": "DEPLOYABLE TURRET",
-    "base": true
-  },
-  "locked": false,
-  "type": "Weapon",
-  "effect": "At the end of the Engineer's turn, attack the <strong>nearest hostile character</strong> in <strong>Range</strong> with this weapon.",
-  "tags": [],
-  "weapon_type": "Drone Weapon",
-  "attack_bonus": [
-    1,
-    2,
-    3
-  ],
-  "damage": [{
-    "type": "Kinetic",
+[
+  {
+    "id": "npc-rebake_npcf_turret_cannon_deployable_turret",
+    "name": "TURRET CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "DEPLOYABLE TURRET",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "At the end of the Engineer's turn, attack the <strong>nearest hostile character</strong> in <strong>Range</strong> with this weapon.",
+    "tags": [],
+    "weapon_type": "Drone Weapon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
     "damage": [
-      4,
-      5,
-      6
-    ]
-  }],
-  "range": [{
-      "type": "Range",
-      "val": 10
-    }
-  ],
-  "on_hit": ""
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
   },
   {
     "id": "npc-rebake_npcf_perimiter_cannon_deployable_turret",
@@ -49,15 +53,18 @@
       2,
       3
     ],
-    "damage": [{
-      "type": "Kinetic",
-      "damage": [
-        4,
-        5,
-        6
-      ]
-    }],
-    "range": [{
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
         "type": "Range",
         "val": 10
       },
@@ -67,7 +74,7 @@
       }
     ],
     "on_hit": ""
-    },
+  },
   {
     "id": "npc-rebake_npcf_skyshield_deployable_turret",
     "name": "SKYSHIELD TURRET",
@@ -99,5 +106,33 @@
       ],
       "size": 1
     }
+  },
+  {
+    "id": "npc-rebake-npcf_unstoppable_hound_missile",
+    "name": "Unstoppable",
+    "origin": {
+      "type": "Class",
+      "name": "rebake_npcc_deployable_hound_missile",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Hound Missile is immune to <strong>Prone</strong>, <strong>Slowed</strong>, and <strong>Immobilized</strong>. Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc.) must pass a contested <strong>Systems</strong> check against the Rainmaker. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Rainmaker may change the missile's target to that character.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_target_acquired_hound_missile",
+    "name": "Target Acquired",
+    "origin": {
+      "type": "Class",
+      "name": "rebake_npcc_deployable_hound_missile",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "If its target has <strong>Lock On</strong>, the Hound Missile flies 6 spaces towards it, instead of 3.",
+    "tags": [],
+    "hide_active": false
   }
 ]

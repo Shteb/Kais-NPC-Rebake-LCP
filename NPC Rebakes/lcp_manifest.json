@@ -5,5 +5,11 @@
   "item_prefix": "npc-rebake",
   "version": "1.5.1",
   "image_url": "",
-  "website": ""
+  "website": "",
+  "dependencies": [
+    {
+      "name": "Lancer CORE NPCs",
+      "version": "1.0.5"
+    }
+  ]
 }

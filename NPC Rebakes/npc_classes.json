@@ -392,7 +392,8 @@
         "base_features": [
             "npc-rebake_npcf_light_machine_gun_archer",
             "npc-rebake_npcf_suppress_archer",
-            "npc-rebake_npcf_moving_target_archer"
+            "npc-rebake_npcf_moving_target_archer",
+            "npc-rebake_npcf_superior_sentinel_archer"
         ],
         "optional_features": [
             "npc-rebake_npcf_covering_fire_archer",

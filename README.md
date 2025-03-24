@@ -1,9 +1,7 @@
 # Kai's NPC Rebake LCP
 A project to LCP-ify the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
-## Check releases for the lcp file.
-
-
-To compile the lcp manually:
+# Check releases for the lcp file.
+### To compile the lcp manually:
 - Select contents of the "NPC Rebake" folder. *Do not select the folder itself*.
 - Right click and select "Add to "folder-name.zip"
 - Change the file extension to .lcp
@@ -17,7 +15,7 @@ Classes and features are organised by Class alphabetically, then by feature as t
 ### When making changes
 - Update Readme with progress.
 
-# Classes & Features: 100% Complete! Up to date as of 26/02/2025.
+# Classes & Features: 100% Complete! Up to date as of 23/03/2025.
 
 | Class | Status |
 | ------ | :------: |
@@ -60,5 +58,6 @@ Defender | ✓
 Striker | ✓
 Support | ✓
 ### Veteran Progress: 100%
-Currently using suffixes on the features to notate which class they belong to - this is up in the air.
+Currently using suffixes on the features to notate which class they belong to.
 ### Ultra Progress: 100%
+It is done.

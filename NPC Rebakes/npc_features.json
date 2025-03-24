@@ -3379,6 +3379,10 @@
         "val": 5
       },
       {
+        "id": "tg_heat_self",
+        "val": 4
+      },
+      {
         "id": "tg_full_action"
       }
     ]

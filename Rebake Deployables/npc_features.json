@@ -190,5 +190,33 @@
     "effect": "Only one <strong>Latch Drone</strong> can be deployed at any time. If the Support that deployed this <strong>Latch Drone</strong> deploys another, this one is immediately destroyed.",
     "tags": [],
     "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_guardian_barricade_cube",
+    "name": "Guardian",
+    "origin": {
+      "type": "Class",
+      "name": "Printed Cube [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The <strong>Barricade Cube</strong> is a <strong>Size 2</strong><br><br> object. All characters may use the <strong>Barricade Cube</strong> as hard cover.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_spike_barrier_barricade_cube",
+    "name": "Spike Barrier",
+    "origin": {
+      "type": "Class",
+      "name": "Barricade Cube [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When a character moves adjacent to the <strong>Barricade Cube</strong> for the first time in a round, they must pass an Agility save or immediately take {2/3/4} AP Kinetic damage and lose all their remaining movement, as if they had become <strong>Engaged</strong>. On a success, they take the damage only.",
+    "tags": [],
+    "hide_active": false
   }
 ]

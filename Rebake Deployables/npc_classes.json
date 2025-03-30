@@ -553,5 +553,99 @@
         0
       ]
     }
+  },
+  {
+    "id": "rebake_npcc_deployable_barricade_cube",
+    "name": "Barricade Cube [K]",
+    "role": "defender",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_guardian_barricade_cube"
+    ],
+    "optional_features": [
+      "npc-rebake-npcf_spike_barrier_barricade_cube"
+    ],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        20,
+        20,
+        20
+      ],
+      "evade": [
+        5,
+        5,
+        5
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
   }
 ]

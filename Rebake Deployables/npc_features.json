@@ -134,5 +134,19 @@
     "effect": "If its target has <strong>Lock On</strong>, the Hound Missile flies 6 spaces towards it, instead of 3.",
     "tags": [],
     "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_rearm_repair_restock_drone",
+    "name": "Rearm / Repair",
+    "origin": {
+      "type": "Class",
+      "name": "Restock Drone [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "If an allied character moves through or adjacent to the <strong>Restock Drone</strong>, they regain <strong>{5/8/10} HP</strong> or reload one <strong>Loading</strong> weapon. The <strong>Restock Drone</strong> is then immediately destroyed.",
+    "tags": [],
+    "hide_active": false
   }
 ]

@@ -201,7 +201,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The <strong>Barricade Cube</strong> is a <strong>Size 2</strong><br><br> object. All characters may use the <strong>Barricade Cube</strong> as hard cover.",
+    "effect": "The <strong>Barricade Cube</strong> is a <strong>Size 2</strong> object. All characters may use the <strong>Barricade Cube</strong> as hard cover.",
     "tags": [],
     "hide_active": false
   },

@@ -235,7 +235,7 @@
   },
   {
     "id": "npc-rebake-npcf_driving_swarm_razor_swarm",
-    "name": "Roiling Shroud",
+    "name": "Driving Swarm",
     "origin": {
       "type": "Class",
       "name": "Razor Swarm [K]",

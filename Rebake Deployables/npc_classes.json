@@ -662,7 +662,7 @@
     ],
     "optional_features": [
       "npc-rebake-npcf_driving_swarm_razor_swarm",
-      "npc-rebake-npcf_driving_electro_nanites_razor_swarm"
+      "npc-rebake-npcf_electro_nanites_razor_swarm"
     ],
     "stats": {
       "armor": [

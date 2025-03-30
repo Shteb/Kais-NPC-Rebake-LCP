@@ -1,10 +1,10 @@
 [
   {
     "id": "npc-rebake_npcf_turret_cannon_deployable_turret",
-    "name": "TURRET CANNON",
+    "name": "Turret Cannon",
     "origin": {
       "type": "Class",
-      "name": "DEPLOYABLE TURRET",
+      "name": "Deployable Turret [K]",
       "base": true
     },
     "locked": false,
@@ -37,10 +37,10 @@
   },
   {
     "id": "npc-rebake_npcf_perimiter_cannon_deployable_turret",
-    "name": "PERIMETER CANNON",
+    "name": "Perimiter Cannon",
     "origin": {
       "type": "Class",
-      "name": "DEPLOYABLE TURRET",
+      "name": "Deployable Turret [K]",
       "base": false
     },
     "locked": false,
@@ -77,10 +77,10 @@
   },
   {
     "id": "npc-rebake_npcf_skyshield_deployable_turret",
-    "name": "SKYSHIELD TURRET",
+    "name": "Skyshield Turret",
     "origin": {
       "type": "Class",
-      "name": "DEPLOYABLE TURRET",
+      "name": "Deployable Turret [K]",
       "base": false
     },
     "locked": false,
@@ -90,10 +90,10 @@
   },
   {
     "id": "npc-rebake_npcf_deployable_fortified_deployable_turret",
-    "name": "FORTIFIED TURRET",
+    "name": "Fortified Turret",
     "origin": {
       "type": "Class",
-      "name": "DEPLOYABLE TURRET",
+      "name": "Deployable Turret [K]",
       "base": false
     },
     "locked": false,
@@ -112,7 +112,7 @@
     "name": "Unstoppable",
     "origin": {
       "type": "Class",
-      "name": "HOUND MISSILE",
+      "name": "Hound Missile [K]",
       "base": true
     },
     "locked": false,
@@ -126,7 +126,7 @@
     "name": "Target Acquired",
     "origin": {
       "type": "Class",
-      "name": "HOUND MISSILE",
+      "name": "Hound Missile [K]",
       "base": true
     },
     "locked": false,

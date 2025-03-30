@@ -103,7 +103,9 @@
       "flavor": "",
       "tactics": ""
     },
-    "base_features": [],
+    "base_features": [
+      ""
+    ],
     "optional_features": [],
     "power": 0,
     "stats": {
@@ -470,9 +472,8 @@
     },
     "power": 50,
     "base_features": [
-      "npc-rebake-npcf_low_profile_latch_drone",
-      "npc-rebake-npcf_supercharger_latch_drone",
-      "npc-rebake-npcf_system_link_latch_drone"
+      "npc-rebake-npcf_system_link_latch_drone",
+      "npc-rebake-npcf_supercharger_latch_drone"
     ],
     "optional_features": [],
     "stats": {

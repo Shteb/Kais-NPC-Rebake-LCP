@@ -148,5 +148,47 @@
     "effect": "If an allied character moves through or adjacent to the <strong>Restock Drone</strong>, they regain <strong>{5/8/10} HP</strong> or reload one <strong>Loading</strong> weapon. The <strong>Restock Drone</strong> is then immediately destroyed.",
     "tags": [],
     "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_low_profile_latch_drone",
+    "name": "Low Profile",
+    "origin": {
+      "type": "Class",
+      "name": "Latch Drone [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The <strong>Latch Drone</strong> moves with and occupies the same space as its target character. Hostile characters can attack the drone as normal.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_supercharger_latch_drone",
+    "name": "Supercharger",
+    "origin": {
+      "type": "Class",
+      "name": "Latch Drone [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "While the <strong>Latch Drone</strong> is attached to a character, they regain {5/8/10} at the start of each of their turns and gain <strong>+1 Accuracy</strong> on all checks, saves, and attacks. ",
+    "tags": [],
+    "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_system_link_latch_drone",
+    "name": "System Link",
+    "origin": {
+      "type": "Class",
+      "name": "Latch Drone [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Only one <strong>Latch Drone</strong> can be deployed at any time. If the Support that deployed this <strong>Latch Drone</strong> deploys another, this one is immediately destroyed.",
+    "tags": [],
+    "hide_active": false
   }
 ]

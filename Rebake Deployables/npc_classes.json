@@ -459,5 +459,99 @@
         0
       ]
     }
+  },
+  {
+    "id": "rebake_npcc_deployable_latch_drone",
+    "name": "Latch Drone [K]",
+    "role": "support",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_low_profile_latch_drone",
+      "npc-rebake-npcf_supercharger_latch_drone",
+      "npc-rebake-npcf_system_link_latch_drone"
+    ],
+    "optional_features": [],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        5,
+        8,
+        10
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
   }
 ]

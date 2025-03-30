@@ -218,5 +218,47 @@
     "effect": "When a character moves adjacent to the <strong>Barricade Cube</strong> for the first time in a round, they must pass an Agility save or immediately take {2/3/4} AP Kinetic damage and lose all their remaining movement, as if they had become <strong>Engaged</strong>. On a success, they take the damage only.",
     "tags": [],
     "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_roiling_shroud_razor_swarm",
+    "name": "Roiling Shroud",
+    "origin": {
+      "type": "Class",
+      "name": "Razor Swarm [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Allied characters who are at least partially within the <strong>Razor Swarm</strong> gain <strong>soft cover</strong>. Hostile characters who start their turn or move at least partially within the <strong>Razor Swarm</strong> for the first time in a round take <strong>{2/3/4} Burn</strong>.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_driving_swarm_razor_swarm",
+    "name": "Roiling Shroud",
+    "origin": {
+      "type": "Class",
+      "name": "Razor Swarm [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters who take damage from the <strong>Razor Swarm</strong> must pass a <strong>Systems</strong> save or immediately move <strong>4 spaces</strong> in a direction chosen by the Hive. This movement ignores engagement and does not provoke reactions.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_electro_nanites_razor_swarm",
+    "name": "Electro Nanites",
+    "origin": {
+      "type": "Class",
+      "name": "Razor Swarm [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters who take damage from the <strong>Razor Swarm</strong> make all saves and checks at <strong>+1 Difficulty</strong>, and all tech attacks made against them gain <strong>+1 Accuracy</strong>.",
+    "tags": [],
+    "hide_active": false
   }
 ]

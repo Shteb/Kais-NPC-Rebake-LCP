@@ -159,7 +159,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "At the end of the Rainmaker's turn, the Hound Missile makes a standard move, flying <strong>3 spaces</strong> towards its target, <strong>6 spaces</strong> if its target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed.<br><br>When the Hound Missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters caught in the affected area must make an <strong>Agility</strong> save or take <strong>16/20/24 Explosive damage</strong>. On a success, they take half damage.",
+    "effect": "At the end of the Rainmaker's turn, the Hound Missile makes a standard move, flying <strong>3 spaces</strong> towards its target, <strong>6 spaces</strong> if its target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed.<br><br>When the Hound Missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters caught in the affected area must make an <strong>Agility</strong> save or take <strong>{16/20/24} Explosive damage</strong>. On a success, they take half damage.",
     "tags": [],
     "hide_active": false
   },
@@ -299,7 +299,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "At the end of the Ultra's turn, the Wolfhound Missile makes a standard move, flying <strong>4 spaces</strong> towards its target, <strong>8 spaces</strong> if its target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed.<br><br>When the Wolfhound Missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2</strong> explosion. Characters caught in the affected area must make an <strong>Agility</strong> save or take <strong>14/20/28 Explosive damage</strong>. On a success, they take half damage.",
+    "effect": "At the end of the Ultra's turn, the Wolfhound Missile makes a standard move, flying <strong>4 spaces</strong> towards its target, <strong>8 spaces</strong> if its target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed.<br><br>When the Wolfhound Missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2</strong> explosion. Characters caught in the affected area must make an <strong>Agility</strong> save or take <strong>{14/20/28} Explosive damage</strong>. On a success, they take half damage.",
     "tags": [],
     "hide_active": false
   }

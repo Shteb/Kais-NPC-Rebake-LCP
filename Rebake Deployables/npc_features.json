@@ -201,7 +201,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "While the <strong>Latch Drone</strong> is attached to a character, they regain {5/8/10} at the start of each of their turns and gain <strong>+1 Accuracy</strong> on all checks, saves, and attacks. ",
+    "effect": "While the <strong>Latch Drone</strong> is attached to a character, they regain <strong>{5/8/10} HP</strong> at the start of each of their turns and gain <strong>+1 Accuracy</strong> on all checks, saves, and attacks. ",
     "tags": [],
     "hide_active": false
   },

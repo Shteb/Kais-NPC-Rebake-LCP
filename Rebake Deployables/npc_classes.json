@@ -1,7 +1,7 @@
 [
   {
-    "id": "npc-rebake_npcc_deployable_turret",
-    "name": "DEPLOYABLE TURRET [K]",
+    "id": "npc-rebake-npcc_deployable_turret",
+    "name": "Deployable Turret [K]",
     "role": "striker",
     "info": {
       "flavor": "",
@@ -86,13 +86,757 @@
       ]
     },
     "base_features": [
-      "npc-rebake_npcf_turret_cannon_deployable_turret"
+      "npc-rebake-npcf_turret_cannon_deployable_turret"
     ],
     "optional_features": [
-      "npc-rebake_npcf_perimiter_cannon_deployable_turret",
-      "npc-rebake_npcf_skyshield_deployable_turret",
-      "npc-rebake_npcf_deployable_fortified_deployable_turret"
+      "npc-rebake-npcf_perimiter_cannon_deployable_turret",
+      "npc-rebake-npcf_skyshield_deployable_turret",
+      "npc-rebake-npcf_deployable_fortified_deployable_turret"
     ],
     "power": 100
+  },
+  {
+    "id": "npc-rebake-npcc_deployable_titan-snare_drone",
+    "name": "Titan-Snare Drone [K]",
+    "role": "controller",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "base_features": [
+      "npc-rebake-npcf_pulse_snare_titan-snare_drone"
+    ],
+    "optional_features": [],
+    "power": 0,
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        5,
+        8,
+        10
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        10,
+        12,
+        14
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "npc-rebake-npcc_deployable_flare_drone",
+    "name": "Flare Drone [K]",
+    "role": "support",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "base_features": [
+      "npc-rebake-npcf_forward_observer_flare_drone"
+    ],
+    "optional_features": [],
+    "power": 0,
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        15,
+        20
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "rebake_npcc_deployable_hound_missile",
+    "name": "Hound Missile [K]",
+    "role": "striker",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_unstoppable_hound_missile",
+      "npc-rebake-npcf_target_acquired_hound_missile"
+    ],
+    "optional_features": [],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        12,
+        14
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        3,
+        3,
+        3
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "rebake_npcc_deployable_restock_drone",
+    "name": "Restock Drone [K]",
+    "role": "support",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_rearm_repair_restock_drone"
+    ],
+    "optional_features": [],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        5,
+        8,
+        10
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "rebake_npcc_deployable_latch_drone",
+    "name": "Latch Drone [K]",
+    "role": "support",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_system_link_latch_drone",
+      "npc-rebake-npcf_supercharger_latch_drone"
+    ],
+    "optional_features": [],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        5,
+        8,
+        10
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "rebake_npcc_deployable_barricade_cube",
+    "name": "Barricade Cube [K]",
+    "role": "defender",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_guardian_barricade_cube"
+    ],
+    "optional_features": [
+      "npc-rebake-npcf_spike_barrier_barricade_cube"
+    ],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        20,
+        20,
+        20
+      ],
+      "evade": [
+        5,
+        5,
+        5
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "rebake_npcc_deployable_razor_swarm",
+    "name": "Razor Swarm [K]",
+    "role": "controller",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_roiling_shroud_razor_swarm"
+    ],
+    "optional_features": [
+      "npc-rebake-npcf_driving_swarm_razor_swarm",
+      "npc-rebake-npcf_electro_nanites_razor_swarm"
+    ],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        0,
+        0,
+        0
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "rebake_npcc_deployable_wolfhound_missile",
+    "name": "Wolfhound Missile [K]",
+    "role": "striker",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_unstoppable_wolfhound_missile",
+      "npc-rebake-npcf_target_acquired_wolfhound_missile"
+    ],
+    "optional_features": [],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        12,
+        14
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
   }
 ]

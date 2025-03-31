@@ -745,5 +745,98 @@
         0
       ]
     }
+  },
+  {
+    "id": "rebake_npcc_deployable_wolfhound_missile",
+    "name": "Wolfhound Missile [K]",
+    "role": "striker",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "power": 50,
+    "base_features": [
+      "npc-rebake-npcf_unstoppable_wolfhound_missile",
+      "npc-rebake-npcf_target_acquired_wolfhound_missile"
+    ],
+    "optional_features": [],
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        12,
+        14
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        0,
+        0,
+        0
+      ]
+    }
   }
 ]

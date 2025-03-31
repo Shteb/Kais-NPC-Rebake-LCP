@@ -150,20 +150,6 @@
     "hide_active": false
   },
   {
-    "id": "npc-rebake-npcf_unstoppable_hound_missile",
-    "name": "Unstoppable",
-    "origin": {
-      "type": "Class",
-      "name": "Hound Missile [K]",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Hound Missile is immune to <strong>Prone</strong>, <strong>Slowed</strong>, and <strong>Immobilized</strong>. Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc.) must pass a contested <strong>Systems</strong> check against the Rainmaker. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Rainmaker may change the missile's target to that character.",
-    "tags": [],
-    "hide_active": false
-  },
-  {
     "id": "npc-rebake-npcf_target_acquired_hound_missile",
     "name": "Target Acquired",
     "origin": {
@@ -286,6 +272,34 @@
     "locked": false,
     "type": "Trait",
     "effect": "Characters who take damage from the <strong>Razor Swarm</strong> make all saves and checks at <strong>+1 Difficulty</strong>, and all tech attacks made against them gain <strong>+1 Accuracy</strong>.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_unstoppable_wolfhound_missile",
+    "name": "Unstoppable",
+    "origin": {
+      "type": "Class",
+      "name": "Wolfhound Missile [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Wolfhound Missile is immune to <strong>Prone</strong>, <strong>Slowed</strong>, and <strong>Immobilized</strong>. Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc.) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Ultra may change the missile's target to that character.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
+    "id": "npc-rebake-npcf_target_acquired_wolfhound_missile",
+    "name": "Target Acquired",
+    "origin": {
+      "type": "Class",
+      "name": "Wolfhound Missile [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "If its target has <strong>Lock On</strong>, the Hound Missile flies 8 spaces towards it, instead of 4.",
     "tags": [],
     "hide_active": false
   }

@@ -108,6 +108,20 @@
     }
   },
   {
+    "id": "npc-rebake-npcf_pulse_snare_titan-snare_drone",
+    "name": "Pulse Snare",
+    "origin": {
+      "type": "Class",
+      "name": "Titan-Snare Drone [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When hostile characters move into or start their turn within <strong>range 3</strong> of the <strong>Titan-Snare Drone</strong>, it emits a pulse, and they become <strong>Immobilized</strong> until the drone is destroyed.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
     "id": "npc-rebake-npcf_unstoppable_hound_missile",
     "name": "Unstoppable",
     "origin": {

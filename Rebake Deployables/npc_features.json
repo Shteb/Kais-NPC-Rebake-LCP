@@ -1,6 +1,6 @@
 [
   {
-    "id": "npc-rebake_npcf_turret_cannon_deployable_turret",
+    "id": "npc-rebake-npcf_turret_cannon_deployable_turret",
     "name": "Turret Cannon",
     "origin": {
       "type": "Class",
@@ -36,7 +36,7 @@
     "on_hit": ""
   },
   {
-    "id": "npc-rebake_npcf_perimiter_cannon_deployable_turret",
+    "id": "npc-rebake-npcf_perimiter_cannon_deployable_turret",
     "name": "Perimiter Cannon",
     "origin": {
       "type": "Class",
@@ -76,7 +76,7 @@
     "on_hit": ""
   },
   {
-    "id": "npc-rebake_npcf_skyshield_deployable_turret",
+    "id": "npc-rebake-npcf_skyshield_deployable_turret",
     "name": "Skyshield Turret",
     "origin": {
       "type": "Class",
@@ -89,7 +89,7 @@
     "tags": []
   },
   {
-    "id": "npc-rebake_npcf_deployable_fortified_deployable_turret",
+    "id": "npc-rebake-npcf_deployable_fortified_deployable_turret",
     "name": "Fortified Turret",
     "origin": {
       "type": "Class",

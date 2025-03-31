@@ -1,6 +1,6 @@
 [
   {
-    "id": "npc-rebake_npcc_deployable_turret",
+    "id": "npc-rebake-npcc_deployable_turret",
     "name": "Deployable Turret [K]",
     "role": "striker",
     "info": {
@@ -86,17 +86,17 @@
       ]
     },
     "base_features": [
-      "npc-rebake_npcf_turret_cannon_deployable_turret"
+      "npc-rebake-npcf_turret_cannon_deployable_turret"
     ],
     "optional_features": [
-      "npc-rebake_npcf_perimiter_cannon_deployable_turret",
-      "npc-rebake_npcf_skyshield_deployable_turret",
-      "npc-rebake_npcf_deployable_fortified_deployable_turret"
+      "npc-rebake-npcf_perimiter_cannon_deployable_turret",
+      "npc-rebake-npcf_skyshield_deployable_turret",
+      "npc-rebake-npcf_deployable_fortified_deployable_turret"
     ],
     "power": 100
   },
   {
-    "id": "npc-rebake_npcc_deployable_titan-snare_drone",
+    "id": "npc-rebake-npcc_deployable_titan-snare_drone",
     "name": "Titan-Snare Drone [K]",
     "role": "controller",
     "info": {
@@ -104,7 +104,7 @@
       "tactics": ""
     },
     "base_features": [
-      ""
+      "npc-rebake-npcf_pulse_snare_titan-snare_drone"
     ],
     "optional_features": [],
     "power": 0,
@@ -188,7 +188,7 @@
     }
   },
   {
-    "id": "npc-rebake_npcc_deployable_flare_drone",
+    "id": "npc-rebake-npcc_deployable_flare_drone",
     "name": "Flare Drone [K]",
     "role": "support",
     "info": {

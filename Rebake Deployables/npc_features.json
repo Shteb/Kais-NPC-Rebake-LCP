@@ -122,6 +122,20 @@
     "hide_active": false
   },
   {
+    "id": "npc-rebake-npcf_forward_observer_flare_drone",
+    "name": "Forward Observer",
+    "origin": {
+      "type": "Class",
+      "name": "Flare Drone [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The <strong>Flare Drone</strong> creates a <strong>Burst 2</strong> area of bright light. All characters in the affected area - including those who move into the area or start their turn within it - lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the <strong>Bombard</strong> gains <strong>+1 Accuracy</strong> to attacks against characters in the affected area.<br><br>Only one <strong>Flare Drone</strong> can be deployed at any time. If the <strong>Bombard</strong> that deployed this <strong>Flare Drone</strong> deploys another, this one is immediately destroyed.",
+    "tags": [],
+    "hide_active": false
+  },
+  {
     "id": "npc-rebake-npcf_unstoppable_hound_missile",
     "name": "Unstoppable",
     "origin": {
@@ -202,20 +216,6 @@
     "locked": false,
     "type": "Trait",
     "effect": "While the <strong>Latch Drone</strong> is attached to a character, they regain {5/8/10} at the start of each of their turns and gain <strong>+1 Accuracy</strong> on all checks, saves, and attacks. ",
-    "tags": [],
-    "hide_active": false
-  },
-  {
-    "id": "npc-rebake-npcf_system_link_latch_drone",
-    "name": "System Link",
-    "origin": {
-      "type": "Class",
-      "name": "Latch Drone [K]",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "Only one <strong>Latch Drone</strong> can be deployed at any time. If the Support that deployed this <strong>Latch Drone</strong> deploys another, this one is immediately destroyed.",
     "tags": [],
     "hide_active": false
   },

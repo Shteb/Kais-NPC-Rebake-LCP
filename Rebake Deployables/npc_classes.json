@@ -195,7 +195,9 @@
       "flavor": "",
       "tactics": ""
     },
-    "base_features": [],
+    "base_features": [
+      "npc-rebake-npcf_forward_observer_flare_drone"
+    ],
     "optional_features": [],
     "power": 0,
     "stats": {

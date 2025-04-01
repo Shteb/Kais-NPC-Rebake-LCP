@@ -630,7 +630,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains <strong>+1 Accuracy</strong> on all saves forced by that target.</li></ul>The Assassin can only choose a new target if the current target is destroyed.",
+    "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains <strong>+1 Accuracy</strong> on all saves forced by that target, and the target makes all saves forced by the Assassin with <strong>+1 Difficulty</strong>.</li></ul>The Assassin can only choose a new target if the current target is destroyed.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -1090,7 +1090,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character moves adjacent to it, that character takes <strong>{2/3/4} AP kinetic damage</strong> and must pass an <strong>Agility</strong> save or lose all their remaining movement as though they had become <strong>Engaged</strong>.",
+    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character besides the Barricade moves adjacent to it, that character takes <strong>{2/3/4} AP kinetic damage</strong> and must pass an <strong>Agility</strong> save or lose all their remaining movement as though they had become <strong>Engaged</strong>.",
     "tags": []
   },
   {
@@ -2004,7 +2004,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>.",
+    "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save at <strong>+1 Difficulty</strong>. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2042,7 +2042,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they take {2/3/4} Heat and are pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
+    "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they are pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2330,7 +2330,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br><br>An embedded character can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
+    "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can attempt to reel in the cables as a <strong>protocol</strong>, forcing an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br><br>An embedded character or an adjacent ally can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2739,9 +2739,9 @@
       {
         "type": "Burn",
         "damage": [
-          2,
           3,
-          4
+          4,
+          5
         ]
       }
     ],
@@ -3275,7 +3275,7 @@
     "tags": [
       {
         "id": "tg_reliable",
-        "val": "{2/3/4}"
+        "val": "{3/4/5}"
       }
     ],
     "weapon_type": "Heavy Rifle",
@@ -3288,16 +3288,16 @@
       {
         "type": "Energy",
         "damage": [
-          6,
-          8,
-          10
+          7,
+          9,
+          11
         ]
       }
     ],
     "range": [
       {
         "type": "Range",
-        "val": 10
+        "val": 12
       }
     ],
     "on_hit": ""
@@ -3312,7 +3312,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator <strong>teleports</strong> when they make their standard move. Whenever the Operator exceeds their <strong>Heat Cap</strong>, this system is disabled until the end of their next turn.",
+    "effect": "The Operator <strong>teleports</strong> when they make their standard move.",
     "tags": []
   },
   {
@@ -3371,19 +3371,12 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
-    "effect": "The Operator makes an attack with the <strong>Raptor Plasma Rifle</strong>, treating its <strong>Range</strong> as <strong>Line 10</strong>.",
+    "type": "Trait",
+    "effect": "When the Operator attacks with the <strong>Raptor Plasma Rifle</strong>, they may take <strong>4 Heat</strong> to treat its Range as <strong>Line 12</strong>.",
     "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
       {
         "id": "tg_heat_self",
         "val": 4
-      },
-      {
-        "id": "tg_full_action"
       }
     ]
   },
@@ -3543,10 +3536,10 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Priest pushes their <strong>Investiture</strong> link to its limit, becoming <strong>Immobilized</strong> while linked this way. The linked character gains <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong> (and clears them if they already have those conditions), <strong>Resistance</strong> to all damage and heat, and no longer needs to remain within <strong>Range 5</strong> of the Priest. This effect lasts until the end of the linked character's next turn. When this effect ends, the link ends as well, and the Priest becomes <strong>Stunned</strong> until the end of their next turn.",
+    "effect": "The Priest pushes their <strong>Investiture</strong> link to its limit, becoming <strong>Immobilized</strong> while linked this way. The linked character gains <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong> (and clears them if they already have those conditions), both the Priest and the linked character gain <strong>Resistance</strong> to all damage and heat, and the linked character no longer needs to remain within <strong>Range 5</strong> of the Priest. This effect lasts until the end of the linked character's next turn. When this effect ends, the link ends as well, and the Priest becomes <strong>Stunned</strong> until the end of their next turn.",
     "tags": [
       {
-        "id": "tg_quick_action"
+        "id": "tg_protocol"
       }
     ]
   },
@@ -5074,7 +5067,7 @@
     "range": [
       {
         "type": "Threat",
-        "val": 2
+        "val": 3
       }
     ],
     "on_hit": ""
@@ -5106,7 +5099,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter is permanently <strong>Invisible</strong>. As a <strong>Full Action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes <strong>4 Heat</strong> and this trait is disabled until the end of their next turn. If they fail, that character gains <strong>Lock On</strong>.",
+    "effect": "The Specter is permanently <strong>Invisible</strong>. As a <strong>quick action 1/round</strong>, a character can engage in a contested <strong>Systems</strong> check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their <strong>Sensors</strong> for them to attempt this check, and it may be attempted even if the Specter is <strong>Hidden</strong>. If they succeed, this trait is disabled until the end of the Specter's next turn. If they fail, the Specter may teleport their <strong>Speed</strong>.",
     "tags": []
   },
   {
@@ -5331,10 +5324,6 @@
     "tags": [
       {
         "id": "tg_quick_action"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 5
       }
     ]
   },
@@ -5429,7 +5418,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} Heat</strong> and must pass a <strong>Systems</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn. If the target succeeds, they become <strong>Impaired</strong> until the end of their next turn instead.",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} Heat</strong> and must pass a <strong>Systems</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn. If the target succeeds, they become <strong>Impaired</strong> until the end of their next turn instead. Characters in the <strong>Danger Zone</strong> make this save with <strong>+1 Difficulty</strong>.",
     "tags": [
       {
         "id": "tg_full_tech"
@@ -6492,7 +6481,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, on a critical hit with the <strong>Hunter-Killer Nexus</strong>, the target must pass a <strong>Systems</strong> save or become <strong>Shredded</strong> until the end of their next turn.",
+    "effect": "1/round, on a hit with the <strong>Hunter-Killer Nexus</strong>, the target must pass a <strong>Systems</strong> save or become <strong>Shredded</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -7156,7 +7145,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Ultra ignores <strong>Invisible</strong> for characters within <strong>Range 10</strong>, and hostile characters in <strong>Range 10</strong> can’t <strong>Hide</strong> (though they remain <strong>Hidden</strong> if they were already). As a <strong>quick action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Ultra to attempt to disable this trait; all characters are aware of this. The Ultra must be within their <strong>Sensors</strong> for them to attempt this check. If they succeed, this trait is disabled until the end of the Ultra's next turn. If they fail, that character gains <strong>Lock On</strong> becomes <strong>Impaired</strong> until the end of their next turn.",
+    "effect": "The Ultra ignores <strong>Invisible</strong> for characters within <strong>Range 10</strong>, and hostile characters in <strong>Range 10</strong> can’t <strong>Hide</strong> (though they remain <strong>Hidden</strong> if they were already). As a <strong>quick action 1/round</strong>, a character can engage in a contested <strong>Systems</strong> check with the Ultra to attempt to disable this trait; all characters are aware of this. The Ultra must be within their <strong>Sensors</strong> for them to attempt this check. If they succeed, this trait is disabled until the end of the Ultra's next turn. If they fail, that character gains <strong>Lock On</strong> becomes <strong>Impaired</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -7556,9 +7545,14 @@
       2,
       3
     ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
     "damage": [
       {
-        "type": "Burn",
+        "type": "Energy",
         "damage": [
           3,
           4,

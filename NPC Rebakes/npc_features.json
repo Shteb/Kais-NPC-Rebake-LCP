@@ -5074,7 +5074,7 @@
     "range": [
       {
         "type": "Threat",
-        "val": 2
+        "val": 3
       }
     ],
     "on_hit": ""

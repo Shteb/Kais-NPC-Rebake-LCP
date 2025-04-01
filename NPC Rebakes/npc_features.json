@@ -5106,7 +5106,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter is permanently <strong>Invisible</strong>. As a <strong>Full Action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes <strong>4 Heat</strong> and this trait is disabled until the end of their next turn. If they fail, that character gains <strong>Lock On</strong>.",
+    "effect": "The Specter is permanently <strong>Invisible</strong>. As a <strong>quick action 1/round</strong>, a character can engage in a contested <strong>Systems</strong> check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their <strong>Sensors</strong> for them to attempt this check, and it may be attempted even if the Specter is <strong>Hidden</strong>. If they succeed, this trait is disabled until the end of the Specter's next turn. If they fail, the Specter may teleport their <strong>Speed</strong>.",
     "tags": []
   },
   {
@@ -5331,10 +5331,6 @@
     "tags": [
       {
         "id": "tg_quick_action"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 5
       }
     ]
   },
@@ -5429,7 +5425,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} Heat</strong> and must pass a <strong>Systems</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn. If the target succeeds, they become <strong>Impaired</strong> until the end of their next turn instead.",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} Heat</strong> and must pass a <strong>Systems</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn. If the target succeeds, they become <strong>Impaired</strong> until the end of their next turn instead. Characters in the <strong>Danger Zone</strong> make this save with <strong>+1 Difficulty</strong>.",
     "tags": [
       {
         "id": "tg_full_tech"

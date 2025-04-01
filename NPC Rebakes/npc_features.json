@@ -2004,7 +2004,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>.",
+    "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save at <strong>+1 Difficulty</strong>. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>.",
     "tags": [
       {
         "id": "tg_recharge",

@@ -2004,7 +2004,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>.",
+    "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save at <strong>+1 Difficulty</strong>. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2042,7 +2042,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they take {2/3/4} Heat and are pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
+    "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they are pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2330,7 +2330,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br><br>An embedded character can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
+    "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can attempt to reel in the cables as a <strong>protocol</strong>, forcing an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br><br>An embedded character or an adjacent ally can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2739,9 +2739,9 @@
       {
         "type": "Burn",
         "damage": [
-          2,
           3,
-          4
+          4,
+          5
         ]
       }
     ],
@@ -3275,7 +3275,7 @@
     "tags": [
       {
         "id": "tg_reliable",
-        "val": "{2/3/4}"
+        "val": "{3/4/5}"
       }
     ],
     "weapon_type": "Heavy Rifle",
@@ -3288,16 +3288,16 @@
       {
         "type": "Energy",
         "damage": [
-          6,
-          8,
-          10
+          7,
+          9,
+          11
         ]
       }
     ],
     "range": [
       {
         "type": "Range",
-        "val": 10
+        "val": 12
       }
     ],
     "on_hit": ""
@@ -3312,7 +3312,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator <strong>teleports</strong> when they make their standard move. Whenever the Operator exceeds their <strong>Heat Cap</strong>, this system is disabled until the end of their next turn.",
+    "effect": "The Operator <strong>teleports</strong> when they make their standard move.",
     "tags": []
   },
   {
@@ -3371,19 +3371,12 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
-    "effect": "The Operator makes an attack with the <strong>Raptor Plasma Rifle</strong>, treating its <strong>Range</strong> as <strong>Line 10</strong>.",
+    "type": "Trait",
+    "effect": "When the Operator attacks with the <strong>Raptor Plasma Rifle</strong>, they may take <strong>4 Heat</strong> to treat its Range as <strong>Line 12</strong>.",
     "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
       {
         "id": "tg_heat_self",
         "val": 4
-      },
-      {
-        "id": "tg_full_action"
       }
     ]
   },

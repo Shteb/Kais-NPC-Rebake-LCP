@@ -630,7 +630,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains <strong>+1 Accuracy</strong> on all saves forced by that target.</li></ul>The Assassin can only choose a new target if the current target is destroyed.",
+    "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains <strong>+1 Accuracy</strong> on all saves forced by that target, and the target makes all saves forced by the Assassin with <strong>+1 Difficulty</strong>.</li></ul>The Assassin can only choose a new target if the current target is destroyed.",
     "tags": [
       {
         "id": "tg_quick_action"

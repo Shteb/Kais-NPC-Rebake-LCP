@@ -6485,7 +6485,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, on a critical hit with the <strong>Hunter-Killer Nexus</strong>, the target must pass a <strong>Systems</strong> save or become <strong>Shredded</strong> until the end of their next turn.",
+    "effect": "1/round, on a hit with the <strong>Hunter-Killer Nexus</strong>, the target must pass a <strong>Systems</strong> save or become <strong>Shredded</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -7149,7 +7149,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Ultra ignores <strong>Invisible</strong> for characters within <strong>Range 10</strong>, and hostile characters in <strong>Range 10</strong> can’t <strong>Hide</strong> (though they remain <strong>Hidden</strong> if they were already). As a <strong>quick action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Ultra to attempt to disable this trait; all characters are aware of this. The Ultra must be within their <strong>Sensors</strong> for them to attempt this check. If they succeed, this trait is disabled until the end of the Ultra's next turn. If they fail, that character gains <strong>Lock On</strong> becomes <strong>Impaired</strong> until the end of their next turn.",
+    "effect": "The Ultra ignores <strong>Invisible</strong> for characters within <strong>Range 10</strong>, and hostile characters in <strong>Range 10</strong> can’t <strong>Hide</strong> (though they remain <strong>Hidden</strong> if they were already). As a <strong>quick action 1/round</strong>, a character can engage in a contested <strong>Systems</strong> check with the Ultra to attempt to disable this trait; all characters are aware of this. The Ultra must be within their <strong>Sensors</strong> for them to attempt this check. If they succeed, this trait is disabled until the end of the Ultra's next turn. If they fail, that character gains <strong>Lock On</strong> becomes <strong>Impaired</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -7549,9 +7549,14 @@
       2,
       3
     ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
     "damage": [
       {
-        "type": "Burn",
+        "type": "Energy",
         "damage": [
           3,
           4,

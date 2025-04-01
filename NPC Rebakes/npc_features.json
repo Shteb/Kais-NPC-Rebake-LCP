@@ -2739,9 +2739,9 @@
       {
         "type": "Burn",
         "damage": [
-          2,
           3,
-          4
+          4,
+          5
         ]
       }
     ],
@@ -3275,7 +3275,7 @@
     "tags": [
       {
         "id": "tg_reliable",
-        "val": "{2/3/4}"
+        "val": "{3/4/5}"
       }
     ],
     "weapon_type": "Heavy Rifle",
@@ -3288,16 +3288,16 @@
       {
         "type": "Energy",
         "damage": [
-          6,
-          8,
-          10
+          7,
+          9,
+          11
         ]
       }
     ],
     "range": [
       {
         "type": "Range",
-        "val": 10
+        "val": 12
       }
     ],
     "on_hit": ""
@@ -3312,7 +3312,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator <strong>teleports</strong> when they make their standard move. Whenever the Operator exceeds their <strong>Heat Cap</strong>, this system is disabled until the end of their next turn.",
+    "effect": "The Operator <strong>teleports</strong> when they make their standard move.",
     "tags": []
   },
   {
@@ -3371,19 +3371,12 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
-    "effect": "The Operator makes an attack with the <strong>Raptor Plasma Rifle</strong>, treating its <strong>Range</strong> as <strong>Line 10</strong>.",
+    "type": "Trait",
+    "effect": "When the Operator attacks with the <strong>Raptor Plasma Rifle</strong>, they may take <strong>4 Heat</strong> to treat its Range as <strong>Line 12</strong>.",
     "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
       {
         "id": "tg_heat_self",
         "val": 4
-      },
-      {
-        "id": "tg_full_action"
       }
     ]
   },

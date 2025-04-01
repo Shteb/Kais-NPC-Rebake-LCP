@@ -1090,7 +1090,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character moves adjacent to it, that character takes <strong>{2/3/4} AP kinetic damage</strong> and must pass an <strong>Agility</strong> save or lose all their remaining movement as though they had become <strong>Engaged</strong>.",
+    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character besides the Barricade moves adjacent to it, that character takes <strong>{2/3/4} AP kinetic damage</strong> and must pass an <strong>Agility</strong> save or lose all their remaining movement as though they had become <strong>Engaged</strong>.",
     "tags": []
   },
   {

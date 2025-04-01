@@ -3536,10 +3536,10 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Priest pushes their <strong>Investiture</strong> link to its limit, becoming <strong>Immobilized</strong> while linked this way. The linked character gains <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong> (and clears them if they already have those conditions), <strong>Resistance</strong> to all damage and heat, and no longer needs to remain within <strong>Range 5</strong> of the Priest. This effect lasts until the end of the linked character's next turn. When this effect ends, the link ends as well, and the Priest becomes <strong>Stunned</strong> until the end of their next turn.",
+    "effect": "The Priest pushes their <strong>Investiture</strong> link to its limit, becoming <strong>Immobilized</strong> while linked this way. The linked character gains <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong> (and clears them if they already have those conditions), both the Priest and the linked character gain <strong>Resistance</strong> to all damage and heat, and the linked character no longer needs to remain within <strong>Range 5</strong> of the Priest. This effect lasts until the end of the linked character's next turn. When this effect ends, the link ends as well, and the Priest becomes <strong>Stunned</strong> until the end of their next turn.",
     "tags": [
       {
-        "id": "tg_quick_action"
+        "id": "tg_protocol"
       }
     ]
   },

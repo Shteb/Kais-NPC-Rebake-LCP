@@ -172,6 +172,10 @@
       {
         "id": "tg_limited",
         "val": "1"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": "4"
       }
     ]
   },

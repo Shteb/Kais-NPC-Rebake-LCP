@@ -2846,7 +2846,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the start of their turn, characters within <strong>Range 3</strong> of the Hive take <strong>{2/3/4} Burn</strong>. This counts as taking <strong>Burn</strong> from a <strong>Razor Swarm</strong>.",
+    "effect": "At the start of their turn, hostile characters within <strong>Range 3</strong> of the Hive take <strong>{2/3/4} Burn</strong>. This counts as taking <strong>Burn</strong> from a <strong>Razor Swarm</strong>.",
     "tags": []
   },
   {

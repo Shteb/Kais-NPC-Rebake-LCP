@@ -3039,7 +3039,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Hostile <strong>Impaired</strong> characters within the Hornet's <strong>Sensors</strong> recieve <strong>+2 Difficulty</strong> on all attacks, checks, and saves instead of <strong>+1 Difficulty</strong>.",
+    "effect": "Hostile <strong>Impaired</strong> characters within the Hornet's <strong>Sensors</strong> receive <strong>+2 Difficulty</strong> on all attacks, checks, and saves instead of <strong>+1 Difficulty</strong>.",
     "tags": []
   },
   {
@@ -3329,7 +3329,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Operator <strong>teleports</strong> during their turn before making any attacks, they gain <strong>+1 Accuracy</strong> on all attacks with the <strong>Raptor Plasma Rifle</strong> until the end of their turn. Whenever the Operator <strong>teleports</strong> during their turn after making any attacks, all attacks against them recieve <strong>+1 Difficulty</strong> until the end of their next turn. If the Operator splits their movement with an attack, they may only choose one of these effects.",
+    "effect": "Whenever the Operator <strong>teleports</strong> during their turn before making any attacks, they gain <strong>+1 Accuracy</strong> on all attacks with the <strong>Raptor Plasma Rifle</strong> until the end of their turn. Whenever the Operator <strong>teleports</strong> during their turn after making any attacks, all attacks against them receive <strong>+1 Difficulty</strong> until the end of their next turn. If the Operator splits their movement with an attack, they may only choose one of these effects.",
     "tags": []
   },
   {

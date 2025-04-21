@@ -7315,7 +7315,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon can make two attacks at a time, but the area of these two attacks can’t overlap.",
+    "effect": "Attacks with this weapon create up to two <strong>Cone 5</strong> areas, which cannot overlap.",
     "tags": [],
     "weapon_type": "Heavy CQB",
     "attack_bonus": [

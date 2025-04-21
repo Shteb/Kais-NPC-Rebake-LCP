@@ -1452,7 +1452,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character, hostile or allied, with the <strong>Chain Axe</strong>. This attack happens even if the Berserker is reduced to <strong>0 HP</strong>.",
+    "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character, hostile or allied, with the <strong>Chain Axe</strong>. This attack happens even if the Berserker is destroyed.",
     "tags": []
   },
   {
@@ -1882,7 +1882,7 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 5
+        "val": 6
       },
       {
         "id": "tg_grenade"
@@ -2130,7 +2130,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "As long as the Cataphract isn't <strong>Slowed</strong> or <strong>Jammed</strong>, whenever characters make melee attacks against them, they take <strong>{2/3/4} Heat</strong> before rolling.",
+    "effect": "As long as the Cataphract isn't <strong>Slowed</strong> or <strong>Jammed</strong>, whenever characters within <strong>Range 3</strong> make ranged or melee attacks against them, they take <strong>2 Heat</strong> before rolling.",
     "tags": []
   },
   {
@@ -4044,7 +4044,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Ranged attacks against the Ronin while <strong>Engaged</strong> receive <strong>+2 Difficulty</strong> instead of <strong>+1 Difficulty</strong>, and the Ronin gains <strong>soft cover</strong> until the start of their next turn whenever they <strong>Boost</strong>.",
+    "effect": "Ranged attacks made by <strong>Engaged</strong> characters against the Ronin receive <strong>+2 Difficulty</strong> instead of <strong>+1 Difficulty</strong>, and the Ronin gains <strong>soft cover</strong> until the start of their next turn whenever they <strong>Boost</strong>.",
     "tags": []
   },
   {
@@ -4904,7 +4904,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character within <strong>Range 20</strong> and line of sight gains the <strong>Sniper’s Mark</strong>. Against targets with the <strong>Sniper’s Mark</strong>, the sniper gains <strong>+1 Accuracy</strong> on attacks with the <strong>Anti-Materiel Rifle</strong> and may choose to deal <strong>1 structure damage</strong> instead of its usual damage on hit; attacks made against a character with a <strong>Sniper's Mark</strong> this way can't be redirected, rerolled, or forced to miss by hostile effects except for <strong>Invisible</strong> and <strong>Difficulty</strong>.<br><br>Characters know when they have the <strong>Sniper's Mark</strong> They ignore its effects if they are in cover or <strong>Prone</strong>. On their turn, characters with the <strong>Sniper's Mark</strong> may drop <strong>Prone</strong> as a <strong>free action</strong><br><br>The Sniper can only mark one character at a time, but can transfer the <strong>Sniper's Mark</strong> to another character within <strong>Range 20</strong> and line of sight as a <strong>full action</strong>, or whenever the sniper reloads the <strong>Anti-Material Rifle</strong>.",
+    "effect": "A character within <strong>Range 20</strong> and line of sight gains the <strong>Sniper’s Mark</strong>. Against targets with the <strong>Sniper’s Mark</strong>, the sniper gains <strong>+1 Accuracy</strong> on attacks with the <strong>Anti-Materiel Rifle</strong> and may choose to deal <strong>1 structure damage</strong> instead of its usual damage on hit; attacks made against a character with a <strong>Sniper's Mark</strong> this way can't be redirected, rerolled, or forced to miss by hostile effects except for <strong>Invisible</strong> and <strong>Difficulty</strong>.<br><br>Characters know when they have the <strong>Sniper's Mark</strong> They ignore its effects if they are in cover (i.e. behind <strong>hard cover</strong> or within a zone that grants <strong>soft cover</strong>) or <strong>Prone</strong>. On their turn, characters with the <strong>Sniper's Mark</strong> may drop <strong>Prone</strong> as a <strong>free action</strong><br><br>The Sniper can only mark one character at a time, but can transfer the <strong>Sniper's Mark</strong> to another character within <strong>Range 20</strong> and line of sight as a <strong>full action</strong>, or whenever the sniper reloads the <strong>Anti-Material Rifle</strong>.",
     "tags": [
       {
         "id": "tg_full_action"

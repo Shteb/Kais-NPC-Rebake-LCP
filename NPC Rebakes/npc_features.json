@@ -6316,7 +6316,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Aegis is <strong>Slowed</strong> while <strong>Defense Net</strong> is active instead of <strong>Immobilized</strong>.",
+    "effect": "The Aegis is <strong>Slowed</strong> while <strong>Defense Net</strong> is active instead of <strong>Immobilized</strong> (this can't be cleared or prevented by <strong>Regenerative Shielding</strong>).",
     "tags": []
   },
   {
@@ -6641,7 +6641,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever a character gains the <strong>Sniper's Mark</strong>, they must pass a <strong>Systems</strong> save or become <strong>Impaired</strong> and <strong>Slowed</strong> until the end of their next turn.",
+    "effect": "Whenever a character gains the <strong>Sniper's Mark</strong>, the Sniper may force them to pass a <strong>Systems</strong> save. If they fail, they become <strong>Impaired</strong> and <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
   {

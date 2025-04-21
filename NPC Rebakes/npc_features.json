@@ -6952,7 +6952,7 @@
     "effect": "Whenever an allied character within <strong>Range 10</strong> attempts an attack roll, check, or save, the Ultra may grant them additional <strong>Accuracy</strong> on that roll by expending charges from this system; this doesn't take an action, but can't be used if the Ultra is <strong>Jammed</strong> or <strong>Stunned</strong>. Up to <strong>2 charges</strong> can be expended per roll this way. The Ultra regains <strong>1 charge</strong> each time they end their turn without having made any attacks or forced any saves, and each time they take <strong>stress or structure damage</strong>, to a maximum of <strong>6</strong>.",
     "tags": [
       {
-        "id": "tg_recharge",
+        "id": "tg_limited",
         "val": "6"
       }
     ]

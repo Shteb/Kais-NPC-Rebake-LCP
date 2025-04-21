@@ -1120,7 +1120,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade prints 2 <strong>Size 2</strong> cubes in free areas within <strong>Range 3</strong>. The cubes provides <strong>hard cover</strong> and are each single objects with <strong>20 HP</strong> and <strong>Evasion 5</strong>.",
+    "effect": "The Barricade prints 2 <strong>Size 2</strong> cubes in free areas within <strong>Range 3</strong>. The cubes provides <strong>hard cover</strong> and are each single objects with <strong>20 HP</strong> and <strong>Evasion 5</strong>. This system automatically <strong>Recharges</strong> if all cubes are destroyed.",
     "tags": [
       {
         "id": "tg_recharge",

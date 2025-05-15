@@ -1630,7 +1630,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bombard’s attacks deal <strong>{+2/+3/+4} damage</strong> to all characters for each targeted character beyond the first.",
+    "effect": "The Bombard’s attacks with the <strong>Bombard Cannon</strong> deal <strong>{+2/+3/+4} damage</strong> to all characters for each targeted character beyond the first.",
     "tags": []
   },
   {
@@ -4568,7 +4568,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Seeder launches a rocket which scatters a field of explosive micromines over a <strong>Blast 3</strong> area within <strong>Sensors</strong>; this area can overlap with obstructions (like cover or terrain) when deployed, but not characters. Characters who enter this area or attempt to move while within it for the first time in a round must pass a <strong>Systems</strong> save or step on a mine, taking <strong>5/6/7 explosive damage</strong>. Only one field of micromines can exist at a time, and if a new one is created, the previous one deactivates.",
+    "effect": "The Seeder launches a rocket which scatters a field of explosive micromines over a <strong>Blast 3</strong> area within <strong>Sensors</strong>; this area can overlap with obstructions (like cover or terrain) when deployed, but not characters. Characters who enter this area or make any movement while within it for the first time in a round must pass a <strong>Systems</strong> save or step on a mine, taking <strong>5/6/7 explosive damage</strong>. Only one field of micromines can exist at a time, and if a new one is created, the previous one deactivates.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -4589,7 +4589,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Lay Mines</strong> may now deploy up to <strong>three mines</strong> at a time instead of just one. If the Seeder deploys more than one mine at a time this way, this trait can't be used again until one of its mines detonates or is disarmed.",
+    "effect": "<strong>Lay Mines</strong> may now deploy up to <strong>three mines</strong> at a time instead of just one. If the Seeder deploys more than one mine at a time this way, this trait can't be used again until one of its mines detonates or is disarmed by a hostile character.",
     "tags": []
   },
   {
@@ -5526,7 +5526,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target becomes <strong>Slowed</strong> until the end of their next turn. When <strong>Slowed</strong> expires, they then become <strong>Immobilized</strong> until the end of their next turn. When <strong>Immobilized</strong> expires, they then become <strong>Stunned</strong> until the end of their next turn. Clearing any of these conditions (e.g. with <strong>Stabilize</strong>) prevents further conditions from occurring on subsequent turns.\n\nThis system can't be used again while it is currently in the process of affecting a character, and it can only be used 1/scene on each character.",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target becomes <strong>Slowed</strong> until the end of their next turn. When <strong>Slowed</strong> expires, they then become <strong>Immobilized</strong> until the end of their next turn. When <strong>Immobilized</strong> expires, they then become <strong>Stunned</strong> until the end of their next turn. Clearing any of these conditions (e.g. with <strong>Stabilize</strong>) prevents further conditions from occurring on subsequent turns.\n\nThis system can't be used again while it is currently in the process of affecting a character, and it can only be successfully used 1/scene on each character.",
     "tags": [
       {
         "id": "tg_full_tech"
@@ -6329,7 +6329,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "If the Archer chooses not to move during their turn, <strong>Suppress</strong> can be used against two targets instead of one and <strong>Moving Target</strong> may be used <strong>2/round</strong>. Each target triggers and resolves <strong>Moving Target</strong> separately, and a target damaging the Archer only ends the effect of <strong>Suppress</strong> on that target.",
+    "effect": "As a <strong>protocol</strong>, the <strong>Archer</strong> may choose to become <strong>Immobilized</strong> until the start of their next turn. If they do so, <strong>Suppress</strong> can be used against two targets instead of one and <strong>Moving Target</strong> may be used <strong>2/round</strong>. Each target triggers and resolves <strong>Moving Target</strong> separately, and a target damaging the Archer only ends the effect of <strong>Suppress</strong> on that target.",
     "tags": []
   },
   {
@@ -7044,7 +7044,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "This powerful lance weapon begins charging during the Ultra's turn, which is visible to all characters. Set a <strong>Charge Die</strong>, <strong>1d6</strong>, starting at <strong>6</strong>. At the start of each of the Ultra's turns, reduce the value of the <strong>Charge Die</strong> by <strong>1</strong>, then roll <strong>1d6</strong>: on <strong>5+</strong>, reduce the value by another <strong>1</strong>. The value is also reduced by <strong>1</strong> each time the Ultra takes <strong>stress or structure damage</strong>.<br><br>When the <strong>Charge Die</strong> reaches <strong>1</strong>, the Ultra may reset it to <strong>6</strong> and, as a <strong>full action</strong>, draw a <strong>Line 30</strong> path. All sources of cover, terrain, objects, and deployables smaller than <strong>Size 5</strong> are completely annihilated, and then all characters within the affected area must pass an <strong>Agility</strong> save or take <strong>1 structure damage</strong>. On a success, they are reduced to <strong>1 HP</strong>.",
+    "effect": "This powerful lance weapon begins charging during the Ultra's turn, which is visible to all characters. Set a <strong>Charge Die</strong>, <strong>1d6</strong>, starting at <strong>6</strong>. At the start of each of the Ultra's turns, reduce the value of the <strong>Charge Die</strong> by <strong>1</strong>, then roll <strong>1d6</strong> as though this system was <strong>Recharge 5+</strong>: on <strong>5+</strong>, reduce the value by another <strong>1</strong>. The value is also reduced by <strong>1</strong> each time the Ultra takes <strong>stress or structure damage</strong>.<br><br>When the <strong>Charge Die</strong> reaches <strong>1</strong>, the Ultra may reset it to <strong>6</strong> and, as a <strong>full action</strong>, draw a <strong>Line 30</strong> path. All sources of cover, terrain, objects, and deployables smaller than <strong>Size 5</strong> are completely annihilated, and then all characters within the affected area must pass an <strong>Agility</strong> save or take <strong>1 structure damage</strong>. On a success, they are reduced to <strong>1 HP</strong>.",
     "tags": [
       {
         "id": "tg_full_action"

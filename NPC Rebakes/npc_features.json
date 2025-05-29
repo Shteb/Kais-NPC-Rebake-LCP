@@ -6879,13 +6879,14 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Tech",
     "effect": "The Ultra makes a tech attack against a character within <strong>Sensors</strong>. On a success, a swarm of tiny, hard to hit drones clamp onto the target, causing them to take <strong>2 burn</strong> each time they take any action or <strong>reaction</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
       }
     ],
+    "tech_type": "Quick",
     "attack_bonus": [
       2,
       4,
@@ -6922,7 +6923,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Tech",
     "effect": "The Ultra makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, they take <strong>{2/3/4} heat</strong>, gain <strong>Lock On</strong>, become <strong>Impaired</strong> until the end of their next turn, and move their <strong>Speed</strong> in a direction of the Ultra's choice. This movement is involuntary, but provokes <strong>reactions</strong> and Engagement as normal and doesn’t count as <strong>Knockback</strong>, pushing, or pulling.",
     "tags": [
       {
@@ -6933,6 +6934,7 @@
         "val": "5"
       }
     ],
+    "tech_type": "Quick",
     "attack_bonus": [
       2,
       4,

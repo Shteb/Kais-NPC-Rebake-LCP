@@ -86,17 +86,17 @@
             ]
         },
         "base_features": [
-            "npc-rebake_npcf_slug_pistol",
-            "npc-rebake_npcf_Revenge",
-            "npc-rebake_npcf_vanguard_armor",
-            "npc-rebake_npcf_erupting_shrapnel"
+            "npc-rebake_npcf_slug_pistol_avenger",
+            "npc-rebake_npcf_revenge_avenger",
+            "npc-rebake_npcf_vanguard_armor_avenger",
+            "npc-rebake_npcf_erupting_shrapnel_avenger"
         ],
         "optional_features": [
-            "npc-rebake_npcf_cycle_of_violence",
-            "npc-rebake_npcf_fervor",
-            "npc-rebake_npcf_judgement_shotgun",
-            "npc-rebake_npcf_determination",
-            "npc-rebake_npcf_rallying_cry"
+            "npc-rebake_npcf_cycle_of_violence_avenger",
+            "npc-rebake_npcf_fervor_avenger",
+            "npc-rebake_npcf_judgement_shotgun_avenger",
+            "npc-rebake_npcf_determination_avenger",
+            "npc-rebake_npcf_rallying_cry_avenger"
         ],
         "power": 25
     }

@@ -1,0 +1,103 @@
+[
+    {
+        "id": "npc-rebake_npcc_avenger",
+        "name": "Avenger [K]",
+        "role": "defender",
+        "info": {
+            "flavor": "Avenger-class mechs are typically piloted by zealots, career warriors, and people from cultures that place significant value on praetorian or warrior castes. In battle, these pilots act as force multipliers and squad leaders, but they tend to be more notable as individuals than for their machines. Avenger pilots have tight bonds to their allies – strong enough that the intense emotions of battle, loss, and struggle can push them to incredible feats of heroism when the tide turns in their enemies’ favor.",
+            "tactics": "While not particularly dangerous to begin with, Avengers become much more threatening when their allies start falling around them. Place them near other high-priority targets to take advantage of both <strong>Vanguard Armor</strong> and their <strong>Revenge</strong> trait, forcing characters to choose between taking them out first or suffering more for destroying their allies."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                15,
+                18,
+                21
+            ],
+            "evade": [
+                10,
+                12,
+                14
+            ],
+            "edef": [
+                8,
+                10,
+                12
+            ],
+            "heatcap": [
+                6,
+                6,
+                6
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                10,
+                10,
+                10  
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                1,
+                2,
+                3
+            ],
+            "agility": [
+                2,
+                3,
+                4
+            ],
+            "systems": [
+                -1,
+                -1,
+                -1
+            ],
+            "engineering": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_slug_pistol",
+            "npc-rebake_npcf_Revenge",
+            "npc-rebake_npcf_vanguard_armor",
+            "npc-rebake_npcf_erupting_shrapnel"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_cycle_of_violence",
+            "npc-rebake_npcf_fervor",
+            "npc-rebake_npcf_judgement_shotgun",
+            "npc-rebake_npcf_determination",
+            "npc-rebake_npcf_rallying_cry"
+        ],
+        "power": 25
+    }
+]

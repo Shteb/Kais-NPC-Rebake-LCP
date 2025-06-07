@@ -1,0 +1,76 @@
+[
+  {
+    "id": "npc-rebake_npcf_slug_pistol_avenger",
+    "name": "Slug Pistol",
+    "origin": {
+      "type": "Class",
+      "name": "Avenger [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Attacks made with this weapon against targets that have <strong>Lock On</strong> ignore cover.",
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+              {
+        "type": "Threat",
+        "val": 3
+      },
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ]
+  },
+    {
+    "id": "npc-rebake_npcf_revenge_avenger",
+    "name": "Revenge",
+    "origin": {
+      "type": "Class",
+      "name": "Avenger [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The first time an allied <strong>non-Grunt, non-Drone</strong> character within <strong>Range 5</strong> is destroyed by a hostile character, the avenger gains <strong>{8/10/12} Overshield</strong>, and for the rest of the scene the <strong>Slug Pistol</strong> deals double damage (bonus damage is not doubled) and they gain <strong>+1 Accuracy</strong> on all attacks, checks, and saves."
+  },
+    {
+    "id": "npc-rebake_npcf_vanguard_armor_avenger",
+    "name": "Vanguard Armor",
+    "origin": {
+      "type": "Class",
+      "name": "Avenger [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Avenger has <strong>Resistance</strong> to all damage while they are within <strong>Range 3</strong> of an allied <strong>non-Grunt, non-Drone character.</strong> After <strong>Revenge</strong> is activated, this trait is disabled."
+  },
+      {
+    "id": "npc-rebake_npcf_erupting_shrapnel_avenger",
+    "name": "Erupting Shrapnel",
+    "origin": {
+      "type": "Class",
+      "name": "Avenger [K]",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/round, after the Avenger makes a successful <strong>ranged attack</strong>, they may force their target to pass an <strong>Engineering</strong> save. On a failure, the target is embedded with explosive shrapnel, and they take <strong>{2/3/4} AP Explosive damage</strong> each time they make a <strong>ranged or melee attack roll</strong> until the end of their next turn. Affected targets are aware of this effect.<br><br>While Revenge is active, characters automatically fail this save, and each time the target makes a <strong>ranged or melee attack roll</strong>, they are also pushed <strong>2 spaces</strong> in a direction of the Avenger's choice. "
+  }
+]

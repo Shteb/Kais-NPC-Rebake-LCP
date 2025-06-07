@@ -1,0 +1,15 @@
+{
+  "name": "Kai's Wallflower Rebake",
+  "author": "Kai Tave",
+  "description": "Draft release of Kai Tave's Wallflower Rebakes.",
+  "item_prefix": "wf-rebake",
+  "version": "1.0.0",
+  "image_url": "",
+  "website": "",
+    "dependencies": [
+    {
+      "name": "No Room For A Wallflower NPCs",
+      "version": "1.0.0"
+    }
+  ]
+}

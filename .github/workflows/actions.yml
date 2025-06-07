@@ -50,7 +50,7 @@ jobs:
               GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             run: |
               gh release upload --clobber ${{ github.event.release.tag_name }} *.lcp
-        bundle-wallflower-lcp:
+    bundle-wallflower-lcp:
         runs-on: ubuntu-latest
         defaults:
             run:

@@ -827,7 +827,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When the Strider swaps kits, they may spend a charge from this system, and either they or an adjacent allied character regains <strong>5/6/7 HP</strong> and gains <strong>+1 Accuracy</strong> on all attacks, checks, and saves until the end of their next turn. If the Strider is destroyed before this system is expended, they leave behind a wreck that can be salvaged for parts; an allied character adjacent to the wreck can use this system as a <strong>quick action</strong>, gaining the benefits. The wreck is then destroyed.",
+    "effect": "When the Strider swaps kits, they may spend a charge from this system, and either they or an adjacent allied character regains <strong>{5/6/7} HP</strong> and gains <strong>+1 Accuracy</strong> on all attacks, checks, and saves until the end of their next turn. If the Strider is destroyed before this system is expended, they leave behind a wreck that can be salvaged for parts; an allied character adjacent to the wreck can use this system as a <strong>quick action</strong>, gaining the benefits. The wreck is then destroyed.",
     "tags": [
       {
         "id": "tg_limited",
@@ -846,6 +846,58 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Strider ignores <strong>difficult terrain.</strong>",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_solidarity_veteran",
+    "name": "Solidarity [Avenger]",
+    "origin": {
+      "type": "Template",
+      "name": "NRFaWF Veteran [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Before combat begins, the Avenger chooses an allied <strong>non-Grunt, non-Drone</strong> character; the Avenger and the chosen character are <strong>bondmates</strong>. During the Avenger's turn, as a <strong>protocol</strong> they may move their <strong>Speed</strong> towards their bondmate, or their bondmate may move their <strong>Speed</strong> towards them, as directly as possible. When the Avenger's bondmate is destroyed while within <strong>Range 5</strong> of the Avenger, they instead survive with <strong>1 HP</strong>; this still activates <strong>Revenge</strong>.",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_seeded_shadows_veteran",
+    "name": "Seeded Shadows [Lurker]",
+    "origin": {
+      "type": "Template",
+      "name": "NRFaWF Veteran [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Before the first round of combat, after all other deployment has taken place, the Lurker may immediately deploy three <strong>Shroud Zones</strong>. These <strong>Shroud Zones</strong> may be placed anywhere on the map except within <strong>Range 10</strong> of a hostile character.",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_rebuke_veteran",
+    "name": "Rebuke [Spite]",
+    "origin": {
+      "type": "Template",
+      "name": "NRFaWF Veteran [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/round, when a hostile character with <strong>Lock On</strong> makes an attack while within the Spite's <strong>Sensors</strong>, the Spite may consume the <strong>Lock On</strong> to give that attack <strong>+1 Difficulty</strong>. If this attack misses, the attacker must pass a <strong>Systems</strong> save or fall <strong>Prone.</strong>",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_ranger_training_veteran",
+    "name": "Ranger Training [Strider]",
+    "origin": {
+      "type": "Template",
+      "name": "NRFaWF Veteran [K]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Strider uses <strong>Swap Kit</strong>, they may either drop <strong>Prone</strong> or stand from <strong>Prone</strong>. While <strong>Prone</strong>, attacks against the Strider receive <strong>+1 Difficulty</strong> rather than <strong>+1 Accuracy</strong>.",
     "tags": []
   }
 

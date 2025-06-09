@@ -1,0 +1,852 @@
+[
+  {
+    "id": "nrfaw-npc-rebake_npcf_slug_pistol_avenger",
+    "name": "Slug Pistol",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [
+      2,
+      3,
+      4
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_erupting_shrapnel_avenger",
+    "name": "Erupting Shrapnel",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/round, after the Avenger makes a successful <strong>ranged attack</strong>, they may force their target to pass an <strong>Engineering</strong> save. On a failure, the target is embedded with explosive shrapnel, and they take <strong>{2/3/4} AP explosive damage</strong> each time they make a <strong>ranged or melee attack roll</strong> until the end of their next turn; this damage is applied after the attack roll is made. Affected targets are aware of this effect. After <strong>Revenge</strong> is activated, characters automatically fail this save, and each time the target makes a <strong>ranged or melee attack roll</strong>, they are also pushed <strong>2 spaces</strong> in a direction of the Avenger's choice.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_vanguard_armor_avenger",
+    "name": "Vanguard Armor",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Avenger has <strong>Resistance</strong> to all damage while they are within <strong>Range 3</strong> of an allied <strong>non-Grunt, non-Drone</strong> character. After <strong>Revenge</strong> is activated, this trait is disabled",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_revenge_avenger",
+    "name": "Revenge",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The first time an allied <strong>non-Grunt, non-Drone character</strong> within <strong>Range 5</strong> is destroyed by a hostile character, the Avenger gains <strong>8/10/12 Overshield</strong>, and for the rest of the scene the <strong>Slug Pistol</strong> deals double damage (bonus damage is not doubled) and they gain <strong>+1 Accuracy</strong> on all attacks, checks, and saves.",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_cycle_of_violence_avenger",
+    "name": "Cycle of Violence",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Avenger may <strong>Boost</strong> towards the triggering character. If the allied character was destroyed, the Avenger may also attack the triggering character with the <strong>Slug Pistol</strong>. This reaction can be taken as many times per round as it is triggered",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An allied <strong>non-Grunt, non-Drone</strong> character within <strong>Range 5</strong> fails a save or is hit by an attack from a hostile character to which the Avenger has line of sight."
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_fervor_avenger",
+    "name": "Fervor",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When <strong>Revenge</strong> is activated, all allied <strong>non-Grunt, non-Drone</strong> characters within <strong>Range 5</strong> gain <strong>4/5/6 Overshield.</strong>",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_determination_avenger",
+    "name": "Determination",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The first time the Avenger is destroyed, it instead survives at <strong>1 HP</strong>. If they have not activated <strong>Revenge</strong> this scene, immediately activate it, but the Avenger only gains <strong>4/5/6 Overshield</strong> when it is activated this way.",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_judgement_shotgun_avenger",
+    "name": "Judgement Shotgun",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "<strong>On Critical Hit:</strong> This weapon deals <strong>+1d6 bonus damage</strong>.<br><br>This weapon automatically reloads whenever an allied <strong>non-Grunt, non-Drone</strong> character within <strong>Range 5</strong> is destroyed by a hostile character.",
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Heavy CQB",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          10,
+          12,
+          14
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": "Target must pass an <strong>Agility</strong> save or be knocked <strong>Prone</strong>."
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_rallying_cry_avenger",
+    "name": "Rallying Cry",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Avenger chooses a <strong>non-Grunt, non-Drone</strong> allied character within line of sight; that character may immediately <strong>Boost</strong> towards the Avenger as a <strong>reaction</strong>; when Revenge is activated, the Avenger also gains <strong>soft cover</strong> until the end of their next turn. The Avenger can't use this trait if they are <strong>Jammed.</strong>",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_umbral_shroud_lurker",
+    "name": "Umbral Shroud",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the start of any combat, when they arrive as reinforcements, or as a <strong>protocol</strong>, the Lurker can create a rippling storm of nanites – a <strong>Shroud Zone</strong>. This is a <strong>Blast 1</strong> area within <strong>Range 10</strong> that can can overlap with obstructions (like cover or terrain) when created, but not characters.<strong>Shroud Zones</strong> provide <strong>soft cover</strong> both to the Lurker and to allied characters at least partially within them.<br><br>While inside a <strong>Shroud Zone</strong>:<ul><li> The Lurker becomes <strong>Invisibile</strong>. </li><li> Hostile Characters at least partially within them are <strong>Shredded</strong> as long as they remain within the <strong>Shroud Zone.</strong></li></ul><br><br><strong>Shroud Zones</strong> can be dispersed by making a successful <strong>tech attack or an attack with a weapon that targets E-Defense</strong>. They have <strong>E-Defense 10/12/14</strong> and disperse upon any successful attack.<br><br>The Lurker can have no more than three <strong>Shroud Zones</strong> active at a time; if they create another, one of their currently active <strong>Shroud Zones</strong> of their choice dissipates. <strong>Shroud Zones</strong> also dissipate when the Lurker is destroyed. All Lurkers can utilize all <strong>Shroud Zones</strong>, even those created by other Lurkers. <strong>Shroud Zones</strong> can overlap each other, but their effects do not stack.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_scouring_whip_lurker",
+    "name": "Scouring Whip",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon gains <strong>Threat 3</strong> and <strong>+1 Accuracy</strong> when used inside a <strong>Shroud Zone</strong>. Attacks made against targets within a <strong>Shroud Zone</strong> deal double damage (bonus damage is not doubled).",
+    "tags": [],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [
+      0,
+      1,
+      2
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "The target is pulled adjacent to the Lurker, or as close as possible"
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_umbral_shift_lurker",
+    "name": "Umbral Shift",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Lurker <strong>teleports</strong> to a free space within a <strong>Shroud Zone</strong> of their choice.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_defensive_shroud_lurker",
+    "name": "Defensive Shroud",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Lurker may create a <strong>Shroud Zone</strong> centered on its location, <strong>then teleport</strong> to a free space within a Shroud Zone of their choice.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "The Lurker takes damage."
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_absolute_darkness_lurker",
+    "name": "Absolute Darkness",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Hostile characters at least partially within a <strong>Shroud Zone</strong> do not have line of sight to their allies, and their allies do not have line of sight to them.",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_devouring_shard_lurker",
+    "name": "Devouring Shard",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Lurker creates a <strong>Cone 3</strong> torrent of razor sharp nanites, which must be placed with at least one space adjacent to a <strong>Shroud Zone</strong>. All characters within the affected area must pass an <strong>Engineering</strong> save or take <strong>{3/4/5} AP kinetic damage.</strong>",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "name": "Empower Shroud",
+    "id": "nrfaw-npc-rebake_npcf_empower_shroud_lurker",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Lurker expands an existing <strong>Shroud Zone</strong> to <strong>Burst 2</strong>. This can cause it to envelop other characters. In addition, it now takes two successful attacks to disperse zone instead of one.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 4
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_kinetic_transference_lurker",
+    "name": "Kinetic Transference",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Draw a <strong>Line</strong> between the Lurker and a <strong>Shroud Zone</strong> within <strong>Range 10</strong>. The Lurker <strong>teleports</strong> to a free space within that <strong>Shroud Zone</strong>, and all hostile characters within the <strong>Line</strong>'s path take <strong>{3/4/5} AP kinetic damage</strong>. One hostile character within the <strong>Line</strong>'s path must pass a <strong>Hull</strong> save or be pulled directly into the <strong>Shroud Zone</strong> the Lurker <strong>teleported</strong> to, or as closely as possible.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_umbral_clone_lurker",
+    "name": "Umbral Clone",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Lurker creates a fragile nanite-constructed pseudochassis within a <strong>Shroud Zone</strong> of their choice. This construct is another Lurker with the <strong>Grunt</strong> template. The construct takes its own independent activations, can act on the round it is created, and benefits from <strong>Shroud Zones</strong>, but it only can only use <strong>Scouring Whip</strong> and </strong>Umbral Shift</strong>. Only one such construct can be active at a time, and if another construct is created, the first one dissolves and is destroyed. Otherwise, it lasts for the rest of the scene or until the Lurker is destroyed.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_imprison_spite",
+    "name": "Imprison",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Spite chooses a character within <strong>Sensors</strong> and infects them with a catalyzing virus. Characters infected by this virus take <strong>1 heat</strong> at the start of their turn, plus <strong>1 additional heat</strong> for each successive turn they remain infected beyond the first up to a maximum of <strong>3 heat</strong> per turn, and cannot clear <strong>heat</strong> by any means except for overheating. This effect lasts for the rest of the scene, until the Spite is destroyed, until the Spite uses this system on a different character, or until the infected character moves adjacent to (or begins their turn adjacent to) the Spite.",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full"
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_edict_spite",
+    "name": "Edict",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Spite adjusts the parameters of <strong>Imprison's</strong> virus on the fly, causing further instability. They choose one of the following effects as a protocol, as well as automatically choosing one whenever they use <strong>Imprison</strong>, which lasts until the end of the target's next turn; infected characters are aware of this effect when it is chosen. The infected character must then abide by the chosen effect or they take <strong>{5/6/7} AP energy damage</strong> at the end of their turn. This damage cannot be reduced in any way. <br><br> This effect immediately ends when the infection ends, and characters can only be affected by one such effect at a time; if they are already affected by one, the Spite chooses which one takes precedence.<ul><li> At the end of the character's next turn, the must be <strong>Prone</strong>; they may drop <strong>Prone</strong> during their turn as a free action. </li><li> At the end of the character's next turn, they must not be adjacent to another character or piece of terrain <strong>Size 1</strong> or greater. </li><li>At the end of the character's next turn, they must not have attacked any character other than the Spite.</li></ul>",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_enthrone_spite",
+    "name": "Enthrone",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Spite becomes <strong>Immobilized</strong> and generates a crackling defensive shield around an allied character within <strong>Sensors.</strong> While this shield is active, ranged and melee attacks against the shielded character receive <strong>+1 Difficulty</strong>, and any characters that make ranged or melee attacks against the shielded character take <strong>{3/4/5} AP energy damage</strong> before the attack roll is made. This effects lasts until the Spite uses this system on a different character, ends it as a <strong>quick action</strong>, or is destroyed.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_shield"
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_guardian_spite",
+    "name": "Guardian",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Adjacent allied characters can use the Spite for <strong>hard cover</strong>.",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_seize_spite",
+    "name": "Seize",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "A hostile character within <strong>Sensors</strong> must pass a <strong>Systems</strong> save or take <strong>{2/3/4} heat</strong> and become <strong>Immobilized</strong> until the end of their next turn. On a success, they are <strong>Slowed</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_crown_of_thorns_spite",
+    "name": "Crown of Thorns",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "<strong>Edict</strong> gains the following additional effect to choose from:<ul><li>At the end of the character's next turn, they must not have used <strong>Overcharge</strong> that turn.</li></ul>",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_feedback_shield_spite",
+    "name": "Feedback Shield",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Any character that successfully damages a character benefiting from <strong>Enthrone's</strong> energy shield must pass a <strong>Systems</strong> save. On a failure, they become <strong>Jammed</strong> until the end of their next turn and the effects of <strong>Enthrone</strong> immediately end. Each character can only be forced to make this save <strong>1/round</strong>, and characters affected by <strong>Imprison</strong> automatically fail this save",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_condemnation_spite",
+    "name": "Condemnation",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Spite chooses one of <strong>Edict's</strong> effects and applies it to all hostile characters of its choice within <strong>Sensors</strong>, lasting until the end of each affected character's next turn or until the Spite is destroyed.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_excoriate_spite",
+    "name": "Excoriate",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Hostile characters which force the Spite to move via involuntary movement (<strong>Knockback</strong>, push, pull, etc) take <strong>1 heat</strong> per point of movement inflicted.",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_swap_kit_strider",
+    "name": "Swap Kit",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Strider has two kits consisting of unique weapons, systems, and traits, the <strong>Marksman Kit</strong> and <strong>Skirmisher Kit</strong>. Each kit comes with a special <strong>Kit Bonus</strong> that activates at the start of their turn, as well as a <strong>Swap Bonus</strong> that only activates when they use this trait to swap to that kit; if the Strider chooses to gain the <strong>Kit Bonus</strong>, then they can't activate this trait (and thus gain the <strong>Swap Bonus</strong>) until the start of their next turn. When one of the Strider's weapons or systems are destroyed, it must be chosen from their active kit.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_swap_bonus_strider",
+    "name": "Swap Bonus",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "<strong>Marksmen Kit Swap Bonus</strong>: This turn only, the <strong>Ranger Long Rifle</strong> ignores the <strong>Ordnance</strong> tag.<br><br><strong>Skirmisher Kit Swap Bonus</strong>: The Strider makes an attack against a character of their choice within <strong>Range 5</strong> using the <strong>Explosive Carbine</strong> as a <strong>free action</strong>.",
+    "tags": [],
+    "trigger": "The Strider swaps to the <strong>Marksman Kit</strong> or <strong>Skirmisher Kit</strong>."
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_kit_bonus_strider",
+    "name": "Kit Bonus",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "<strong>Marksmen Kit Kit Bonus</strong>: As a <strong>protocol</strong>, the Strider may <strong>Lock On</strong> to a hostile character within <strong>Sensors</strong> and line of sight.<br><br><strong>Skirmisher Kit Kit Bonus</strong>: At the start of their turn, the Strider may move <strong>2 spaces</strong>. This movement ignores engagement and doesn't provoke <strong>reactions</strong>.",
+    "tags": [],
+    "trigger": "The Strider starts their turn equipped with the <strong>Marksman Kit</strong> or <strong>Skirmisher Kit</strong>."
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_marksman_kit_ranger_long_rifle_strider",
+    "name": "Ranger Long Rifle",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "<strong>On Critical Hit:</strong> This weapon's damage can't be reduced in any way. <br><br> This weapon can't attack targets within <strong>Range 5.</strong>",
+    "tags": [
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "weapon_type": "Heavy Rifle",
+    "attack_bonus": [
+      0,
+      1,
+      2
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          8,
+          10,
+          12
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_marksman_kit_flash_grenade_strider",
+    "name": "Flash Grenade",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Strider throws a grenade at a character within <strong>Range 5</strong>, forcing them to make an <strong>Agility</strong> save. On a failure, the target only has line of sight to adjacent spaces until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn instead. This system automatically recharges whenever the Strider swaps kits",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_grenade"
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_marksman_kit_adaptive_camouflage_strider",
+    "name": "Adaptive Camouflage",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the end of its turn, the Strider is shrouded in a camouflage field that treats all attacks originating beyond <strong>Range 5</strong> as if it was <strong>Invisible</strong>. This lasts until it moves, takes a reaction, or swaps kits.",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_skirmisher_kit_explosive_carbine_strider",
+    "name": "Explosive Carbine",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 3
+      }
+    ],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_skirmisher_kit_reposition_strider",
+    "name": "Reposition",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Strider moves spaces equal to their <strong>Speed</strong>. This movement ignores engagement and doesn't provoke <strong>reactions</strong>.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+
+    ],
+    "trigger": "Another character in <strong>Sensors</strong> begins their turn."
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_skirmisher_kit_smoke_grenade_strider",
+    "name": "Smoke Grenade",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Strider throws a smoke grenade at a space within <strong>Range 5</strong>, creating a <strong>Blast 2</strong> cloud of smoke. This area provides <strong>soft cover</strong> until the end of the scene, or until the Strider uses this system again.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_grenade"
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_siege_loadout_strider",
+    "name": "Siege Loadout",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Strider's <strong>Swap Bonuses</strong> gain the following effects:<ul><li><strong>Marksman Kit Swap Bonus</strong>: The Strider may deploy a <strong>Size 1</strong> piece of hard cover in any free adjacent space, which lasts for the rest of the scene or until the Strider uses this ability again.</li><li><strong>Skirmisher Kit Swap Bonus</strong>: The Strider may scatter caltrops in a free <strong>Blast 1</strong> zone within <strong>Range 5</strong>, turning it into <strong>difficult terrain</strong> for the rest of the scene or until the Strider uses this ability again.</li></ul>",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_recon_loadout_strider",
+    "name": "Recon Loadout",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Strider's <strong>Kit Bonuses</strong> gain the following effects:<ul><li><strong>Marksman Kit Kit Bonus</strong>: The Strider may launch a flare to a space within <strong>Range 15</strong>, where it begins projecting bright light in a <strong>Blast 1</strong> area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. This effect lasts until the start of the Strider's next turn.</li><li><strong>Skirmisher Kit Kit Bonus</strong>: The Strider may choose an allied character within <strong>Range 5</strong>, and that character may immediately move <strong>2 spaces</strong>. This movement ignores engagement and doesn't provoke <strong>reactions</strong>.</li></ul>",
+    "tags": []
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_survival_knife_strider",
+    "name": "Survival Knife",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon is considered part of both kits at once, and automatically returns to the Strider whenever they swap kits.",
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 5
+      }
+    ],
+    "weapon_type": "Auxiliary Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "Targets become <strong>Slowed</strong> until the end of their next turn."
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_spare_parts_strider",
+    "name": "Spare Parts",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Strider swaps kits, they may spend a charge from this system, and either they or an adjacent allied character regains <strong>5/6/7 HP</strong> and gains <strong>+1 Accuracy</strong> on all attacks, checks, and saves until the end of their next turn. If the Strider is destroyed before this system is expended, they leave behind a wreck that can be salvaged for parts; an allied character adjacent to the wreck can use this system as a <strong>quick action</strong>, gaining the benefits. The wreck is then destroyed.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "nrfaw-npc-rebake_npcf_weathering_strider",
+    "name": "Weathering",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Strider ignores <strong>difficult terrain.</strong>",
+    "tags": []
+  }
+
+]

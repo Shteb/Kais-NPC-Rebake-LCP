@@ -62,7 +62,7 @@ Currently using suffixes on the features to notate which class they belong to.
 ### Ultra Progress: 100%
 It is done.
 
-# NRFaWF Classes & Features: 100% Complete! Up to date as of 07/06/2025.
+# NRFaWF Classes & Features: 100% Complete! Up to date as of 10/06/2025.
 | Class | Status |
 | ------ | :------: |
 Avenger | ✓

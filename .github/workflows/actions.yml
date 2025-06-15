@@ -54,7 +54,7 @@ jobs:
         runs-on: ubuntu-latest
         defaults:
             run:
-                working-directory: 'Walflower Rebakes'
+                working-directory: 'Wallflower Rebakes'
         steps:
           - uses: actions/checkout@v4
           - name: bump the lcp_manifest version

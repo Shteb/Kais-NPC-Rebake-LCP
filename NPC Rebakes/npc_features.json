@@ -519,7 +519,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer chooses a character within <strong>Range 10</strong>: that character must either move their <strong>Speed</strong> in a direction of the Archer's choice, or allow the Archer to attack them with the <strong>Light Machine Gun</strong>. This movement ignores engagement and does not provoke reactions.",
+    "effect": "The Archer chooses a hostile character within <strong>Range 10</strong>: that character must either move their <strong>Speed</strong> in a direction of the Archer's choice, or allow the Archer to attack them with the <strong>Light Machine Gun</strong>. This movement ignores engagement and does not provoke reactions.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -969,7 +969,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Assault may target them with <strong>Overwatch</strong> using the <strong>Heavy Assault Rifle</strong>, dealing half damage on hit.",
+    "effect": "The Assault may target them with <strong>Overwatch</strong> using the <strong>Heavy Assault Rifle</strong>, dealing half damage.",
     "tags": [
       {
         "id": "tg_round",
@@ -979,8 +979,8 @@
     "trigger": "A character who doesn't have cover from the Assault is successfully attacked by an allied character."
   },
   {
-    "id": "npc-rebake_npcf_trait_stormtrooper",
-    "name": "Stormtrooper",
+    "id": "npc-rebake_npcf_trait_shocktrooper",
+    "name": "Shocktrooper",
     "origin": {
       "type": "Class",
       "name": "Assault [K]",
@@ -1207,7 +1207,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "An adjacent allied character can spend a <strong>quick action</strong> to reload this weapon.",
+    "effect": "An adjacent allied character can reload this weapon as a <strong>quick action</strong>.",
     "tags": [
       {
         "id": "tg_arcing"
@@ -2200,7 +2200,7 @@
       },
       {
         "id": "tg_knockback",
-        "val": 3
+        "val": 1
       }
     ],
     "weapon_type": "Heavy Melee",
@@ -3231,7 +3231,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Mirage creates three <strong>Size 1</strong> data constructs in free spaces within line of sight and <strong>Range 5</strong>. These constructs provide <strong>soft cover</strong>, but don't block line of sight and can be passed through. When hostile characters pass through a construct, it disappears and they must pass a <strong>Systems</strong> save or take <strong>{2/3/4} heat</strong> and become <strong>Jammed</strong> until the end of their next turn. During the Mirage’s turn, they can <strong>teleport</strong> an allied character within line of sight to the location of a data construct as a <strong>quick action</strong>, causing the construct to disappear, as long as there is sufficient free space for them to end this movement in.",
+    "effect": "The Mirage creates three <strong>Size 1</strong> data constructs in free spaces within line of sight and <strong>Range 5</strong>. These constructs provide <strong>soft cover</strong>, but don't block line of sight and can be passed through. When hostile characters pass through a construct, it disappears and they must pass a <strong>Systems</strong> save or take <strong>{2/3/4} heat</strong> and become <strong>Jammed</strong> until the end of their next turn. During the Mirage’s turn, they can <strong>teleport</strong> an allied character within line of sight to the location of a data construct as a <strong>quick action</strong>, causing the construct to disappear, as long as there is sufficient free space for them to end this movement in. These constructs last until the end of the scene, until the Mirage is destroyed, or until the Mirage uses this system again.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3275,7 +3275,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "",
+    "effect": "<strong>On Critical Hit:</strong> This weapon deals <strong>burn</strong> instead of <strong>energy damage</strong>.",
     "tags": [
       {
         "id": "tg_reliable",
@@ -5855,7 +5855,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Controller-Type creates a <strong>Blast 1</strong> area within <strong>Range 5</strong> that lasts until the end of the scene. Hostile characters that start their turn in the area or move into it for the first time on their turn take <strong>{2/3/4} heat</strong> and must pass a <strong>Systems</strong> save or become <strong>Slowed</strong> until the end of their next turn. A character can disperse this area by passing a <strong>Systems</strong> check as a quick action while adjacent to it.",
+    "effect": "The Controller-Type creates an electro-chaff zone in a free <strong>Blast 1</strong> area within <strong>Range 5</strong> that lasts until the end of the scene. Hostile characters that start their turn in the area or move into it for the first time on their turn take <strong>{2/3/4} heat</strong> and must pass a <strong>Systems</strong> save or become <strong>Slowed</strong> until the end of their next turn. A character can disperse this area by passing a <strong>Systems</strong> check as a quick action while adjacent to it.",
     "tags": [
       {
         "id": "tg_quick_action"

@@ -15,7 +15,7 @@ Classes and features are organised by Class alphabetically, then by feature as t
 ### When making changes
 - Update Readme with progress.
 
-# Classes & Features: 100% Complete! Up to date as of 23/03/2025.
+# Classes & Features: 100% Complete! Up to date as of 13/06/2025.
 
 | Class | Status |
 | ------ | :------: |
@@ -62,7 +62,7 @@ Currently using suffixes on the features to notate which class they belong to.
 ### Ultra Progress: 100%
 It is done.
 
-# NRFaWF Classes & Features: 100% Complete! Up to date as of 10/06/2025.
+# NRFaWF Classes & Features: 100% Complete! Up to date as of 13/06/2025.
 | Class | Status |
 | ------ | :------: |
 Avenger | ✓

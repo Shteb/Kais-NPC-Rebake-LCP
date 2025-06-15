@@ -1,0 +1,14 @@
+[
+    {"id": "nrfaw-npc-rebake_npct_veteran",
+        "name": "NRFaWF Veteran [K]",
+        "description": "Veterans are hardened, experienced fighters that have survived several direct engagements. This isn’t their first rodeo, and their ability to withstand morale shocks is far higher than an untested greenhorn. Their value on the field is the experience they bring to a deployment and their steady presence along the line.<br>Use the Veteran template to make more memorable characters.",
+        "base_features": [
+     ],
+     "optional_features": [
+        "nrfaw-npc-rebake_npcf_solidarity_veteran",
+        "nrfaw-npc-rebake_npcf_seeded_shadows_veteran",
+        "nrfaw-npc-rebake_npcf_rebuke_veteran",
+        "nrfaw-npc-rebake_npcf_ranger_training_veteran"
+        ]
+    }
+]

@@ -97,7 +97,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Avenger may <strong>Boost</strong> towards the triggering character. If the allied character was destroyed, the Avenger may also attack the triggering character with the <strong>Slug Pistol</strong>. This reaction can be taken as many times per round as it is triggered",
+    "effect": "The Avenger may <strong>Boost</strong> towards the triggering character. If the allied character was destroyed, the Avenger may also attack the triggering character with the <strong>Slug Pistol</strong>. This reaction can be taken as many times per round as it is triggered.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -203,7 +203,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "At the start of any combat, when they arrive as reinforcements, or as a <strong>protocol</strong>, the Lurker can create a rippling storm of nanites – a <strong>Shroud Zone</strong>. This is a <strong>Blast 1</strong> area within <strong>Range 10</strong> that can can overlap with obstructions (like cover or terrain) when created, but not characters or other <strong>Shroud Zones</strong>.<strong>Shroud Zones</strong> provide <strong>soft cover</strong> both to the Lurker and to allied characters at least partially within them.<br><br>While inside a <strong>Shroud Zone</strong>:<ul><li>The Lurker becomes <strong>Invisibile</strong>.</li><li>Hostile Characters at least partially within them are <strong>Shredded</strong> as long as they remain within the <strong>Shroud Zone.</strong></li></ul><br><br><strong>Shroud Zones</strong> can be dispersed by making a successful <strong>tech attack or an attack with a weapon that targets E-Defense</strong>. They have <strong>E-Defense 10/12/14</strong> and disperse upon any successful attack.<br><br>The Lurker can have no more than three <strong>Shroud Zones</strong> active at a time; if they create another, one of their currently active <strong>Shroud Zones</strong> of their choice dissipates. <strong>Shroud Zones</strong> also dissipate when the Lurker is destroyed. All Lurkers can utilize all <strong>Shroud Zones</strong>, even those created by other Lurkers. <strong>Shroud Zones</strong> can overlap each other, but their effects do not stack.",
+    "effect": "At the start of any combat, when they arrive as reinforcements, or as a <strong>protocol</strong>, the Lurker can create a rippling storm of nanites – a <strong>Shroud Zone</strong>. This is a <strong>Blast 1</strong> area within <strong>Range 10</strong> that can overlap with obstructions (like cover or terrain) when created, but not characters or other <strong>Shroud Zones</strong>.<strong>Shroud Zones</strong> provide <strong>soft cover</strong> both to the Lurker and to allied characters at least partially within them.<br><br>While inside a <strong>Shroud Zone</strong>:<ul><li>The Lurker becomes <strong>Invisible</strong>.</li><li>Hostile Characters at least partially within them are <strong>Shredded</strong> as long as they remain within the <strong>Shroud Zone.</strong></li></ul><br><br><strong>Shroud Zones</strong> can be dispersed by making a successful <strong>tech attack or an attack with a weapon that targets E-Defense</strong>. They have <strong>E-Defense 10/12/14</strong> and disperse upon any successful attack.<br><br>The Lurker can have no more than three <strong>Shroud Zones</strong> active at a time; if they create another, one of their currently active <strong>Shroud Zones</strong> of their choice dissipates. <strong>Shroud Zones</strong> also dissipate when the Lurker is destroyed. All Lurkers can utilize all <strong>Shroud Zones</strong>, even those created by other Lurkers. <strong>Shroud Zones</strong> can overlap each other, but their effects do not stack.",
     "tags": [
       {
         "id": "tg_protocol"
@@ -363,7 +363,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Lurker creates a fragile nanite-constructed pseudochassis within a <strong>Shroud Zone</strong> of their choice. This construct is another Lurker with the <strong>Grunt</strong> template. The construct takes its own independent activations, can act on the round it is created, and benefits from <strong>Shroud Zones</strong>, but it only can only use <strong>Scouring Whip</strong> and </strong>Umbral Shift</strong>. Only one such construct can be active at a time, and if another construct is created, the first one dissolves and is destroyed. Otherwise, it lasts for the rest of the scene or until the Lurker is destroyed.",
+    "effect": "The Lurker creates a fragile nanite-constructed pseudochassis within a <strong>Shroud Zone</strong> of their choice. This construct is another Lurker with the <strong>Grunt</strong> template. The construct takes its own independent activations, can act on the round it is created, and benefits from <strong>Shroud Zones</strong>, but it can only use <strong>Scouring Whip</strong> and </strong>Umbral Shift</strong>. Only one such construct can be active at a time, and if another construct is created, the first one dissolves and is destroyed. Otherwise, it lasts for the rest of the scene or until the Lurker is destroyed.",
     "tags": [
       {
         "id": "tg_protocol"
@@ -419,7 +419,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Spite becomes <strong>Immobilized</strong> and generates a crackling defensive shield around an allied character within <strong>Sensors.</strong> While this shield is active, ranged and melee attacks against the shielded character receive <strong>+1 Difficulty</strong>, and any characters that make ranged or melee attacks against the shielded character take <strong>{3/4/5} AP energy damage</strong> before the attack roll is made. This effects lasts until the Spite uses this system on a different character, ends it as a <strong>quick action</strong>, or is destroyed.",
+    "effect": "The Spite becomes <strong>Immobilized</strong> and generates a crackling defensive shield around an allied character within <strong>Sensors.</strong> While this shield is active, ranged and melee attacks against the shielded character receive <strong>+1 Difficulty</strong>, and any characters that make ranged or melee attacks against the shielded character take <strong>{3/4/5} AP energy damage</strong> before the attack roll is made. This effect lasts until the Spite uses this system on a different character, ends it as a <strong>quick action</strong>, or is destroyed.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -487,7 +487,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Any character that successfully damages a character benefiting from <strong>Enthrone's</strong> energy shield must pass a <strong>Systems</strong> save. On a failure, they become <strong>Jammed</strong> until the end of their next turn and the effects of <strong>Enthrone</strong> immediately end. Each character can only be forced to make this save <strong>1/round</strong>, and characters affected by <strong>Imprison</strong> automatically fail this save",
+    "effect": "Any character that successfully damages a character benefiting from <strong>Enthrone's</strong> energy shield must pass a <strong>Systems</strong> save. On a failure, they become <strong>Jammed</strong> until the end of their next turn and the effects of <strong>Enthrone</strong> immediately end. Each character can only be forced to make this save <strong>1/round</strong>, and characters affected by <strong>Imprison</strong> automatically fail this save.",
     "tags": []
   },
   {
@@ -552,7 +552,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "<strong>Marksmen Kit Swap Bonus</strong>: This turn only, the <strong>Ranger Long Rifle</strong> ignores the <strong>Ordnance</strong> tag.<br><br><strong>Skirmisher Kit Swap Bonus</strong>: The Strider makes an attack against a character of their choice within <strong>Range 5</strong> using the <strong>Explosive Carbine</strong> as a <strong>free action</strong>.",
+    "effect": "<strong>Marksman Kit Swap Bonus</strong>: This turn only, the <strong>Ranger Long Rifle</strong> ignores the <strong>Ordnance</strong> tag.<br><br><strong>Skirmisher Kit Swap Bonus</strong>: The Strider makes an attack against a character of their choice within <strong>Range 5</strong> using the <strong>Explosive Carbine</strong> as a <strong>free action</strong>.",
     "tags": [],
     "trigger": "The Strider swaps to the <strong>Marksman Kit</strong> or <strong>Skirmisher Kit</strong>."
   },
@@ -566,7 +566,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "<strong>Marksmen Kit Kit Bonus</strong>: As a <strong>protocol</strong>, the Strider may <strong>Lock On</strong> to a hostile character within <strong>Sensors</strong> and line of sight.<br><br><strong>Skirmisher Kit Kit Bonus</strong>: At the start of their turn, the Strider may move <strong>2 spaces</strong>. This movement ignores engagement and doesn't provoke <strong>reactions</strong>.",
+    "effect": "<strong>Marksman Kit Kit Bonus</strong>: As a <strong>protocol</strong>, the Strider may <strong>Lock On</strong> to a hostile character within <strong>Sensors</strong> and line of sight.<br><br><strong>Skirmisher Kit Kit Bonus</strong>: At the start of their turn, the Strider may move <strong>2 spaces</strong>. This movement ignores engagement and doesn't provoke <strong>reactions</strong>.",
     "tags": [],
     "trigger": "The Strider starts their turn equipped with the <strong>Marksman Kit</strong> or <strong>Skirmisher Kit</strong>."
   },
@@ -857,7 +857,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Before combat begins, the Avenger chooses an allied <strong>non-Grunt, non-Drone</strong> character; the Avenger and the chosen character are <strong>bondmates</strong>. During the Avenger's turn, as a <strong>protocol</strong> they may move their <strong>Speed</strong> towards their bondmate, or their bondmate may move their <strong>Speed</strong> towards them, as directly as possible. When the Avenger's bondmate is destroyed while within <strong>Range 5</strong> of the Avenger, they instead survive with <strong>1 HP</strong>; this still activates <strong>Revenge</strong>.A character can only have one bondmate this way.",
+    "effect": "Before combat begins, the Avenger chooses an allied <strong>non-Grunt, non-Drone</strong> character; the Avenger and the chosen character are <strong>bondmates</strong>. During the Avenger's turn, as a <strong>protocol</strong> they may move their <strong>Speed</strong> towards their bondmate, or their bondmate may move their <strong>Speed</strong> towards them, as directly as possible. When the Avenger's bondmate is destroyed while within <strong>Range 5</strong> of the Avenger, they instead survive with <strong>1 HP</strong>; this still activates <strong>Revenge</strong>. A character can only have one bondmate this way.",
     "tags": []
   },
   {

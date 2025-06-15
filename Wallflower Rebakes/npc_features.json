@@ -203,7 +203,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "At the start of any combat, when they arrive as reinforcements, or as a <strong>protocol</strong>, the Lurker can create a rippling storm of nanites – a <strong>Shroud Zone</strong>. This is a <strong>Blast 1</strong> area within <strong>Range 10</strong> that can can overlap with obstructions (like cover or terrain) when created, but not characters.<strong>Shroud Zones</strong> provide <strong>soft cover</strong> both to the Lurker and to allied characters at least partially within them.<br><br>While inside a <strong>Shroud Zone</strong>:<ul><li> The Lurker becomes <strong>Invisibile</strong>. </li><li> Hostile Characters at least partially within them are <strong>Shredded</strong> as long as they remain within the <strong>Shroud Zone.</strong></li></ul><br><br><strong>Shroud Zones</strong> can be dispersed by making a successful <strong>tech attack or an attack with a weapon that targets E-Defense</strong>. They have <strong>E-Defense 10/12/14</strong> and disperse upon any successful attack.<br><br>The Lurker can have no more than three <strong>Shroud Zones</strong> active at a time; if they create another, one of their currently active <strong>Shroud Zones</strong> of their choice dissipates. <strong>Shroud Zones</strong> also dissipate when the Lurker is destroyed. All Lurkers can utilize all <strong>Shroud Zones</strong>, even those created by other Lurkers. <strong>Shroud Zones</strong> can overlap each other, but their effects do not stack.",
+    "effect": "At the start of any combat, when they arrive as reinforcements, or as a <strong>protocol</strong>, the Lurker can create a rippling storm of nanites – a <strong>Shroud Zone</strong>. This is a <strong>Blast 1</strong> area within <strong>Range 10</strong> that can can overlap with obstructions (like cover or terrain) when created, but not characters or other <strong>Shroud Zones</strong>.<strong>Shroud Zones</strong> provide <strong>soft cover</strong> both to the Lurker and to allied characters at least partially within them.<br><br>While inside a <strong>Shroud Zone</strong>:<ul><li>The Lurker becomes <strong>Invisibile</strong>.</li><li>Hostile Characters at least partially within them are <strong>Shredded</strong> as long as they remain within the <strong>Shroud Zone.</strong></li></ul><br><br><strong>Shroud Zones</strong> can be dispersed by making a successful <strong>tech attack or an attack with a weapon that targets E-Defense</strong>. They have <strong>E-Defense 10/12/14</strong> and disperse upon any successful attack.<br><br>The Lurker can have no more than three <strong>Shroud Zones</strong> active at a time; if they create another, one of their currently active <strong>Shroud Zones</strong> of their choice dissipates. <strong>Shroud Zones</strong> also dissipate when the Lurker is destroyed. All Lurkers can utilize all <strong>Shroud Zones</strong>, even those created by other Lurkers. <strong>Shroud Zones</strong> can overlap each other, but their effects do not stack.",
     "tags": [
       {
         "id": "tg_protocol"
@@ -273,7 +273,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Lurker may create a <strong>Shroud Zone</strong> centered on its location, <strong>then teleport</strong> to a free space within a Shroud Zone of their choice.",
+    "effect": "The Lurker may create a <strong>Shroud Zone</strong> centered on its location, and may then <strong>teleport</strong> to a free space within a <strong>Shroud Zone</strong> of their choice.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -721,7 +721,6 @@
         "id": "tg_round",
         "val": 1
       }
-
     ],
     "trigger": "Another character in <strong>Sensors</strong> begins their turn."
   },
@@ -858,7 +857,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Before combat begins, the Avenger chooses an allied <strong>non-Grunt, non-Drone</strong> character; the Avenger and the chosen character are <strong>bondmates</strong>. During the Avenger's turn, as a <strong>protocol</strong> they may move their <strong>Speed</strong> towards their bondmate, or their bondmate may move their <strong>Speed</strong> towards them, as directly as possible. When the Avenger's bondmate is destroyed while within <strong>Range 5</strong> of the Avenger, they instead survive with <strong>1 HP</strong>; this still activates <strong>Revenge</strong>.",
+    "effect": "Before combat begins, the Avenger chooses an allied <strong>non-Grunt, non-Drone</strong> character; the Avenger and the chosen character are <strong>bondmates</strong>. During the Avenger's turn, as a <strong>protocol</strong> they may move their <strong>Speed</strong> towards their bondmate, or their bondmate may move their <strong>Speed</strong> towards them, as directly as possible. When the Avenger's bondmate is destroyed while within <strong>Range 5</strong> of the Avenger, they instead survive with <strong>1 HP</strong>; this still activates <strong>Revenge</strong>.A character can only have one bondmate this way.",
     "tags": []
   },
   {
@@ -871,7 +870,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Before the first round of combat, after all other deployment has taken place, the Lurker may immediately deploy three <strong>Shroud Zones</strong>. These <strong>Shroud Zones</strong> may be placed anywhere on the map except within <strong>Range 10</strong> of a hostile character.",
+    "effect": "Before the first round of combat, after all other deployment has taken place (including the Lurker), the Lurker may immediately deploy up to three <strong>Shroud Zones</strong>. These <strong>Shroud Zones</strong> may be placed anywhere on the map except within <strong>Range 10</strong> of a hostile character.",
     "tags": []
   },
   {
@@ -900,5 +899,4 @@
     "effect": "When the Strider uses <strong>Swap Kit</strong>, they may either drop <strong>Prone</strong> or stand from <strong>Prone</strong>. While <strong>Prone</strong>, attacks against the Strider receive <strong>+1 Difficulty</strong> rather than <strong>+1 Accuracy</strong>.",
     "tags": []
   }
-
 ]

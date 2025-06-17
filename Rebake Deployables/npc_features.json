@@ -45,7 +45,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "At the end of the Engineer's turn, attack the <strong>nearest hostile character</strong> in <strong>Range</strong> with this weapon.<br> <strong>1/round</strong>, the Deployable Turret may <strong>Overwatch</strong> with this weapon.",
+    "effect": "<p>At the end of the Engineer's turn, attack the <strong>nearest hostile character</strong> in <strong>Range</strong> with this weapon.</p><p> <strong>1/round</strong>, the Deployable Turret may <strong>Overwatch</strong> with this weapon.</p>",
     "tags": [],
     "weapon_type": "Drone Weapon",
     "attack_bonus": [
@@ -131,7 +131,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Flare Drone creates a <strong>Burst 2</strong> area of bright light. All characters in the affected area - including those who move into the area or start their turn within it - lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the Bombard gains <strong>+1 Accuracy</strong> to attacks against characters in the affected area.<br><br>Only one Flare Drone can be deployed at any time. If the Bombard that deployed this Flare Drone deploys another, this one is immediately destroyed.",
+    "effect": "<p>The Flare Drone creates a <strong>Burst 2</strong> area of bright light. All characters in the affected area - including those who move into the area or start their turn within it - lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the Bombard gains <strong>+1 Accuracy</strong> to attacks against characters in the affected area.</p><p>Only one Flare Drone can be deployed at any time. If the Bombard that deployed this Flare Drone deploys another, this one is immediately destroyed.</p>",
     "tags": [],
     "hide_active": false
   },
@@ -159,7 +159,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "At the end of the Rainmaker's turn, the Hound Missile makes a standard move, flying <strong>3 spaces</strong> towards its target, <strong>6 spaces</strong> if its target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed.<br><br>When the Hound Missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters caught in the affected area must make an <strong>Agility</strong> save or take <strong>{16/20/24} Explosive damage</strong>. On a success, they take half damage.",
+    "effect": "<p>At the end of the Rainmaker's turn, the Hound Missile makes a standard move, flying <strong>3 spaces</strong> towards its target, <strong>6 spaces</strong> if its target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed.</p><p>When the Hound Missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters caught in the affected area must make an <strong>Agility</strong> save or take <strong>{16/20/24} Explosive damage</strong>. On a success, they take half damage.</p>",
     "tags": [],
     "hide_active": false
   },
@@ -187,7 +187,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Latch Drone moves with and occupies the same space as its target character. Hostile characters can attack the drone as normal.<br><br>Only one Latch Drone can be deployed at any time. If the Support that deployed this Latch Drone deploys another, this one is immediately destroyed.",
+    "effect": "<p>The Latch Drone moves with and occupies the same space as its target character. Hostile characters can attack the drone as normal.</p><p>Only one Latch Drone can be deployed at any time. If the Support that deployed this Latch Drone deploys another, this one is immediately destroyed.</p>",
     "tags": [],
     "hide_active": false
   },
@@ -299,7 +299,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "At the end of the Ultra's turn, the Wolfhound Missile makes a standard move, flying <strong>4 spaces</strong> towards its target, <strong>8 spaces</strong> if its target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed.<br><br>When the Wolfhound Missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2</strong> explosion. Characters caught in the affected area must make an <strong>Agility</strong> save or take <strong>{14/20/28} Explosive damage</strong>. On a success, they take half damage.",
+    "effect": "<p>At the end of the Ultra's turn, the Wolfhound Missile makes a standard move, flying <strong>4 spaces</strong> towards its target, <strong>8 spaces</strong> if its target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed.</p><p>When the Wolfhound Missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2</strong> explosion. Characters caught in the affected area must make an <strong>Agility</strong> save or take <strong>{14/20/28} Explosive damage</strong>. On a success, they take half damage.</p>",
     "tags": [],
     "hide_active": false
   }

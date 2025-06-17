@@ -246,7 +246,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a <strong>Burst 2</strong> area. While active, the Aegis is <strong>Immobilized</strong>, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive <strong>+2 Difficulty</strong> and cannot result in <strong>critical hits</strong>; whenever an attack receiving this <strong>Difficulty</strong> misses, the Aegis takes <strong>2 Heat</strong>. Characters within the affected area may attack characters within and outside of the area normally.<br><br>Allied characters within the affected area also gain <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong>, and remove these conditions when they enter the area if they already have them.<br><br>This effect lasts until the Aegis ends it as a <strong>protocol</strong> or is destroyed. If the Aegis exceeds their <strong>Heat Cap</strong>, becomes <strong>Stunned</strong>, or becomes <strong>Jammed</strong> while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
+    "effect": "<p>The Aegis spreads a powerful, shimmering repulsion shield over a <strong>Burst 2</strong> area. While active, the Aegis is <strong>Immobilized</strong>, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive <strong>+2 Difficulty</strong> and cannot result in <strong>critical hits</strong>; whenever an attack receiving this <strong>Difficulty</strong> misses, the Aegis takes <strong>2 Heat</strong>. Characters within the affected area may attack characters within and outside of the area normally.</p><p>Allied characters within the affected area also gain <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong>, and remove these conditions when they enter the area if they already have them.</p><p>This effect lasts until the Aegis ends it as a <strong>protocol</strong> or is destroyed. If the Aegis exceeds their <strong>Heat Cap</strong>, becomes <strong>Stunned</strong>, or becomes <strong>Jammed</strong> while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.</p>",
     "tags": [
       {
         "id": "tg_shield"
@@ -412,7 +412,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer chooses a target within line of sight and <strong>Range 10</strong>: they become <strong>Impaired</strong> and the Archer gains the <strong>Moving Target</strong> reaction.<br><br>This effect lasts until the Archer uses <strong>Moving Target</strong>; the target damages the Archer or leaves the Archer’s line of sight; the Archer is <strong>Stunned</strong>, <strong>Jammed</strong>, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
+    "effect": "<p>The Archer chooses a target within line of sight and <strong>Range 10</strong>: they become <strong>Impaired</strong> and the Archer gains the <strong>Moving Target</strong> reaction.</p><p>This effect lasts until the Archer uses <strong>Moving Target</strong>; the target damages the Archer or leaves the Archer’s line of sight; the Archer is <strong>Stunned</strong>, <strong>Jammed</strong>, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.</p>",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -1183,7 +1183,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Snare Drone (<strong>Size 1/2,</strong> <strong>HP {5/8/10}</strong>, <strong>Evasion {10/12/14}</strong>, <strong>E-Defense {10/12/14}</strong>, Tags: Drone)<br><br>This drone can be printed and deployed to any free adjacent space. When hostile characters move into or start their turn within <strong>Range 3</strong> of the drone, it emits a pulse, and they become <strong>Immobilized</strong> until the drone is destroyed.",
+    "effect": "<p>Snare Drone (<strong>Size 1/2,</strong> <strong>HP {5/8/10}</strong>, <strong>Evasion {10/12/14}</strong>, <strong>E-Defense {10/12/14}</strong>, Tags: Drone)</p><p>This drone can be printed and deployed to any free adjacent space. When hostile characters move into or start their turn within <strong>Range 3</strong> of the drone, it emits a pulse, and they become <strong>Immobilized</strong> until the drone is destroyed.</p>",
     "tags": [
       {
         "id": "tg_drone"
@@ -1695,7 +1695,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Flare Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/15/20}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)<br><br>This drone can be deployed to a space within line of sight and <strong>Range 25</strong>, where it hovers in place and begins projecting bright light in a <strong>Burst 2</strong> area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the Bombard gains <strong>+1 Accuracy</strong> to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
+    "effect": "<p><strong>Flare Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/15/20}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)</p><p>This drone can be deployed to a space within line of sight and <strong>Range 25</strong>, where it hovers in place and begins projecting bright light in a <strong>Burst 2</strong> area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the Bombard gains <strong>+1 Accuracy</strong> to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.</p>",
     "tags": [
       {
         "id": "tg_drone"
@@ -2334,7 +2334,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can attempt to reel in the cables as a <strong>protocol</strong>, forcing an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br><br>An embedded character or an adjacent ally can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
+    "effect": "<p>The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can attempt to reel in the cables as a <strong>protocol</strong>, forcing an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.</p><p>An embedded character or an adjacent ally can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.</p>",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2391,7 +2391,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Deployable Turret (<strong>Size</strong> 1/2, <strong>HP</strong> {1/1/1}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags:</strong> Drone)<br><br>Up to two of these self-constructing turrets can be deployed to any free space within <strong>Range 3</strong>. At the end of Engineer’s turn, deployed turrets attack the nearest hostile character within <strong>Range 10</strong>. They attack at +{1/2/3} and deal <strong>{4/5/6} Kinetic damage</strong>. The Engineer may have six turrets deployed at one time; if they deploy additional turrets beyond this, previous turrets of their choice are destroyed until they have no more than six total.<br><br>All turrets are destroyed when the Engineer is destroyed. If the Engineer becomes <strong>Jammed</strong> or <strong>Stunned</strong>, their turrets are also disabled for the duration of those conditions instead of attacking.",
+    "effect": "<p>Deployable Turret (<strong>Size</strong> 1/2, <strong>HP</strong> {1/1/1}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags:</strong> Drone)</p><p>Up to two of these self-constructing turrets can be deployed to any free space within <strong>Range 3</strong>. At the end of Engineer’s turn, deployed turrets attack the nearest hostile character within <strong>Range 10</strong>. They attack at +{1/2/3} and deal <strong>{4/5/6} Kinetic damage</strong>. The Engineer may have six turrets deployed at one time; if they deploy additional turrets beyond this, previous turrets of their choice are destroyed until they have no more than six total.</p><p>All turrets are destroyed when the Engineer is destroyed. If the Engineer becomes <strong>Jammed</strong> or <strong>Stunned</strong>, their turrets are also disabled for the duration of those conditions instead of attacking.</p>",
     "tags": [
       {
         "id": "tg_drone"
@@ -2411,7 +2411,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Engineer chooses a character within line of sight and <strong>Sensors</strong>; they gain <strong>Lock On</strong>. At the end of the Engineer's turn, up to two of their <strong>Deployable Turrets</strong> will attack that target (if it is within range) instead of attacking the nearest hostile character.<br><br>This trait automatically <strong>recharges</strong> whenever two or more <strong>Deployable Turrets</strong> are destroyed by hostile characters before the end of the Engineer's next turn.",
+    "effect": "<p>The Engineer chooses a character within line of sight and <strong>Sensors</strong>; they gain <strong>Lock On</strong>. At the end of the Engineer's turn, up to two of their <strong>Deployable Turrets</strong> will attack that target (if it is within range) instead of attacking the nearest hostile character.</p><p>This trait automatically <strong>recharges</strong> whenever two or more <strong>Deployable Turrets</strong> are destroyed by hostile characters before the end of the Engineer's next turn.</p>",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3416,7 +3416,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the <strong>Blast 2</strong> energy pulse (excluding the Operator) must pass a <strong>Systems</strong> save or be <strong>teleported 2 spaces</strong> in a direction of the Operator's choice and treat the Operator as <strong>Invisible</strong> until the end of their next turn.<br><br>The Operator then <strong>teleports</strong> their <strong>Speed</strong>.",
+    "effect": "<p>The Operator may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the <strong>Blast 2</strong> energy pulse (excluding the Operator) must pass a <strong>Systems</strong> save or be <strong>teleported 2 spaces</strong> in a direction of the Operator's choice and treat the Operator as <strong>Invisible</strong> until the end of their next turn.</p><p>The Operator then <strong>teleports</strong> their <strong>Speed</strong>.</p>",
     "tags": [
       {
         "id": "tg_grenade"
@@ -3866,7 +3866,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Hound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone, Slowed, and Immobilized</strong>).<br><br>The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in <strong>Range 15</strong> and line of sight. At the start of the Rainmaker’s turns the missile makes its own standard move, <strong>flying 3 spaces</strong> towards its target, <strong>6</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{16/20/24} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Rainmaker. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Rainmaker may change the missile's target to that character",
+    "effect": "<p><strong>Hound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone, Slowed, and Immobilized</strong>).</p><p>The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in <strong>Range 15</strong> and line of sight. At the start of the Rainmaker’s turns the missile makes its own standard move, <strong>flying 3 spaces</strong> towards its target, <strong>6</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 1</strong> explosion. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{16/20/24} explosive damage</strong>. On a success, they take half damage.</p><p>Any hostile character that attempts to move a Hound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Rainmaker. If they fail, the movement is ignored, that character gains <strong>Lock On</strong>, and the Rainmaker may change the missile's target to that character</p>",
     "tags": [
       {
         "id": "tg_drone"
@@ -4615,7 +4615,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "Choose a mine that can be deployed with <strong>Lay Mines</strong>; the triggering character immediately detonates a hidden mine buried under the ground of that type. This Reaction may still be used even if the Seeder is destroyed.<br><br>If a hostile character is aware of this trait (i.e. via <strong>Scan</strong>, or automatically when the Seeder is destroyed), they may attempt a contested <strong>Systems</strong> check against the Seeder as a <strong>quick action</strong> while the Seeder (or its wreck) is within <strong>Sensors</strong>. If that character succeeds, this trait is disabled. This check automatically succeeds against destroyed Seeders.",
+    "effect": "<p>Choose a mine that can be deployed with <strong>Lay Mines</strong>; the triggering character immediately detonates a hidden mine buried under the ground of that type. This Reaction may still be used even if the Seeder is destroyed.</p><p>If a hostile character is aware of this trait (i.e. via <strong>Scan</strong>, or automatically when the Seeder is destroyed), they may attempt a contested <strong>Systems</strong> check against the Seeder as a <strong>quick action</strong> while the Seeder (or its wreck) is within <strong>Sensors</strong>. If that character succeeds, this trait is disabled. This check automatically succeeds against destroyed Seeders.</p>",
     "tags": [
       {
         "id": "tg_reaction"
@@ -4904,7 +4904,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character within <strong>Range 20</strong> and line of sight gains the <strong>Sniper’s Mark</strong>. Against targets with the <strong>Sniper’s Mark</strong>, the sniper gains <strong>+1 Accuracy</strong> on attacks with the <strong>Anti-Materiel Rifle</strong> and may choose to deal <strong>1 structure damage</strong> instead of its usual damage on hit; attacks made against a character with a <strong>Sniper's Mark</strong> this way can't be redirected, rerolled, or forced to miss by hostile effects except for <strong>Invisible</strong> and <strong>Difficulty</strong>.<br><br>Characters know when they have the <strong>Sniper's Mark</strong> They ignore its effects if they are in cover (i.e. behind <strong>hard cover</strong> or within a zone that grants <strong>soft cover</strong>) or <strong>Prone</strong>. On their turn, characters with the <strong>Sniper's Mark</strong> may drop <strong>Prone</strong> as a <strong>free action</strong><br><br>The Sniper can only mark one character at a time, but can transfer the <strong>Sniper's Mark</strong> to another character within <strong>Range 20</strong> and line of sight as a <strong>full action</strong>, or whenever the sniper reloads the <strong>Anti-Material Rifle</strong>.",
+    "effect": "<p>A character within <strong>Range 20</strong> and line of sight gains the <strong>Sniper’s Mark</strong>. Against targets with the <strong>Sniper’s Mark</strong>, the sniper gains <strong>+1 Accuracy</strong> on attacks with the <strong>Anti-Materiel Rifle</strong> and may choose to deal <strong>1 structure damage</strong> instead of its usual damage on hit; attacks made against a character with a <strong>Sniper's Mark</strong> this way can't be redirected, rerolled, or forced to miss by hostile effects except for <strong>Invisible</strong> and <strong>Difficulty</strong>.</p><p>Characters know when they have the <strong>Sniper's Mark</strong> They ignore its effects if they are in cover (i.e. behind <strong>hard cover</strong> or within a zone that grants <strong>soft cover</strong>) or <strong>Prone</strong>. On their turn, characters with the <strong>Sniper's Mark</strong> may drop <strong>Prone</strong> as a <strong>free action</strong></p><p>The Sniper can only mark one character at a time, but can transfer the <strong>Sniper's Mark</strong> to another character within <strong>Range 20</strong> and line of sight as a <strong>full action</strong>, or whenever the sniper reloads the <strong>Anti-Material Rifle</strong>.</p>",
     "tags": [
       {
         "id": "tg_full_action"
@@ -4934,7 +4934,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Sniper can attempt a called shot before attacking characters with the <strong>Sniper's Mark</strong> using the <strong>Anti-Materiel Rifle</strong>. This attack functions as usual, with an additional effect on a successful attack.<br><br>The Sniper may choose from the following:<ul><li><strong>Target Head:</strong> Targets must pass a <strong>Hull</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn.</li><li><strong>Target Legs:</strong> Targets must pass an <strong>Agility</strong> save or be <strong>Immobilized</strong> until the end of their next turn.</li><li><strong>Target Hardpoints</strong>: Targets must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn.</li><li><strong>Target Body:</strong> Targets must pass an <strong>Engineering</strong> save or become <strong>Shredded</strong> until the end of their next turn.</li></ul>",
+    "effect": "<p>The Sniper can attempt a called shot before attacking characters with the <strong>Sniper's Mark</strong> using the <strong>Anti-Materiel Rifle</strong>. This attack functions as usual, with an additional effect on a successful attack.</p><p>The Sniper may choose from the following:<ul><li><strong>Target Head:</strong> Targets must pass a <strong>Hull</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn.</li><li><strong>Target Legs:</strong> Targets must pass an <strong>Agility</strong> save or be <strong>Immobilized</strong> until the end of their next turn.</li><li><strong>Target Hardpoints</strong>: Targets must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn.</li><li><strong>Target Body:</strong> Targets must pass an <strong>Engineering</strong> save or become <strong>Shredded</strong> until the end of their next turn.</li></ul></p>",
     "tags": []
   },
   {
@@ -5015,7 +5015,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Sniper interrupts the movement. The character must immediately stop, give up all remaining movement, and fall <strong>Prone</strong> or they gain the <strong>Sniper's Mark.</strong><br><br>If they already have the <strong>Sniper's Mark</strong>, the Sniper instead may make an immediate attack against them with the <strong>Anti-Materiel Rifle</strong>.",
+    "effect": "<p>The Sniper interrupts the movement. The character must immediately stop, give up all remaining movement, and fall <strong>Prone</strong> or they gain the <strong>Sniper's Mark.</strong></p><p>If they already have the <strong>Sniper's Mark</strong>, the Sniper instead may make an immediate attack against them with the <strong>Anti-Materiel Rifle</strong>.</p>",
     "tags": [
       {
         "id": "tg_round",
@@ -5274,7 +5274,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Restock Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br><br>This drone can be deployed hovering in a space within <strong>Range 5</strong>. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them either regain {5/8/10} <strong>HP</strong> or reload one <strong>Loading</strong> weapon.",
+    "effect": "<p>Restock Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)</p><p>This drone can be deployed hovering in a space within <strong>Range 5</strong>. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them either regain {5/8/10} <strong>HP</strong> or reload one <strong>Loading</strong> weapon.</p>",
     "tags": [
       {
         "id": "tg_drone"
@@ -5311,7 +5311,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Adjacent, non-<strong>Immobilized</strong> allied characters can climb onto the Support as a <strong>quick action.</strong> While riding, they occupy the same space, move when the Support moves (even if they're <strong>Slowed</strong>), and benefit from <strong>soft cover.</strong> If they or the Support are knocked <strong>Prone</strong>, <strong>Stunned</strong>, <strong>Immobilized</strong>, or destroyed, they land <strong>Prone</strong> in adjacent spaces. Riders can climb down as part of any movement away.<br><br>The Support can carry one <strong>Squad</strong> or characters whose own combined <strong>Size</strong> is less than its own.",
+    "effect": "<p>Adjacent, non-<strong>Immobilized</strong> allied characters can climb onto the Support as a <strong>quick action.</strong> While riding, they occupy the same space, move when the Support moves (even if they're <strong>Slowed</strong>), and benefit from <strong>soft cover.</strong> If they or the Support are knocked <strong>Prone</strong>, <strong>Stunned</strong>, <strong>Immobilized</strong>, or destroyed, they land <strong>Prone</strong> in adjacent spaces. Riders can climb down as part of any movement away.</p><p>The Support can carry one <strong>Squad</strong> or characters whose own combined <strong>Size</strong> is less than its own.</p>",
     "tags": []
   },
   {
@@ -5375,7 +5375,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Latch Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br><br>This self-deploying drone clamps onto a character within <strong>Range 5</strong>, occupying the same space and moving with them. While the drone is attached, the target regains {5/8/10} HP at the start of each of their turns and gains <strong>+1 Accuracy</strong> on all checks, saves, and attacks. Enemies can target the drone with attacks. Only one <strong>Latch Drone</strong> can be deployed at a time, and if a new one is deployed, or the Support is destroyed, the old one disintegrates and is destroyed.",
+    "effect": "<p>Latch Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)</p><p>This self-deploying drone clamps onto a character within <strong>Range 5</strong>, occupying the same space and moving with them. While the drone is attached, the target regains {5/8/10} HP at the start of each of their turns and gains <strong>+1 Accuracy</strong> on all checks, saves, and attacks. Enemies can target the drone with attacks. Only one <strong>Latch Drone</strong> can be deployed at a time, and if a new one is deployed, or the Support is destroyed, the old one disintegrates and is destroyed.</p>",
     "tags": [
       {
         "id": "tg_drone"
@@ -7046,7 +7046,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "This powerful lance weapon begins charging during the Ultra's turn, which is visible to all characters. Set a <strong>Charge Die</strong>, <strong>1d6</strong>, starting at <strong>6</strong>. At the start of each of the Ultra's turns, reduce the value of the <strong>Charge Die</strong> by <strong>1</strong>, then roll <strong>1d6</strong> as though this system was <strong>Recharge 5+</strong>: on <strong>5+</strong>, reduce the value by another <strong>1</strong>. The value is also reduced by <strong>1</strong> each time the Ultra takes <strong>stress or structure damage</strong>.<br><br>When the <strong>Charge Die</strong> reaches <strong>1</strong>, the Ultra may reset it to <strong>6</strong> and, as a <strong>full action</strong>, draw a <strong>Line 30</strong> path. All sources of cover, terrain, objects, and deployables smaller than <strong>Size 5</strong> are completely annihilated, and then all characters within the affected area must pass an <strong>Agility</strong> save or take <strong>1 structure damage</strong>. On a success, they are reduced to <strong>1 HP</strong>.",
+    "effect": "<p>This powerful lance weapon begins charging during the Ultra's turn, which is visible to all characters. Set a <strong>Charge Die</strong>, <strong>1d6</strong>, starting at <strong>6</strong>. At the start of each of the Ultra's turns, reduce the value of the <strong>Charge Die</strong> by <strong>1</strong>, then roll <strong>1d6</strong> as though this system was <strong>Recharge 5+</strong>: on <strong>5+</strong>, reduce the value by another <strong>1</strong>. The value is also reduced by <strong>1</strong> each time the Ultra takes <strong>stress or structure damage</strong>.</p><p>When the <strong>Charge Die</strong> reaches <strong>1</strong>, the Ultra may reset it to <strong>6</strong> and, as a <strong>full action</strong>, draw a <strong>Line 30</strong> path. All sources of cover, terrain, objects, and deployables smaller than <strong>Size 5</strong> are completely annihilated, and then all characters within the affected area must pass an <strong>Agility</strong> save or take <strong>1 structure damage</strong>. On a success, they are reduced to <strong>1 HP</strong>.</p>",
     "tags": [
       {
         "id": "tg_full_action"
@@ -7101,7 +7101,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Wolfound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone, Slowed, and Immobilized</strong>).<br><br>The Ultra deploys the Wolfound Missile in an adjacent space and picks a target in <strong>Range 30</strong> and line of sight. At the start of the Ultra’s turns the missile makes its own standard move, <strong>flying 4 spaces</strong> towards its target, <strong>8</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2 explosion</strong>. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{14/20/28} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Wolfound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, and the missile immediately moves another <strong>4 spaces</strong> towards its target.",
+    "effect": "<p><strong>Wolfound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone, Slowed, and Immobilized</strong>).</p><p>The Ultra deploys the Wolfound Missile in an adjacent space and picks a target in <strong>Range 30</strong> and line of sight. At the start of the Ultra’s turns the missile makes its own standard move, <strong>flying 4 spaces</strong> towards its target, <strong>8</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2 explosion</strong>. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{14/20/28} explosive damage</strong>. On a success, they take half damage.</p><p>Any hostile character that attempts to move a Wolfound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, and the missile immediately moves another <strong>4 spaces</strong> towards its target.</p>",
     "tags": [
       {
         "id": "tg_drone"
@@ -7361,7 +7361,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.<br><br>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double <strong>Knockback</strong> on hit.",
+    "effect": "<p><strong>On Critical Hit</strong>: The target is knocked <strong>Prone</strong>, and the Ultra can make another attack against a different target within range. Only one additional attack can be made this way per turn.</p><p>If the Ultra adopts a stabilized stance as a <strong>protocol</strong> and becomes <strong>Immobilized</strong> until the start of its next turn, attacks with this weapon gain <strong>+1 Accuracy</strong> and deal double <strong>Knockback</strong> on hit.</p>",
     "tags": [
       {
         "id": "tg_reliable",

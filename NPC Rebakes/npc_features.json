@@ -189,7 +189,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Ace is destroyed, it instead moves up to its <strong>Speed</strong> and immediately lands, remaining at <strong>1 HP</strong>. All of the Ace's systems and traits (but not weapons) are then disabled",
+    "effect": "Whenever the Ace is destroyed, it instead moves up to its <strong>Speed</strong> and immediately lands, remaining at <strong>1 HP</strong>. All of the Ace's systems and traits (but not weapons) are then disabled.",
     "tags": []
   },
   {
@@ -2437,7 +2437,7 @@
   },
   {
     "id": "npc-rebake_npcf_perimeter_defense_engineer",
-    "name": "Perimiter Defense",
+    "name": "Perimeter Defense",
     "origin": {
       "type": "Class",
       "name": "Engineer [K]",
@@ -7101,7 +7101,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "<strong>Wolfound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone, Slowed, and Immobilized</strong>).<br><br>The Ultra deploys the Wolfound Missile in an adjacent space and picks a target in <strong>Range 30</strong> and line of sight. At the start of the Ultra’s turns the missile makes its own standard move, <strong>flying 4 spaces</strong> towards its target, <strong>8</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2 explosion</strong>. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{14/20/28} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Wolfound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, and the missile immediately moves another <strong>4 spaces</strong> towards its target.",
+    "effect": "<strong>Wolfhound Missile</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/12/14}, <strong>Evasion</strong> 10, <strong>E-Defense</strong> 10, <strong>Tags</strong>: <strong>Drone</strong>, <strong>Immunity to Prone, Slowed, and Immobilized</strong>).<br><br>The Ultra deploys the Wolfhound Missile in an adjacent space and picks a target in <strong>Range 30</strong> and line of sight. At the start of the Ultra’s turns the missile makes its own standard move, <strong>flying 4 spaces</strong> towards its target, <strong>8</strong> if the target has <strong>Lock On</strong>. It moves directly, maneuvering around cover and terrain if needed. When the missile moves adjacent to its target, or collides with any character, it creates a <strong>Burst 2 explosion</strong>. Characters in the affected area must pass an <strong>Agility</strong> save or take <strong>{14/20/28} explosive damage</strong>. On a success, they take half damage.<br><br>Any hostile character that attempts to move a Wolfhound Missile (i.e. with <strong>Knockback</strong>, push, pull, etc) must pass a contested <strong>Systems</strong> check against the Ultra. If they fail, the movement is ignored, and the missile immediately moves another <strong>4 spaces</strong> towards its target.",
     "tags": [
       {
         "id": "tg_drone"

@@ -141,7 +141,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit:</strong> This weapon deals <strong>+1d6 bonus damage</strong>.<br><br>This weapon automatically reloads whenever an allied <strong>non-Grunt, non-Drone</strong> character within <strong>Range 5</strong> is destroyed by a hostile character.",
+    "effect": "<p><strong>On Critical Hit:</strong> This weapon deals <strong>+1d6 bonus damage</strong>.</p><p>This weapon automatically reloads whenever an allied <strong>non-Grunt, non-Drone</strong> character within <strong>Range 5</strong> is destroyed by a hostile character.</p>",
     "tags": [
       {
         "id": "tg_loading"
@@ -203,7 +203,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "At the start of any combat, when they arrive as reinforcements, or as a <strong>protocol</strong>, the Lurker can create a rippling storm of nanites – a <strong>Shroud Zone</strong>. This is a <strong>Blast 1</strong> area within <strong>Range 10</strong> that can overlap with obstructions (like cover or terrain) when created, but not characters or other <strong>Shroud Zones</strong>.<strong>Shroud Zones</strong> provide <strong>soft cover</strong> both to the Lurker and to allied characters at least partially within them.<br><br>While inside a <strong>Shroud Zone</strong>:<ul><li>The Lurker becomes <strong>Invisible</strong>.</li><li>Hostile Characters at least partially within them are <strong>Shredded</strong> as long as they remain within the <strong>Shroud Zone.</strong></li></ul><br><br><strong>Shroud Zones</strong> can be dispersed by making a successful <strong>tech attack or an attack with a weapon that targets E-Defense</strong>. They have <strong>E-Defense 10/12/14</strong> and disperse upon any successful attack.<br><br>The Lurker can have no more than three <strong>Shroud Zones</strong> active at a time; if they create another, one of their currently active <strong>Shroud Zones</strong> of their choice dissipates. <strong>Shroud Zones</strong> also dissipate when the Lurker is destroyed. All Lurkers can utilize all <strong>Shroud Zones</strong>, even those created by other Lurkers. <strong>Shroud Zones</strong> can overlap each other, but their effects do not stack.",
+    "effect": "<p>At the start of any combat, when they arrive as reinforcements, or as a <strong>protocol</strong>, the Lurker can create a rippling storm of nanites – a <strong>Shroud Zone</strong>. This is a <strong>Blast 1</strong> area within <strong>Range 10</strong> that can overlap with obstructions (like cover or terrain) when created, but not characters or other <strong>Shroud Zones</strong>.<strong>Shroud Zones</strong> provide <strong>soft cover</strong> both to the Lurker and to allied characters at least partially within them.</p><p>While inside a <strong>Shroud Zone</strong>:<ul><li>The Lurker becomes <strong>Invisible</strong>.</li><li>Hostile Characters at least partially within them are <strong>Shredded</strong> as long as they remain within the <strong>Shroud Zone.</strong></li></ul></p><p><strong>Shroud Zones</strong> can be dispersed by making a successful <strong>tech attack or an attack with a weapon that targets E-Defense</strong>. They have <strong>E-Defense 10/12/14</strong> and disperse upon any successful attack.</p><p>The Lurker can have no more than three <strong>Shroud Zones</strong> active at a time; if they create another, one of their currently active <strong>Shroud Zones</strong> of their choice dissipates. <strong>Shroud Zones</strong> also dissipate when the Lurker is destroyed. All Lurkers can utilize all <strong>Shroud Zones</strong>, even those created by other Lurkers. <strong>Shroud Zones</strong> can overlap each other, but their effects do not stack.</p>",
     "tags": [
       {
         "id": "tg_protocol"
@@ -402,7 +402,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Spite adjusts the parameters of <strong>Imprison's</strong> virus on the fly, causing further instability. They choose one of the following effects as a protocol, as well as automatically choosing one whenever they use <strong>Imprison</strong>, which lasts until the end of the target's next turn; infected characters are aware of this effect when it is chosen. The infected character must then abide by the chosen effect or they take <strong>{5/6/7} AP energy damage</strong> at the end of their turn. This damage cannot be reduced in any way. <br><br> This effect immediately ends when the infection ends, and characters can only be affected by one such effect at a time; if they are already affected by one, the Spite chooses which one takes precedence.<ul><li> At the end of the character's next turn, the must be <strong>Prone</strong>; they may drop <strong>Prone</strong> during their turn as a free action. </li><li> At the end of the character's next turn, they must not be adjacent to another character or piece of terrain <strong>Size 1</strong> or greater. </li><li>At the end of the character's next turn, they must not have attacked any character other than the Spite.</li></ul>",
+    "effect": "<p>The Spite adjusts the parameters of <strong>Imprison's</strong> virus on the fly, causing further instability. They choose one of the following effects as a protocol, as well as automatically choosing one whenever they use <strong>Imprison</strong>, which lasts until the end of the target's next turn; infected characters are aware of this effect when it is chosen. The infected character must then abide by the chosen effect or they take <strong>{5/6/7} AP energy damage</strong> at the end of their turn. This damage cannot be reduced in any way. </p><p> This effect immediately ends when the infection ends, and characters can only be affected by one such effect at a time; if they are already affected by one, the Spite chooses which one takes precedence.<ul><li> At the end of the character's next turn, the must be <strong>Prone</strong>; they may drop <strong>Prone</strong> during their turn as a free action. </li><li> At the end of the character's next turn, they must not be adjacent to another character or piece of terrain <strong>Size 1</strong> or greater. </li><li>At the end of the character's next turn, they must not have attacked any character other than the Spite.</li></ul></p>",
     "tags": [
       {
         "id": "tg_protocol"
@@ -552,7 +552,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "<strong>Marksman Kit Swap Bonus</strong>: This turn only, the <strong>Ranger Long Rifle</strong> ignores the <strong>Ordnance</strong> tag.<br><br><strong>Skirmisher Kit Swap Bonus</strong>: The Strider makes an attack against a character of their choice within <strong>Range 5</strong> using the <strong>Explosive Carbine</strong> as a <strong>free action</strong>.",
+    "effect": "<p><strong>Marksman Kit Swap Bonus</strong>: This turn only, the <strong>Ranger Long Rifle</strong> ignores the <strong>Ordnance</strong> tag.</p><p><strong>Skirmisher Kit Swap Bonus</strong>: The Strider makes an attack against a character of their choice within <strong>Range 5</strong> using the <strong>Explosive Carbine</strong> as a <strong>free action</strong>.</p>",
     "tags": [],
     "trigger": "The Strider swaps to the <strong>Marksman Kit</strong> or <strong>Skirmisher Kit</strong>."
   },
@@ -566,7 +566,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "<strong>Marksman Kit Kit Bonus</strong>: As a <strong>protocol</strong>, the Strider may <strong>Lock On</strong> to a hostile character within <strong>Sensors</strong> and line of sight.<br><br><strong>Skirmisher Kit Kit Bonus</strong>: At the start of their turn, the Strider may move <strong>2 spaces</strong>. This movement ignores engagement and doesn't provoke <strong>reactions</strong>.",
+    "effect": "<p><strong>Marksman Kit Kit Bonus</strong>: As a <strong>protocol</strong>, the Strider may <strong>Lock On</strong> to a hostile character within <strong>Sensors</strong> and line of sight.</p><p><strong>Skirmisher Kit Kit Bonus</strong>: At the start of their turn, the Strider may move <strong>2 spaces</strong>. This movement ignores engagement and doesn't provoke <strong>reactions</strong>.</p>",
     "tags": [],
     "trigger": "The Strider starts their turn equipped with the <strong>Marksman Kit</strong> or <strong>Skirmisher Kit</strong>."
   },
@@ -580,7 +580,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "<strong>On Critical Hit:</strong> This weapon's damage can't be reduced in any way. <br><br> This weapon can't attack targets within <strong>Range 5.</strong>",
+    "effect": "<p><strong>On Critical Hit:</strong> This weapon's damage can't be reduced in any way. </p><p> This weapon can't attack targets within <strong>Range 5.</strong></p>",
     "tags": [
       {
         "id": "tg_ordnance"

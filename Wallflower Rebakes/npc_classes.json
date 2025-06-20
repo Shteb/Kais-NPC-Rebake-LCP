@@ -91,8 +91,8 @@
             "nrfaw-npc-rebake_npcf_erupting_shrapnel_avenger"
         ],
         "optional_features": [
-            "nrfaw-npc-rebake_npcf_fervor_avenger",
             "nrfaw-npc-rebake_npcf_cycle_of_violence_avenger",
+            "nrfaw-npc-rebake_npcf_fervor_avenger",
             "nrfaw-npc-rebake_npcf_judgement_shotgun_avenger",
             "nrfaw-npc-rebake_npcf_determination_avenger",
             "nrfaw-npc-rebake_npcf_rallying_cry_avenger"
@@ -398,8 +398,8 @@
         },
         "base_features": [
             "nrfaw-npc-rebake_npcf_swap_kit_strider",
-            "nrfaw-npc-rebake_npcf_swap_bonus_strider",
             "nrfaw-npc-rebake_npcf_kit_bonus_strider",
+            "nrfaw-npc-rebake_npcf_swap_bonus_strider",
             "nrfaw-npc-rebake_npcf_marksman_kit_ranger_long_rifle_strider",
             "nrfaw-npc-rebake_npcf_marksman_kit_flash_grenade_strider",
             "nrfaw-npc-rebake_npcf_marksman_kit_adaptive_camouflage_strider",

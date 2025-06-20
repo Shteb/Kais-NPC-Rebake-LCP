@@ -720,7 +720,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Assassin chooses a character next to them: they must pass a <strong>Hull</strong> save or be pushed <strong>4 spaces</strong> away from the Assassin and knocked <strong>Prone</strong>.",
+    "effect": "The Assassin chooses an adjacent character; they must pass a <strong>Hull</strong> save or be pushed <strong>4 spaces</strong> away from the Assassin and knocked <strong>Prone</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -1878,7 +1878,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Breacher may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the ensuing <strong>Blast 1</strong> explosion must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and become <strong>Shredded</strong> until the end of their next turn. Objects, terrain, and <strong>Deployables</strong> in the area automatically take <strong>30 AP explosive damage</strong>; if any objects or terrain are destroyed this way, the Breacher may immediately move their <strong>Speed</strong> towards one of those spaces or as close as possible.",
+    "effect": "The Breacher throws a grenade to a space within <strong>Range 5</strong>. Characters in the ensuing <strong>Blast 1</strong> explosion must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and become <strong>Shredded</strong> until the end of their next turn. Objects, terrain, and <strong>Deployables</strong> in the area automatically take <strong>30 AP explosive damage</strong>; if any objects or terrain are destroyed this way, the Breacher may immediately move their <strong>Speed</strong> towards one of those spaces or as close as possible.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2292,7 +2292,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Unless they can fly, all characters in a <strong>Cone 5</strong> area pass an <strong>Agility</strong> save or be knocked <strong>Prone</strong>. All objects and terrain within this area takes <strong>{10/20/30} AP kinetic damage</strong>; if any terrain or objects are destroyed this way, all affected characters also automatically take <strong>{4/6/8} kinetic damage</strong>.",
+    "effect": "Unless they can fly, all characters in a <strong>Cone 5</strong> area must pass an <strong>Agility</strong> save or be knocked <strong>Prone</strong>. All objects and terrain within this area take <strong>{10/20/30} AP kinetic damage</strong>; if any terrain or objects are destroyed this way, all affected characters also automatically take <strong>{4/6/8} kinetic damage</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -4782,13 +4782,13 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Sentinel may move their <strong>Speed</strong> towards their ward by the most direct route possible, then attack the inciting character with <strong>Overwatch</strong>. This Reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
+    "effect": "The Sentinel may move their <strong>Speed</strong> towards their ward by the most direct route possible, then attack the triggering character with <strong>Overwatch</strong>. This Reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
     "tags": [
       {
         "id": "tg_reaction"
       }
     ],
-    "trigger": "Someone attacks the Sentinel’s ward."
+    "trigger": "A hostile character attacks the Sentinel’s ward."
   },
   {
     "id": "npc-rebake_npcf_wrath_lock_sentinel",
@@ -6420,7 +6420,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Breacher misses all attacks with the <strong>Dual Shotguns</strong>, it may make one additional attack for free.",
+    "effect": "Whenever the Breacher misses all attacks with the <strong>Dual Shotguns</strong>, they may make one additional attack for free.",
     "tags": []
   },
   {
